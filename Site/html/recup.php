@@ -2,7 +2,7 @@
 
 //Recuperation de la bdd
 try {
-    $bdd = new PDO('mysql:host-localhost;dbname=labo_dev;charset=utf-8', 'root', '');
+    $bdd = new PDO('mysql:host-localhost:8888;dbname=labo_dev;charset=utf8', 'root', '');
 } catch (Exception $e) {
     die('Erreur : '.$e->getMessage());
 }
@@ -16,6 +16,13 @@ while ($donnees = $req->fetch()) {  //fetch = passer a la ligne suivante / parco
 
 }
 
+//Pour enregister un formulaire
+if (isset($_POST['envoyer'])) {
+    $req = $bdd->prepare('INSERT INTO utilisateurs (pseudo, password, mail) VALUES (?, ?, ?)');
+    $rep->execute(array($_POST['pseudo'], $_POST['password'], $_POST['mail']));
+
+
+}
+
+
 ?>
-
-
