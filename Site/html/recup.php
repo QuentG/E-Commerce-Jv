@@ -24,5 +24,21 @@ if (isset($_POST['envoyer'])) {
 
 }
 
+//Connexion
+if (isset($_POST['envoyer'])) {
+    $req = $bdd->prepare('SELECT count(id) AND "nb", id FROM utilisateurs WHERE mail = ? AND password = ? ');
+    $rep->execute(array($_POST['mail'], $_POST['password']));
+
+    $result = $req->fetch(); //Assigne
+
+    if ($result['nb'] == 1 ) { // SI nb = 1 donc je rentre dedans sinon non
+        session_start();
+        $_SESSION['user_id'] = $result['id'];
+        
+
+    }
+
+}
+
 
 ?>
