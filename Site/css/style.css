@@ -3,8 +3,9 @@
     margin: 0;
     padding: 0;
  }
-
-
+.container{
+  width: 1px;
+}
 #logo{
     display: inline-block;
     position: absolute;
@@ -12,11 +13,8 @@
     height: 70px;
     left: 8px;
 }
-
-.navbar-inverser{
-
-    display: inline-block;
-
+.container-fluid{
+   margin-left: 50px;
 }
 
 .inline-form input {
