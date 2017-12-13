@@ -73,6 +73,17 @@
                 <li><button class="bouton">Stratégie</button></li>
             </ul>
         </div>
+    <div>
+        <h1 id="titre_slider">Top 3 des ventes du moment sur PC, PS4 & XBOX ONE</h1>
+    <div class="slideshow">
+        <ul>
+            <li><img class="image_slider" src="../img/assassin_xbx_1024x1024.jpg" alt="image du jeux assassin creed sur Xbox One"/></li>
+            <li><img class="image_slider" src="../img/cod-wwii-ps4-front-en_2000x.png" alt="image  du jeux Call of duty World War II sur PS4"/></li>
+            <li><img class="image_slider" src="../img/91xtxVeMLHL._SL1500_.jpg" alt="image du jeux Fifa 18 sur PC"/></li>
+        </ul>
+    </div>
+    </div>
+
 
 
 
@@ -81,6 +92,16 @@
 
 
     </body>
+<<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 
+<script type="text/javascript">
+    $(function(){
+        setInterval(function(){
+            $(".slideshow ul").animate({marginLeft:-350},800,function(){
+                $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
+            })
+        }, 3500);
+    });
+</script>
 
 </html>

@@ -73,5 +73,33 @@
 
     background-color: red;
     transform: translateY(4px);
+}
+.slideshow {
+    width: 1120px;
+    height: 500px;
+    overflow: hidden;
+    border: 3px solid #F2F2F2;
+    margin-left: 350px;
+    margin-top: 40px;
+}
 
+.slideshow ul {
+    /* 4 images donc 4 x 100% */
+    width: 400%;
+    height: 200px;
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+.slideshow li {
+    float: left;
+    margin-left: 10px;
+}
+#titre_slider{
+    margin-left: 450px;
+}
+
+.image_slider{
+    width: 358px;
+    height:500px;
 }
