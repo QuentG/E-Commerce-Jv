@@ -9,10 +9,10 @@ try {
 
 //Lister les utilisateurs.
 $req = $bdd->prepare('SELECT * FROM utilisateurs WHERE pseudo = ?');
-$rep->execute(array('toto')); //Execute la requete
+$req->execute(array('toto')); //Execute la requete
 
 while ($donnees = $req->fetch()) {  //fetch = passer a la ligne suivante / parcourir le tableau
-    echo $donnees['pseudo'].'</br>'; //Chercher le pseudo
+    echo $donnees['pseudo'].'</br>'; //Chercher / Affiche le pseudo
 
 }
 
