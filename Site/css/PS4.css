@@ -2,7 +2,10 @@
 
     margin: 0;
     padding: 0;
- }
+}
+.container{
+    width: 1px;
+}
 #logo{
     display: inline-block;
     position: absolute;
@@ -12,7 +15,7 @@
 }
 /*nav bar*/
 .container-fluid{
-   margin-left: 50px;
+    margin-left: 50px;
 }
 
 .inline-form input {
@@ -21,15 +24,7 @@
     width: 100px;
 
 }
-/*Fin nav bar*/
-#logo1{
-    position: absolute;
-    width: 180px;
-    height: 70px;
-    right: 7px;
-    top:0px;
-}
-
+/*fin nav bar*/
 
 .jumbotron{
 
@@ -51,7 +46,7 @@
 
 .TitreCat{
 
-        
+
 
 }
 
@@ -114,7 +109,7 @@
 
 #titre_slider{
 
-    margin-left: 450px;
+    margin-left: 600px;
 
 }
 
