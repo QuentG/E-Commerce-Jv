@@ -22,15 +22,24 @@
             <entry file="file://$PROJECT_DIR$/Site/html/PC.html">
               <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+                <state relative-caret-position="0">
+                  <caret line="32" column="58" lean-forward="false" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+=======
+=======
+>>>>>>> master
 <<<<<<< Updated upstream
                 <state relative-caret-position="693">
 =======
                 <state relative-caret-position="495">
 >>>>>>> Stashed changes
                   <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+<<<<<<< HEAD
+=======
 =======
                 <state relative-caret-position="0">
                   <caret line="32" column="58" lean-forward="false" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+>>>>>>> master
 >>>>>>> master
                   <folding />
                 </state>
@@ -41,15 +50,24 @@
             <entry file="file://$PROJECT_DIR$/Site/html/PS4.html">
               <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+                <state relative-caret-position="-525">
+                  <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+=======
+=======
+>>>>>>> master
 <<<<<<< Updated upstream
                 <state relative-caret-position="672">
 =======
                 <state relative-caret-position="480">
 >>>>>>> Stashed changes
                   <caret line="32" column="58" lean-forward="false" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+<<<<<<< HEAD
+=======
 =======
                 <state relative-caret-position="-525">
                   <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+>>>>>>> master
 >>>>>>> master
                   <folding />
                 </state>
@@ -60,6 +78,12 @@
             <entry file="file://$PROJECT_DIR$/Site/html/index.php.html">
               <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+                <state relative-caret-position="115">
+                  <caret line="50" column="2" lean-forward="false" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+=======
+=======
+>>>>>>> master
 <<<<<<< Updated upstream
                 <state relative-caret-position="189">
                   <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
@@ -67,9 +91,12 @@
                 <state relative-caret-position="15">
                   <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+=======
 =======
                 <state relative-caret-position="115">
                   <caret line="50" column="2" lean-forward="false" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+>>>>>>> master
 >>>>>>> master
                   <folding />
                 </state>
@@ -100,6 +127,11 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="399">
 <<<<<<< HEAD
+<<<<<<< HEAD
+                  <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+=======
+=======
+>>>>>>> master
                   <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
 =======
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -109,8 +141,11 @@
                 <state relative-caret-position="360">
                   <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+=======
 =======
                   <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+>>>>>>> master
 >>>>>>> master
                   <folding />
                 </state>
@@ -133,13 +168,21 @@
 <<<<<<< Updated upstream
                 <state relative-caret-position="0">
 <<<<<<< HEAD
+<<<<<<< HEAD
+                  <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+=======
+=======
+>>>>>>> master
                   <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
 =======
                 <state relative-caret-position="1650">
                   <caret line="110" column="23" lean-forward="false" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+=======
 =======
                   <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+>>>>>>> master
 >>>>>>> master
                   <folding />
                 </state>
@@ -262,10 +305,17 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="15194000" />
+=======
+<<<<<<< Updated upstream
+    <option name="totallyTimeSpent" value="15061000" />
+=======
 <<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="15061000" />
 =======
     <option name="totallyTimeSpent" value="15194000" />
+>>>>>>> master
 >>>>>>> master
   </component>
   <component name="ToolWindowManager">
@@ -314,6 +364,10 @@
   </component>
   <component name="editorHistoryManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/Site/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
@@ -323,7 +377,10 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> master
     <entry file="file://$PROJECT_DIR$/Site/html/PC.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -582,8 +639,11 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 <<<<<<< Updated upstream
 =======
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/Site/html/PS4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-525">
@@ -592,6 +652,11 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> master
 >>>>>>> master
     <entry file="file://$PROJECT_DIR$/Site/css/XboxOne.css">
       <provider selected="true" editor-type-id="text-editor">

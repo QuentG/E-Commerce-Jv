@@ -9,13 +9,14 @@
 #logo{
     display: inline-block;
     position: absolute;
-    width: 180px;
-    height: 70px;
-    left: 8px;
+    width: 12%;
+    height: 10%;
+    left: 0%;
 }
 /*nav bar*/
+
 .container-fluid{
-    margin-left: 50px;
+    margin-left: 90%;
 }
 
 .inline-form input {
@@ -25,6 +26,7 @@
 
 }
 /*fin nav bar*/
+
 .jumbotron{
 
     text-align: center;
@@ -61,7 +63,7 @@
     background-color: white;
     border-radius: 10px;
     border: none;
-
+    color: black;
 
 }
 
@@ -78,14 +80,20 @@
 /* Fin Animation */
 
 /*début du slide*/
+#titre_slider{
+
+    margin-left: 40%;
+
+}
+
 .slideshow {
 
-    width: 1120px;
-    height: 500px;
+    width: 75%;
+    height: 50%;
     overflow: hidden;
     border: 3px solid #F2F2F2;
-    margin-left: 350px;
-    margin-top: 40px;
+    margin-left: 24%;
+    margin-top: 2%;
 
 }
 
@@ -103,13 +111,7 @@
 .slideshow li {
 
     float: left;
-    margin-left: 10px;
-
-}
-
-#titre_slider{
-
-    margin-left: 600px;
+    margin-left: 0.4%;
 
 }
 
