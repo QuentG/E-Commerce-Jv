@@ -27,10 +27,10 @@
     <nav class="navbar-inverse">
         <div class="container-fluid">
             <ul class="nav navbar-nav">
-                <li class="active"> <a href="index.html">Accueil</a> </li>
-                <li> <a href="PC.html" target="_blank">PC</a> </li>
+                <li class="active"> <a href="index.php">Accueil</a> </li>
+                <li> <a href="PC.php" target="_blank">PC</a> </li>
                 <li> <a href="#">PS4</a> </li>
-                <li> <a href="XboxONE.html" target="_blank">XBOX ONE</a> </li>
+                <li> <a href="XboxONE.php" target="_blank">XBOX ONE</a> </li>
             </ul>
             <form class="navbar-form navbar-right inline-form">
                 <div class="form-group">
@@ -51,26 +51,26 @@
     <!--Sommaire pour le PC-->
     <p class="TitreCat">Catégorie PC</p>
     <ul class="liste1">
-        <li><a href="aventurePC.html"><button class="bouton">Aventure</button></a></li>
-        <li><a href="actionPC.html"><button class="bouton"> Action</button></a></li>
-        <li><a href="combatPC.html"><button class="bouton">Combat</button></a></li>
-        <li><a href="strategiePC.html"><button class="bouton">Stratégie</button></a></li>
+        <li><a href="aventurePC.php"><button class="bouton">Aventure</button></a></li>
+        <li><a href="actionPC.php"><button class="bouton"> Action</button></a></li>
+        <li><a href="combatPC.php"><button class="bouton">Combat</button></a></li>
+        <li><a href="strategiePC.php"><button class="bouton">Stratégie</button></a></li>
     </ul>
     <!--Sommaire pour la PS4-->
     <p class="TitreCat">Catégorie Playsation 4</p>
     <ul class="liste1">
-        <li><a href="aventurePS4.html"><button class="bouton">Aventure</button></a></li>
-        <li><a href="actionPS4.html"><button class="bouton"> Action</button></a></li>
-        <li><a href="combatPS4.html"><button class="bouton">Combat</button></a></li>
-        <li><a href="strategiePS4.html"><button class="bouton">Stratégie</button></a></li>
+        <li><a href="aventurePS4.php"><button class="bouton">Aventure</button></a></li>
+        <li><a href="actionPS4.php"><button class="bouton"> Action</button></a></li>
+        <li><a href="combatPS4.php"><button class="bouton">Combat</button></a></li>
+        <li><a href="strategiePS4.php"><button class="bouton">Stratégie</button></a></li>
     </ul>
     <!--Sommaire pour l'Xbox one-->
     <p class="TitreCat">Catégorie Xbox ONE</p>
     <ul class="liste1">
-        <li><a href="aventureXboxOne.html"><button class="bouton">Aventure</button></a></li>
-        <li><a href="actionXboxOne.html"><button class="bouton"> Action</button></a></li>
-        <li><a href="combatXboxOne.html"><button class="bouton">Combat</button></a></li>
-        <li><a href="strategieXboxOne.html"><button class="bouton">Stratégie</button></a></li>
+        <li><a href="aventureXboxOne.php"><button class="bouton">Aventure</button></a></li>
+        <li><a href="actionXboxOne.php"><button class="bouton"> Action</button></a></li>
+        <li><a href="combatXboxOne.php"><button class="bouton">Combat</button></a></li>
+        <li><a href="strategieXboxOne.php"><button class="bouton">Stratégie</button></a></li>
     </ul>
 </div>
 <div>
