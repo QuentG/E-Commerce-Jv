@@ -28,8 +28,8 @@
     <nav class="navbar-inverse">
         <div class="container-fluid">
             <ul class="nav navbar-nav">
-                <li class="active"> <a href="index.php">Accueil</a> </li>
-                <li> <a href="PC.php">PC</a> </li>
+                <li class="active"> <a href="index.php" target="_blank">Accueil</a> </li>
+                <li> <a href="PC.php" target="_blank">PC</a> </li>
                 <li> <a href="PS4.php" target="_blank">PS4</a> </li>
                 <li> <a href="XboxONE.php" target="_blank">XBOX ONE</a> </li>
             </ul>
