@@ -6,13 +6,13 @@
 #logo{
     display: inline-block;
     position: absolute;
-    width: 180px;
-    height: 70px;
-    left: 8px;
+    width: 12%;
+    height: 10%;
+    left: 0%;
 }
 /*nav bar*/
 .container-fluid{
-   margin-left: 50px;
+    margin-left: 90%;
 }
 
 .inline-form input {
@@ -84,6 +84,12 @@
 /* Fin Animation */
 
 /*début du slide*/
+#titre_slider{
+
+    margin-left: 40%;
+
+}
+
 .slideshow {
 
     width: 1120px;
@@ -110,12 +116,6 @@
 
     float: left;
     margin-left: 10px;
-
-}
-
-#titre_slider{
-
-    margin-left: 450px;
 
 }
 
