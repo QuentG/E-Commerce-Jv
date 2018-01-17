@@ -2,17 +2,23 @@
 
     margin: 0;
     padding: 0;
- }
+
+}
+
 #logo{
+
     display: inline-block;
     position: absolute;
     width: 12%;
     height: 10%;
     left: 0%;
 }
-/*nav bar*/
+
+/*Nav bar*/
 .container-fluid{
+
     margin-left: 90%;
+
 }
 
 .inline-form input {
@@ -21,13 +27,14 @@
     width: 100px;
 
 }
-/*Fin nav bar*/
+/*Fin Nav bar*/
+
 #logo1{
+
     position: absolute;
     width: 180px;
     height: 70px;
     right: 7px;
-    top:0px;
 }
 
 
@@ -40,47 +47,81 @@
 #categorie{
 
     position: absolute;
-    width: 270px;
+    width: 300px;
     font-size: 25px;
     margin-left:  50px;
-    margin-top: 10px;
     background-color: grey;
     padding-left: 8px;
+    border-top-right-radius : 150px 100px;
+    border-bottom-left-radius: 100px 150px;
+    height: 66%;
 
 }
 
-.liste1{
+.TitreCat{
 
-    margin-left: 10px;
+    color: whitesmoke;
+
+}
+
+.liste1 {
+
+    margin-left: 0px;
+
+}
+
+a{
+
+    color: #449d44;
+
+}
+
+ul{
+
+    list-style: none;
+
+}
+
+#fond{
+
+    background-color: #363636;
 
 }
 
 .bouton{
 
     font-size: 20px;
-    background-color: white;
+    background-color: #faebcc;
     border-radius: 10px;
+    width: 80%;
     border: none;
     color: black;
-
+    padding: 0;
 }
 
 
 /* Animation Bouton */
 
-.bouton:hover {background-color: #5e5e5e}
+.bouton:hover {background-color: #faf2cc}
 
 .bouton:active {
 
-    background-color: red;
+    background-color: #f7ecb5;
     transform: translateY(4px);
 }
 /* Fin Animation */
 
-/*début du slide*/
+
+/*Debut du slide*/
+
 #titre_slider{
 
+<<<<<<< Updated upstream
     margin-left: 30%;
+=======
+    margin-left: 32%;
+    color: whitesmoke;
+>>>>>>> Stashed changes
 
 }
 
@@ -89,8 +130,8 @@
     width: 1120px;
     height: 500px;
     overflow: hidden;
-    border: 3px solid #F2F2F2;
-    margin-left: 350px;
+    border: 3px solid #363636;
+    margin-left: 480px;
     margin-top: 40px;
 
 }
@@ -119,7 +160,13 @@
     height:500px;
 
 }
+<<<<<<< Updated upstream
 /*Début du footer*/
+=======
+
+/* Fin du Slider */
+
+>>>>>>> Stashed changes
 footer{
 
     margin: 4% 0 0 0;
@@ -173,7 +220,7 @@ footer .cta button {
 
     margin-top:16px;
     padding:12px 20px;
-    background:green;
+    background-color: #449d44;
     font-weight:bold;
     border:none;
     border-radius:8px;

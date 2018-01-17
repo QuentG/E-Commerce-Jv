@@ -21,7 +21,7 @@
     <div class="container">
         <!--logo du site-->
         <div>
-        <img id="logo" src="../img/Logo.png" alt="image du logo du site">
+        <img id="logo" src="../img/Logo.png" alt="image du logo du site"/>
         </div>
         <!--nav bar-->
         <nav class="navbar-inverse">
@@ -54,10 +54,10 @@
             <!--Sommaire pour le PC-->
             <p class="TitreCat">Catégorie PC</p>
             <ul class="liste1">
-                <li><a href="aventurePC.php"><button class="bouton">Aventure</button></a></li>
+                <li><a href="aventurePC.php"><button class="bouton"> Aventure</button></a></li>
                 <li><a href="actionPC.php"><button class="bouton"> Action</button></a></li>
-                <li><a href="combatPC.php"><button class="bouton">Combat</button></a></li>
-                <li><a href="strategiePC.php"><button class="bouton">Stratégie</button></a></li>
+                <li><a href="combatPC.php"><button class="bouton"> Combat</button></a></li>
+                <li><a href="strategiePC.php"><button class="bouton"> Stratégie</button></a></li>
             </ul>
             <!--Sommaire pour la PS4-->
             <p class="TitreCat">Catégorie Playsation 4</p>
@@ -70,13 +70,13 @@
             <!--Sommaire pour l'Xbox one-->
             <p class="TitreCat">Catégorie Xbox ONE</p>
             <ul class="liste1">
-                <li><a href="aventureXboxOne.php"><button class="bouton">Aventure</button></a></li>
+                <li><a href="aventureXboxOne.php"><button class="bouton"> Aventure</button></a></li>
                 <li><a href="actionXboxOne.php"><button class="bouton"> Action</button></a></li>
                 <li><a href="combatXboxOne.php"><button class="bouton">Combat</button></a></li>
                 <li><a href="strategieXboxOne.php"><button class="bouton">Stratégie</button></a></li>
             </ul>
         </div>
-    <div>
+    <div id="fond">
         <h1 id="titre_slider">Top 3 des ventes du moment sur PC, PS4 & XBOX ONE</h1>
     <div class="slideshow">
         <ul>
