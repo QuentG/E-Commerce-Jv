@@ -112,6 +112,16 @@
             })
         }, 3500);
     });
+
+    // Effet Fondus
+    setInterval(Frames,50);
+    function Frames(){
+        var pos = $(".slideshow ul").find(":eq(3)").position();
+        pos.left = Math.abs(390-Math.abs(300-pos.left))/370;
+        console.log(pos.left);
+        $(".slideshow ul").find(":eq(6)").css("opacity",pos.left);
+    };
+
 </script>
 
 </html>
