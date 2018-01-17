@@ -77,7 +77,7 @@
             </ul>
         </div>
     <div>
-        <h1 id="titre_slider">Top 3 des ventes du moment sur PC, PS4 & XBOX ONE (test)</h1>
+        <h1 id="titre_slider">Top 3 des ventes du moment sur PC, PS4 & XBOX ONE</h1>
     <div class="slideshow">
         <ul>
             <!--top des jeux pc-->
@@ -114,13 +114,13 @@
     });
 
     // Effet Fondus
-    setInterval(Frames,50);
+   /* setInterval(Frames,50);
     function Frames(){
         var pos = $(".slideshow ul").find(":eq(3)").position();
         pos.left = Math.abs(390-Math.abs(300-pos.left))/370;
         console.log(pos.left);
         $(".slideshow ul").find(":eq(6)").css("opacity",pos.left);
-    };
+    }; */
 
 </script>
 
