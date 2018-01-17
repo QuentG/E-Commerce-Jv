@@ -3,9 +3,6 @@
     margin: 0;
     padding: 0;
 }
-.container{
-    width: 1px;
-}
 #logo{
     display: inline-block;
     position: absolute;
@@ -14,7 +11,6 @@
     left: 0%;
 }
 /*nav bar*/
-
 .container-fluid{
     margin-left: 90%;
 }
@@ -25,7 +21,15 @@
     width: 100px;
 
 }
-/*fin nav bar*/
+/*Fin nav bar*/
+#logo1{
+    position: absolute;
+    width: 180px;
+    height: 70px;
+    right: 7px;
+    top:0px;
+}
+
 
 .jumbotron{
 
@@ -42,12 +46,6 @@
     margin-top: 10px;
     background-color: grey;
     padding-left: 8px;
-
-}
-
-.TitreCat{
-
-
 
 }
 
@@ -70,7 +68,7 @@
 
 /* Animation Bouton */
 
-.bouton:hover {background-color: #25DFF0}
+.bouton:hover {background-color: #5e5e5e}
 
 .bouton:active {
 
@@ -82,18 +80,18 @@
 /*début du slide*/
 #titre_slider{
 
-    margin-left: 40%;
+    margin-left: 30%;
 
 }
 
 .slideshow {
 
-    width: 75%;
-    height: 50%;
+    width: 1120px;
+    height: 500px;
     overflow: hidden;
     border: 3px solid #F2F2F2;
-    margin-left: 24%;
-    margin-top: 2%;
+    margin-left: 350px;
+    margin-top: 40px;
 
 }
 
@@ -111,7 +109,7 @@
 .slideshow li {
 
     float: left;
-    margin-left: 0.4%;
+    margin-left: 10px;
 
 }
 
@@ -121,4 +119,78 @@
     height:500px;
 
 }
+/*Début du footer*/
+footer{
 
+    margin: 4% 0 0 0;
+    width:100%;
+    padding: 20px 0 4px 0;
+    background: #5e5e5e;
+    color: white;
+    font-weight:bold;
+    font-size:18px;
+    text-align:center;
+}
+
+
+footer .container {
+
+    display:inline-block;
+    margin-bottom:16px;
+    width:20%;
+    min-width:150px;
+    vertical-align:top;
+
+}
+
+span {
+
+    border-bottom:2px solid;
+
+}
+
+footer .container #NavFooter span {
+
+    display:inline-block;
+    margin-bottom:8px;
+
+}
+
+
+footer li {
+
+    list-style:none;
+
+}
+
+footer .container h4 {
+
+    margin-bottom:8px;
+
+}
+
+footer .cta button {
+
+    margin-top:16px;
+    padding:12px 20px;
+    background:green;
+    font-weight:bold;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    position:relative;
+
+}
+
+footer .cta button:focus {
+
+    outline:none;
+
+}
+
+footer .cta button:active {
+
+    top:4px
+
+}
+/*Fin du footer*/
