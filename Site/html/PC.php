@@ -85,10 +85,10 @@
             <li><img class="image_slider" src="../img/pc/1496311184-9714-jaquette-avant.png" alt="image du jeux Vanquish sur PC"/></li>
             <li><img class="image_slider" src="../img/pc/game_cover_1052f4a2da47129cf533158864200bc2.jpg" alt="image du jeux Divinity : Original Sin II sur PC"/></li>
             <li><img class="image_slider" src="../img/pc/PRECOMMANDE-Injustice-2-Mix-PC-Sortie-18-05-2017.jpg" alt="image du jeux Injustice II sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/téléchargement (1).jpg" alt="image du jeux What Remains of Edith Finch sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/téléchargement (2).jpg" alt="image du jeux Dishonored : La Mort de l'Outsider sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/téléchargement (3).jpg" alt="image du jeux XCOM 2 - War of the Chosen sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/téléchargement.jpg" alt="image du jeux bayonetta sur PC"/></li>
+            <li><img class="image_slider" src="../img/pc/What_Remains_of_Edith_Finch.jpg" alt="image du jeux What Remains of Edith Finch sur PC"/></li>
+            <li><img class="image_slider" src="../img/pc/Dishonored_2.jpg" alt="image du jeux Dishonored 2"/></li>
+            <li><img class="image_slider" src="../img/pc/xcom_2.jpg" alt="image du jeux XCOM 2 - War of the Chosen sur PC"/></li>
+            <li><img class="image_slider" src="../img/pc/Bayonetta.jpg" alt="image du jeux bayonetta sur PC"/></li>
         </ul>
     </div>
 </div>
