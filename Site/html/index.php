@@ -77,7 +77,7 @@
             </ul>
         </div>
     <div>
-        <h1 id="titre_slider">Top 3 des ventes du moment sur PC, PS4 & XBOX ONE</h1>
+        <h1 id="titre_slider">Top 3 des ventes du moment sur PC, PS4 & XBOX ONE (test)</h1>
     <div class="slideshow">
         <ul>
             <!--top des jeux pc-->
