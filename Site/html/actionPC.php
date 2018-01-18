@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PC action: GamingKeys</title>
-    <link type="text/css" rel="stylesheet" href="../css/PC.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/actionPC.css"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
     <link type="text/php" href="../html/recup.php"/>
@@ -75,22 +75,31 @@
     </ul>
 </div>
 <div>
-    <h1 id="titre_slider">Top 10 des ventes du moment sur PC</h1>
-    <div class="slideshow">
-        <ul>
-            <!--top des jeux pc-->
-            <li><img class="image_slider" src="../img/pc/91xtxVeMLHL._SL1500_.jpg" alt="image du jeux Fifa 18 sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/d2_pc.0.png" alt="image du jeux Destiny 2 sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/9139QQmsbdL._SL1500.jpg" alt="image du jeux Star Wars Battlefront II sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/1496311184-9714-jaquette-avant.png" alt="image du jeux Vanquish sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/game_cover_1052f4a2da47129cf533158864200bc2.jpg" alt="image du jeux Divinity : Original Sin II sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/PRECOMMANDE-Injustice-2-Mix-PC-Sortie-18-05-2017.jpg" alt="image du jeux Injustice II sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/téléchargement (1).jpg" alt="image du jeux What Remains of Edith Finch sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/téléchargement (2).jpg" alt="image du jeux Dishonored : La Mort de l'Outsider sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/téléchargement (3).jpg" alt="image du jeux XCOM 2 - War of the Chosen sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/téléchargement.jpg" alt="image du jeux bayonetta sur PC"/></li>
-        </ul>
-    </div>
+    <img class="image" src="../img/pc/action/item_1834769_135.jpg" alt="image du jeux bayonetta sur PC"/>
+    <img class="image1" src="../img/pc/action/Dishonored_2.jpg" alt="image du jeux Dishonored 2 sur PC"/>
+    <img class="image1" src="../img/pc/action/téléchargement.jpg" alt="image du jeux Dragon Ball Xenoverse 2 sur PC"/>
+    <img class="image1" src="../img/pc/action/91-DiF8H9tL._SL1500_.jpg" alt="image du jeux Fallout 4 sur PC"/>
+    <img class="image" src="../img/pc/action/boite.jpeg" alt="image du jeux Farcry Primal sur PC"/>
+    <img class="image1" src="../img/pc/action/fortnite-deluxe-edition.jpg" alt="image du jeux Fortnite Deluxe Edition sur PC"/>
+    <img class="image1" src="../img/pc/action/6e1cd1cee54368df1abc843a347a4346.jpg" alt="image du jeux Ghost Recon: Wildlands sur PC"/>
+    <img class="image1" src="../img/pc/action/jaquette-grand-theft-auto-v-pc-cover-avant-g-1415122060.jpg" alt="image du jeux Grand Theft Auto V sur PC"/>
+    <img class="image" src="../img/pc/action/p1_1972329_03e6ef20.jpg" alt="image du LEGO Harry Potter: Years 1-4 sur PC"/>
+    <img class="image1" src="../img/pc/action/PRECOMMANDE-Injustice-2-Mix-PC-Sortie-18-05-2017.jpg" alt="image du jeux Injustice II sur PC"/>
+    <img class="image1" src="../img/pc/action/just-cause-3-cover.jpg" alt="image du jeux Just Cause 3 sur PC"/>
+    <img class="image1" src="../img/pc/action/1441297966-8553-jaquette-avant.jpg" alt="image du jeux Mad Max sur PC"/>
+    <img class="image" src="../img/pc/action/71CrmyTp4YL._SL1200_.jpg" alt="image du jeux Naruto Shippuden: Ultimate Ninja Storm 4 sur PC"/>
+    <img class="image1" src="../img/pc/action/OW_SE_FOB_r4.jpg" alt="image du jeux Overwatch GOTY Edition sur PC"/>
+    <img class="image1" src="../img/pc/action/fhmw07hz085z.jpg" alt="image du jeux Playerunknown's Battlegrounds sur PC"/>
+    <img class="image1" src="../img/pc/action/36d6e0b99daf7c1844701fd113080382_1920_KR.jpg" alt="image du jeux Rise of the Tomb Raider 20th Anniversary sur PC"/>
+    <img class="image" src="../img/pc/action/810i1JU82-L._SL1500_.jpg" alt="image du jeux Rocket League sur PC"/>
+    <img class="image1" src="../img/pc/action/9139QQmsbdL._SL1500.jpg" alt="image du jeux Star Wars Battlefront II sur PC"/>
+    <img class="image1" src="../img/pc/action/1479389960-7948-jaquette-avant.jpg" alt="image du jeux Terraria sur PC"/>
+    <img class="image" src="../img/pc/action/917DGIoy0zL._AC_SL1500_.jpg" alt="image du jeux The Division: Season Pass sur PC"/>
+    <img class="image1" src="../img/pc/action/the-witcher-3-traque-sa-53918f73f3829.jpg" alt="image du jeux The Witcher 3: Wild Hunt GOTY sur PC"/>
+    <img class="image1" src="../img/pc/action/tom-clancy-s-rainbow-six-552e69e8bd9e3.jpg" alt="image du jeux Tom Clancy's Rainbow Six Siege sur PC"/>
+    <img class="image1" src="../img/pc/action/1496311184-9714-jaquette-avant.png" alt="image du jeux vanquish sur PC"/>
+    <img class="image1" src="../img/pc/action/téléchargement (1).jpg" alt="image du jeux watch dogs 2 sur PC"/>
+</div>
 </div>
 
 
