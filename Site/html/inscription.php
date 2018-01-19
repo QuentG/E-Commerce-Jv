@@ -1,3 +1,72 @@
+<?php
+
+//Connexion a la BDD
+try
+{
+    $bdd = new PDO('mysql:host=localhost;dbname=ecommerce;charset=utf8', 'root', 'root');
+}
+catch (Exception $e)
+{
+    die('Erreur : ' . $e->getMessage());
+}
+
+
+if(isset($_POST['forminscription'])) {
+
+    // Protection
+    $pseudo = htmlspecialchars($_POST['pseudo']);
+    $mail = htmlspecialchars($_POST['mail']);
+    $mail2 = htmlspecialchars($_POST['mail2']);
+
+    // Cryptage du MDP
+    $pass1 = password_hash($_POST['pass1'], PASSWORD_DEFAULT);
+    $pass2 = password_hash($_POST['pass2'], PASSWORD_DEFAULT);
+
+    // Verification : Champs bien remplis
+    if(!empty($_POST['pseudo']) AND !empty($_POST['mail']) AND !empty($_POST['mail2']) AND !empty($_POST['pass1']) AND !empty($_POST['pass2'])) {
+
+        // Condition pseudo
+        $pseudolength = strlen($pseudo);
+        if($pseudolength <= 100) {
+
+            // Condition mail
+            if($mail == $mail2) {
+
+                // Verification mail
+                if(filter_var($mail, FILTER_VALIDATE_EMAIL)) {
+                    $reqmail = $bdd->prepare(" SELECT * FROM membres WHERE mail = ?");
+                    $reqmail->execute(array($mail));
+                    $mailexist = $reqmail->rowCount();
+                    if($mailexist == 0) {
+
+                        // Verification MDP
+                        if($pass1 == $pass2) {
+                            $insertmbr = $bdd->prepare("INSERT INTO membres(pseudo, mail, motdepasse) VALUES(?, ?, ?)");
+                            $insertmbr->execute(array($pseudo, $mail, $pass1));
+                            $erreur = "Votre compte a bien été créé ! <a href=\"index.php\">Me connecter</a>";
+
+                            // En cas d'erreur
+                        } else {
+                            $erreur = "Vos mots de passes ne correspondent pas !";
+                        }
+                    } else {
+                        $erreur = "Adresse mail déjà utilisée !";
+                    }
+                } else {
+                    $erreur = "Votre adresse mail n'est pas valide !";
+                }
+            } else {
+                $erreur = "Vos adresses mail ne correspondent pas !";
+            }
+        } else {
+            $erreur = "Votre pseudo ne doit pas dépasser 100 caractères !";
+        }
+    } else {
+        $erreur = "Tous les champs doivent être complétés !";
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -6,7 +75,7 @@
     <title>GamingKeys</title>
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
-    <link type="text/php" href="../html/recup.php"/>
+    <link type="text/css" rel="stylesheet" href="../css/inscription.css"/>
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="../bootstrap/js/bootstrap.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
@@ -47,38 +116,74 @@
     <p> Waw on va mettre du texte ça va être trop bien.</p>
 </div>
 
-<div>
+<div align="center">
+    <h2>Inscription</h2>
+    <br /><br />
+    <form method="POST" action="">
+        <table>
+            <tr>
+                <td align="right">
+                    <label for="pseudo">Pseudo :</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Votre pseudo" id="pseudo" name="pseudo" value="<?php if(isset($pseudo)) { echo $pseudo; } ?>" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="mail">Mail :</label>
+                </td>
+                <td>
+                    <input type="email" placeholder="Votre mail" id="mail" name="mail" value="<?php if(isset($mail)) { echo $mail; } ?>" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="mail2">Confirmation du mail :</label>
+                </td>
+                <td>
+                    <input type="email" placeholder="Confirmez votre mail" id="mail2" name="mail2" value="<?php if(isset($mail2)) { echo $mail2; } ?>" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="mdp">Mot de passe :</label>
+                </td>
+                <td>
+                    <input type="password" placeholder="Votre mot de passe" id="mdp" name="mdp" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="mdp2">Confirmation du mot de passe :</label>
+                </td>
+                <td>
+                    <input type="password" placeholder="Confirmez votre mdp" id="mdp2" name="mdp2" />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="center">
+                    <br />
+                    <input type="submit" name="forminscription" value="Je m'inscris" />
+                </td>
+            </tr>
+        </table>
+    </form>
 
-    <form method="post" action="">
-        <input type="text" name="pseudo" placeholder="pseudo"/>
-        <input type="password" name="password" placeholder="password"/>
-        <input type="email" name="email" placeholder="email"/>
-        <button type="submit" name="envoyer">Confirmer</button>
-</form>
-
+    <?php
+    if(isset($erreur)) {
+        echo '<font color="red">'.$erreur."</font>";
+    }
+    ?>
 
 </div>
 
-<?php
 
-//Recuperation de la bdd
-try {
-    $bdd = new PDO('mysql:host-localhost:8888;dbname=E-Commerce Jv;charset=utf8', 'root', '');
-} catch (Exception $e) {
-    die('Erreur : '.$e->getMessage());
-}
 
-//Cryptage du MDP
-    $pass_hache = password_hash($_POST['pass'], PASSWORD_DEFAULT);
 
-//Insertion
-    $req = $bdd->prepare('INSERT INTO Membres(pseudo, pass, email, date_inscription)
-       VALUES(:pseudo, :pass, :email, CURDATE())');
 
-    $req->execute(array(
-        'pseudo' => $pseudo,
-        'pass' => $pass_hache,
-        'email' => $email));
 
-?>
+
+
 
