@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>xboxOne strategie: GamingKeys</title>
-    <link type="text/css" rel="stylesheet" href="../css/XboxONE.css"/>
+    <title>PC strategie: GamingKeys</title>
+    <link type="text/css" rel="stylesheet" href="../css/PC.css"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
     <link type="text/php" href="../html/recup.php"/>
@@ -55,7 +55,7 @@
         <li><a href="aventurePC.php"><button class="bouton">Aventure</button></a></li>
         <li><a href="actionPC.php"><button class="bouton"> Action</button></a></li>
         <li><a href="combatPC.php"><button class="bouton">Combat</button></a></li>
-        <li><a href="strategiePC.php"><button class="bouton">Stratégie</button></a></li>
+        <li><a href="sportPC.php"><button class="bouton">Sport</button></a></li>
     </ul>
     <!--Sommaire pour la PS4-->
     <p class="TitreCat">Catégorie Playsation 4</p>
@@ -63,7 +63,7 @@
         <li><a href="aventurePS4.php"><button class="bouton">Aventure</button></a></li>
         <li><a href="actionPS4.php"><button class="bouton"> Action</button></a></li>
         <li><a href="combatPS4.php"><button class="bouton">Combat</button></a></li>
-        <li><a href="strategiePS4.php"><button class="bouton">Stratégie</button></a></li>
+        <li><a href="sportPS4.php"><button class="bouton">Sport</button></a></li>
     </ul>
     <!--Sommaire pour l'Xbox one-->
     <p class="TitreCat">Catégorie Xbox ONE</p>
@@ -71,24 +71,24 @@
         <li><a href="aventureXboxOne.php"><button class="bouton">Aventure</button></a></li>
         <li><a href="actionXboxOne.php"><button class="bouton"> Action</button></a></li>
         <li><a href="combatXboxOne.php"><button class="bouton">Combat</button></a></li>
-        <li><button class="bouton">Stratégie</button></li>
+        <li><a href="sportXboxOne.php"><button class="bouton">Sport</button></a></li>
     </ul>
 </div>
 <div>
-    <h1 id="titre_slider">Top 10 des ventes du moment sur XBOX ONE</h1>
+    <h1 id="titre_slider">Top 10 des ventes du moment sur PC</h1>
     <div class="slideshow">
         <ul>
-            <!--top des jeux Xbox ONE-->
-            <li><img class="image_slider" src="../img/xboxOne/assassin_xbx_1024x1024.jpg" alt="image du jeux assassin creed origin sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/Halo-5xb1015-2.jpg" alt="image du jeux halo 5 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/la-terre-de-milieu-l-ombre-de-la-guerre-xbox-one.jpg" alt="image du jeux la terre de milieu l'ombre de la guerre sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/71cNKTRFJjL._AC_SX430_.jpg" alt="image du jeux Forza Motorsport 7 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/91AeJedA8jL._SX522_.jpg" alt="image du jeux The Elder Scrolls Online : Morrowind sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/10694913.jpg" alt="image du jeux NBA 2K18 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/1505305015-5789-jaquette-avant.jpg" alt="image du jeux Tekken 7 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/images.jpg" alt="image du jeux L.A. Noire sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/téléchargement (1).jpg" alt="image du jeux Madden NFL 18 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/téléchargement.jpg" alt="image du jeux South Park : L'Annale du Destin sur Xbox One"/></li>
+            <!--top des jeux pc-->
+            <li><img class="image_slider" src="../img/pc/91xtxVeMLHL._SL1500_.jpg" alt="image du jeux Fifa 18 sur PC"/></li>
+            <li><img class="image_slider" src="../img/pc/d2_pc.0.png" alt="image du jeux Destiny 2 sur PC"/></li>
+            <li><img class="image_slider" src="../img/pc/9139QQmsbdL._SL1500.jpg" alt="image du jeux Star Wars Battlefront II sur PC"/></li>
+            <li><img class="image_slider" src="../img/pc/1496311184-9714-jaquette-avant.png" alt="image du jeux Vanquish sur PC"/></li>
+            <li><img class="image_slider" src="../img/pc/game_cover_1052f4a2da47129cf533158864200bc2.jpg" alt="image du jeux Divinity : Original Sin II sur PC"/></li>
+            <li><img class="image_slider" src="../img/pc/PRECOMMANDE-Injustice-2-Mix-PC-Sortie-18-05-2017.jpg" alt="image du jeux Injustice II sur PC"/></li>
+            <li><img class="image_slider" src="../img/pc/téléchargement (1).jpg" alt="image du jeux What Remains of Edith Finch sur PC"/></li>
+            <li><img class="image_slider" src="../img/pc/téléchargement (2).jpg" alt="image du jeux Dishonored : La Mort de l'Outsider sur PC"/></li>
+            <li><img class="image_slider" src="../img/pc/téléchargement (3).jpg" alt="image du jeux XCOM 2 - War of the Chosen sur PC"/></li>
+            <li><img class="image_slider" src="../img/pc/téléchargement.jpg" alt="image du jeux bayonetta sur PC"/></li>
         </ul>
     </div>
 </div>
