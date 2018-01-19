@@ -2,7 +2,7 @@
 
 //Recuperation de la bdd
 try {
-    $bdd = new PDO('mysql:host-localhost:8888;dbname=labo_dev;charset=utf8', 'root', '');
+    $bdd = new PDO('mysql:host-localhost:8888;dbname=E-Commerce Jv;charset=utf8', 'root', '');
 } catch (Exception $e) {
     die('Erreur : '.$e->getMessage());
 }
@@ -42,3 +42,4 @@ if (isset($_POST['envoyer'])) {
 
 
 ?>
+
