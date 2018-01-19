@@ -75,6 +75,7 @@
 }
 /* Fin Animation */
 
+/*image des boites*/
 .image{
     display: inline-block;
     width: 250px;
@@ -89,6 +90,7 @@
     margin-left: 2%;
     margin-top: 3%;
 }
+
 
 /*Début du footer*/
 footer{

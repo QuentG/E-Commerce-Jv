@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PC aventure: GamingKeys</title>
     <link type="text/css" rel="stylesheet" href="../css/aventurePC.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
     <link type="text/php" href="../html/recup.php"/>
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -74,18 +75,30 @@
     </ul>
 </div>
 <div>
-
-    <img class="image" src="../img/pc/aventure/fhmw07hz085z.jpg" alt="image du jeux Playerunknown's Battlegrounds sur PC"/>
+    <img class="image" src="../img/pc/aventure/ARK_Survival_Evolved_Download_Cover_Free_Game.jpeg" alt="image du jeux Ark: Survival Evolved sur PC"/>
+    <img class="image1" src="../img/pc/aventure/jaquette-batman-arkham-city-pc-cover-avant-g-1307626331.jpg" alt="image du jeux Batman: Arkham City GOTY sur PC"/>
+    <img class="image1" src="../img/pc/aventure/item_1834769_135.jpg" alt="image du jeux bayonetta sur PC"/>
+    <img class="image1" src="../img/pc/aventure/1482943576-2461-jaquette-avant.png" alt="image du jeux Darksiders Warmastered Edition sur PC"/>
+    <img class="image" src="../img/pc/aventure/91NOaD3itmL._SL1500_.jpg" alt="image du jeux Dead Rising 2 sur PC"/>
+    <img class="image1" src="../img/pc/aventure/téléchargement.jpg" alt="image du jeux Dragon Ball Xenoverse 2 sur PC"/>
+    <img class="image1" src="../img/pc/aventure/elex-9006113008859_0.jpg" alt="image du jeux Elex sur PC"/>
+    <img class="image1" src="../img/pc/aventure/91-DiF8H9tL._SL1500_.jpg" alt="image du jeux Fallout 4 sur PC"/>
+    <img class="image" src="../img/pc/aventure/6e1cd1cee54368df1abc843a347a4346.jpg" alt="image du jeux Ghost Recon: Wildlands sur PC"/>
     <img class="image1" src="../img/pc/aventure/jaquette-grand-theft-auto-v-pc-cover-avant-g-1415122060.jpg" alt="image du jeux Grand Theft Auto V sur PC"/>
-    <img class="image1" src="../img/pc/aventure/item_1834769_135.jpg" alt="image du jeux Star Wars Battlefront II sur PC"/>
-    <img class="image1" src="../img/pc/aventure/1496311184-9714-jaquette-avant.png" alt="image du jeux bayonetta sur PC"/>
-    <img class="image" src="../img/pc/aventure/game_cover_1052f4a2da47129cf533158864200bc2.jpg" alt="image du jeux Divinity : Original Sin II sur PC"/>
-    <img class="image1" src="../img/pc/aventure/PRECOMMANDE-Injustice-2-Mix-PC-Sortie-18-05-2017.jpg" alt="image du jeux Injustice II sur PC"/>
-    <img class="image1" src="../img/pc/aventure/téléchargement (1).jpg" alt="image du jeux What Remains of Edith Finch sur PC"/>
-    <img class="image1" src="../img/pc/aventure/téléchargement (2).jpg" alt="image du jeux Dishonored : La Mort de l'Outsider sur PC"/>
-    <img class="image" src="../img/pc/aventure/téléchargement (3).jpg" alt="image du jeux XCOM 2 - War of the Chosen sur PC"/>
-    <img class="image1" src="../img/pc/aventure/téléchargement.jpg" alt="image du jeux bayonetta sur PC"/>
-
+    <img class="image1" src="../img/pc/aventure/p1_1972329_03e6ef20.jpg" alt="image du LEGO Harry Potter: Years 1-4 sur PC"/>
+    <img class="image1" src="../img/pc/aventure/just-cause-3-cover.jpg" alt="image du jeux Just Cause 3 sur PC"/>
+    <img class="image" src="../img/pc/aventure/71CrmyTp4YL._SL1200_.jpg" alt="image du jeux Naruto Shippuden: Ultimate Ninja Storm 4 sur PC"/>
+    <img class="image1" src="../img/pc/aventure/fhmw07hz085z.jpg" alt="image du jeux Playerunknown's Battlegrounds sur PC"/>
+    <img class="image1" src="../img/pc/aventure/jaquette-rage-pc-cover-avant-g-1308561119.jpg" alt="image du jeux Rage sur PC"/>
+    <img class="image1" src="../img/pc/aventure/36d6e0b99daf7c1844701fd113080382_1920_KR.jpg" alt="image du jeux Rise of the Tomb Raider 20th Anniversary sur PC"/>
+    <img class="image" src="../img/pc/aventure/spintires-camions-3700664519227_0.jpg" alt="image du jeux Spintires: Camions tout-terrain Simulator sur PC"/>
+    <img class="image1" src="../img/pc/aventure/917DGIoy0zL._AC_SL1500_.jpg" alt="image du jeux The Division: Season Pass sur PC"/>
+    <img class="image1" src="../img/pc/aventure/packshot-1381ccff7c6beef3ebe70bea34872185.jpg" alt="image du jeux The Escapists 2 sur PC"/>
+    <img class="image1" src="../img/pc/aventure/1594511_videogames-astragon-the-hunter-call-of-the-wild-pc-69112.jpg" alt="image du jeux The Hunter: Call of the Wild sur PC"/>
+    <img id="image1" src="../img/pc/aventure/71cIBV8PC7L.jpg" alt="image du jeux The walking dead sur PC"/>
+    <img class="image2" src="../img/pc/aventure/the-witcher-3-traque-sa-53918f73f3829.jpg" alt="image du jeux The Witcher 3: Wild Hunt GOTY sur PC"/>
+    <img class="image2" src="../img/pc/aventure/tom-clancy-s-rainbow-six-552e69e8bd9e3.jpg" alt="image du jeux Tom Clancy's Rainbow Six Siege sur PC"/>
+    <img class="image2" src="../img/pc/aventure/jaquette-tomb-raider-pc-cover-avant-g-1362394789.jpg" alt="image du jeux Tom raider sur PC"/>
 </div>
 
 
