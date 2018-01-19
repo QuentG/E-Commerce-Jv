@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>xboxOne action: GamingKeys</title>
     <link type="text/css" rel="stylesheet" href="../css/XboxONE.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/actionXboxONE.css"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
     <link type="text/php" href="../html/recup.php"/>
@@ -75,21 +76,32 @@
     </ul>
 </div>
 <div>
-    <h1 id="titre_slider">Top 10 des ventes du moment sur XBOX ONE</h1>
-    <div class="slideshow">
-        <ul>
-            <!--top des jeux Xbox ONE-->
-            <li><img class="image_slider" src="../img/xboxOne/assassin_xbx_1024x1024.jpg" alt="image du jeux assassin creed origin sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/Halo-5xb1015-2.jpg" alt="image du jeux halo 5 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/la-terre-de-milieu-l-ombre-de-la-guerre-xbox-one.jpg" alt="image du jeux la terre de milieu l'ombre de la guerre sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/71cNKTRFJjL._AC_SX430_.jpg" alt="image du jeux Forza Motorsport 7 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/91AeJedA8jL._SX522_.jpg" alt="image du jeux The Elder Scrolls Online : Morrowind sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/10694913.jpg" alt="image du jeux NBA 2K18 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/1505305015-5789-jaquette-avant.jpg" alt="image du jeux Tekken 7 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/images.jpg" alt="image du jeux L.A. Noire sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/téléchargement (1).jpg" alt="image du jeux Madden NFL 18 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/téléchargement.jpg" alt="image du jeux South Park : L'Annale du Destin sur Xbox One"/></li>
-        </ul>
+    <!--liste des jeux-->
+    <div>
+        <img class="image" src="../img/xboxOne/action/595.jpg" alt="image du jeux Assassin's Creed: Unity sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/action/597.jpg" alt="image du jeux Assassin's Creed 4: Black Flag sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/action/2228.jpg" alt="image du jeux Assassin's Creed: Origins sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/action/638.jpg" alt="image du jeux Call of Duty: Advanced Warfare sur Xbox ONE"/>
+        <img class="image" src="../img/xboxOne/action/699.jpg" alt="image du jeux Call of Duty: Ghosts sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/action/crackdown3_boxart001.0.jpg" alt="image du jeux crackdown 3 sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/action/2174.jpg" alt="image du jeux Dark Souls 3 sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/action/2176.jpg" alt="image du jeux Far Cry Primal sur Xbox ONE"/>
+        <img class="image" src="../img/xboxOne/action/2342.jpg" alt="image du jeux Gears of War: Ultimate sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/action/1408.jpg" alt="image du jeux Gears of War 4 sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/action/1766.jpg" alt="image du jeux Halo Wars 2 sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/action/108668b.jpg" alt="image du jeux Halo 5: Guardians sur Xbox ONE"/>
+        <img class="image" src="../img/xboxOne/action/2180.jpg" alt="image du jeux Mass Effect Andromeda  sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/action/jaquette-mortal-kombat-x-xbox-one-cover-avant-g-1401724552.jpg" alt="image du jeux Mortal Kombat X sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/action/2017.jpg" alt="image du jeux Plants vs. Zombies: Garden Warfare 2 sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/action/1214.jpg" alt="image du jeux Quantum Break sur Xbox ONE"/>
+        <img class="image" src="../img/xboxOne/action/1196.jpg" alt="image du jeux Rise of the Tomb Raider sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/action/691.jpg" alt="image du jeux Ryse: Son of Rome sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/action/1259.jpg" alt="image du jeux Sunset Overdrive sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/action/1330.jpg" alt="image du jeux The Division  sur Xbox ONE"/>
+        <img id="image1" src="../img/xboxOne/action/342.jpg" alt="image du jeux Titanfall sur Xbox ONE"/>
+        <img class="image2" src="../img/xboxOne/action/1173.jpg" alt="image du jeux Tomb Raider Definitive Edition sur Xbox ONE"/>
+        <img class="image2" src="../img/xboxOne/action/watch-dogs-2-cover.jpg" alt="image du jeux Watch Dogs 2 sur Xbox ONE"/>
+        <img class="image2" src="../img/xboxOne/action/téléchargement.jpg" alt="image du jeux WWE 2K18 sur Xbox ONE"/>
     </div>
 </div>
 

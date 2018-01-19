@@ -74,6 +74,7 @@
         <li><a href="sportXboxOne.php"><button class="bouton">Sport</button></a></li>
     </ul>
 </div>
+<!--liste des jeux-->
 <div>
     <img class="image" src="../img/pc/action/ARK_Survival_Evolved_Download_Cover_Free_Game.jpeg" alt="image du jeux Ark: Survival Evolved sur PC"/>
     <img class="image1" src="../img/pc/action/jaquette-batman-arkham-city-pc-cover-avant-g-1307626331.jpg" alt="image du jeux Batman: Arkham City GOTY sur PC"/>
