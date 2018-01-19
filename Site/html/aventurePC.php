@@ -75,16 +75,16 @@
 </div>
 <div>
 
-    <img class="image" src="../img/pc/91xtxVeMLHL._SL1500_.jpg" alt="image du jeux Fifa 18 sur PC"/>
-    <img class="image1" src="../img/pc/d2_pc.0.png" alt="image du jeux Destiny 2 sur PC"/>
-    <img class="image1" src="../img/pc/9139QQmsbdL._SL1500.jpg" alt="image du jeux Star Wars Battlefront II sur PC"/>
-    <img class="image1" src="../img/pc/1496311184-9714-jaquette-avant.png" alt="image du jeux Vanquish sur PC"/>
-    <img class="image" src="../img/pc/game_cover_1052f4a2da47129cf533158864200bc2.jpg" alt="image du jeux Divinity : Original Sin II sur PC"/>
-    <img class="image1" src="../img/pc/PRECOMMANDE-Injustice-2-Mix-PC-Sortie-18-05-2017.jpg" alt="image du jeux Injustice II sur PC"/>
-    <img class="image1" src="../img/pc/téléchargement (1).jpg" alt="image du jeux What Remains of Edith Finch sur PC"/>
-    <img class="image1" src="../img/pc/téléchargement (2).jpg" alt="image du jeux Dishonored : La Mort de l'Outsider sur PC"/>
-    <img class="image" src="../img/pc/téléchargement (3).jpg" alt="image du jeux XCOM 2 - War of the Chosen sur PC"/>
-    <img class="image1" src="../img/pc/téléchargement.jpg" alt="image du jeux bayonetta sur PC"/>
+    <img class="image" src="../img/pc/aventure/fhmw07hz085z.jpg" alt="image du jeux Playerunknown's Battlegrounds sur PC"/>
+    <img class="image1" src="../img/pc/aventure/jaquette-grand-theft-auto-v-pc-cover-avant-g-1415122060.jpg" alt="image du jeux Grand Theft Auto V sur PC"/>
+    <img class="image1" src="../img/pc/aventure/item_1834769_135.jpg" alt="image du jeux Star Wars Battlefront II sur PC"/>
+    <img class="image1" src="../img/pc/aventure/1496311184-9714-jaquette-avant.png" alt="image du jeux bayonetta sur PC"/>
+    <img class="image" src="../img/pc/aventure/game_cover_1052f4a2da47129cf533158864200bc2.jpg" alt="image du jeux Divinity : Original Sin II sur PC"/>
+    <img class="image1" src="../img/pc/aventure/PRECOMMANDE-Injustice-2-Mix-PC-Sortie-18-05-2017.jpg" alt="image du jeux Injustice II sur PC"/>
+    <img class="image1" src="../img/pc/aventure/téléchargement (1).jpg" alt="image du jeux What Remains of Edith Finch sur PC"/>
+    <img class="image1" src="../img/pc/aventure/téléchargement (2).jpg" alt="image du jeux Dishonored : La Mort de l'Outsider sur PC"/>
+    <img class="image" src="../img/pc/aventure/téléchargement (3).jpg" alt="image du jeux XCOM 2 - War of the Chosen sur PC"/>
+    <img class="image1" src="../img/pc/aventure/téléchargement.jpg" alt="image du jeux bayonetta sur PC"/>
 
 </div>
 
