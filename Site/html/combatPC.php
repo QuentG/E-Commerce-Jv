@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PC combat: GamingKeys</title>
     <link type="text/css" rel="stylesheet" href="../css/PC.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/combatPC.css"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
     <link type="text/php" href="../html/recup.php"/>
