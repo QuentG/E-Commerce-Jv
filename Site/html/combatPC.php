@@ -76,22 +76,30 @@
     </ul>
 </div>
 <div>
-    <h1 id="titre_slider">Top 10 des ventes du moment sur PC</h1>
-    <div class="slideshow">
-        <ul>
-            <!--top des jeux pc-->
-            <li><img class="image_slider" src="../img/pc/91xtxVeMLHL._SL1500_.jpg" alt="image du jeux Fifa 18 sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/d2_pc.0.png" alt="image du jeux Destiny 2 sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/9139QQmsbdL._SL1500.jpg" alt="image du jeux Star Wars Battlefront II sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/1496311184-9714-jaquette-avant.png" alt="image du jeux Vanquish sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/game_cover_1052f4a2da47129cf533158864200bc2.jpg" alt="image du jeux Divinity : Original Sin II sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/PRECOMMANDE-Injustice-2-Mix-PC-Sortie-18-05-2017.jpg" alt="image du jeux Injustice II sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/téléchargement (1).jpg" alt="image du jeux What Remains of Edith Finch sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/téléchargement (2).jpg" alt="image du jeux Dishonored : La Mort de l'Outsider sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/téléchargement (3).jpg" alt="image du jeux XCOM 2 - War of the Chosen sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/téléchargement.jpg" alt="image du jeux bayonetta sur PC"/></li>
-        </ul>
-    </div>
+    <img class="image" src="../img/pc/combat/battlecry_9z68.jpg" alt="image du jeux Battlecry sur PC"/>
+    <img class="image1" src="../img/pc/combat/original.png" alt="image du Brawlhalla sur PC"/>
+    <img class="image1" src="../img/pc/combat/SQ_NSwitchDS_Brawlout.jpg" alt="image du jeux Brawlout sur PC"/>
+    <img class="image1" src="../img/pc/combat/jaquette-dead-or-alive-5-last-round-playstation-4-ps4-cover-avant-g-1415868672.jpg" alt="image du jeux Dead or Alive 5: Last Round sur PC"/>
+    <img class="image" src="../img/pc/combat/1085.jpg" alt="image du jeux Dead Star sur PC"/>
+    <img class="image1" src="../img/pc/combat/08b01c4978e08b4735caa69214bc929b.jpg" alt="image du jeux Dragon Ball Xenoverse sur PC"/>
+    <img class="image1" src="../img/pc/combat/30b7443c3ed5b37d42e2328ad9eabf90.jpg" alt="image du jeux Dragon Ball FighterZ sur PC"/>
+    <img class="image1" src="../img/pc/combat/téléchargement.jpg" alt="image du jeux Dragon Ball Xenoverse 2 sur PC"/>
+    <img class="image" src="../img/pc/combat/PRECOMMANDE-Injustice-2-Mix-PC-Sortie-18-05-2017.jpg" alt="image du jeux Injustice II sur PC"/>
+    <img class="image1" src="../img/pc/combat/91FWKB2a6NL._AC_SL1500_.jpg" alt="image du jeux Injustice: Gods Among Us Ultimate Edition sur PC"/>
+    <img class="image1" src="../img/pc/combat/633.jpg" alt="image du jeux Last Fight sur PC"/>
+    <img class="image1" src="../img/pc/combat/81T9kE9xhPL._AC_SL1500_.jpg" alt="image du jeux lockon sur PC"/>
+    <img class="image" src="../img/pc/combat/mok2pc0f.jpg" alt="image du jeux Mortal Kombat II sur PC"/>
+    <img class="image1" src="../img/pc/combat/jaquette-mortal-kombat-x-pc-cover-avant-g-1401724587.jpg" alt="image du jeux Mortal Kombat X sur PC"/>
+    <img class="image1" src="../img/pc/combat/marvel-vs-capcom-infinite-5055060972908_0.jpg" alt="image du jeux Marvel vs. Capcom: Infinite sur PC"/>
+    <img class="image1" src="../img/pc/combat/c06930f810081523e7af4edadd464c85.jpg" alt="image du jeux One Piece: Burning Blood sur PC"/>
+    <img class="image" src="../img/pc/combat/téléchargement (2).jpg" alt="image du jeux Saint Seiya: Soldiers' Soul sur PC"/>
+    <img class="image1" src="../img/pc/combat/1467358229-4937-jaquette-avant.jpg" alt="image du jeux Street Fighter V sur PC"/>
+    <img class="image1" src="../img/pc/combat/319c2b7570d4621c20a0198040039bf8.jpg" alt="image du jeux Tekken 7 sur PC"/>
+    <img class="image1" src="../img/pc/combat/THE-KING-OF-FIGHTERS-XIV-Free-Download.png" alt="image du jeux The King of Fighters XIV sur PC"/>
+    <img id="image1" src="../img/pc/combat/91R5IkToSPL._SL1500_.jpg" alt="image du jeux Ultra Street Fighter IV sur PC"/>
+    <img class="image2" src="../img/pc/combat/téléchargement (1).jpg" alt="image du jeux W2K16 sur PC"/>
+    <img class="image2" src="../img/pc/combat/images.jpg" alt="image du jeux W2K17 sur PC"/>
+    <img class="image2" src="../img/pc/combat/w4pN5Yy.jpg" alt="image du jeux W2K18 sur PC"/>
 </div>
 
 
