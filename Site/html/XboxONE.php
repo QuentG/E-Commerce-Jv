@@ -94,11 +94,10 @@
 </div>
 
 
-<<<<<<< Updated upstream
+
     <?php include('footer.html'); ?>
-=======
+
 <?php include('footer.php'); ?>
->>>>>>> Stashed changes
 
 
 </body>
