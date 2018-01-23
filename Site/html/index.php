@@ -84,9 +84,9 @@
             <li><img class="image_slider" src="../img/pc/action/jaquette-grand-theft-auto-v-pc-cover-avant-g-1415122060.jpg" alt="image du jeux Grand Theft Auto V sur PC"/></li>
             <li><img class="image_slider" src="../img/pc/action/9139QQmsbdL._SL1500.jpg" alt="image du jeux Star Wars Battlefront II sur PC"/></li>
             <!--top des jeux PS4-->
-            <li><img class="image_slider" src="../img/ps4/cod-wwii-ps4-front-en_2000x.png" alt="image  du jeux Call of duty World War II sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/jaquette-grand-theft-auto-v-playstation-4-ps4-cover-avant-g-1415122088.jpg" alt="image  du jeux grand theft auto v sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/166433-ps4-gtsport-standard.png" alt="image  du jeux gran turismo sport sur PS4"/></li>
+            <li><img class="image_slider" src="../img/ps4/action/cod-wwii-ps4-front-en_2000x.png" alt="image  du jeux Call of duty World War II sur PS4"/></li>
+            <li><img class="image_slider" src="../img/ps4/action/jaquette-grand-theft-auto-v-playstation-4-ps4-cover-avant-g-1415122088.jpg" alt="image  du jeux grand theft auto v sur PS4"/></li>
+            <li><img class="image_slider" src="../img/ps4/sport/166433-ps4-gtsport-standard.png" alt="image  du jeux gran turismo sport sur PS4"/></li>
             <!--top des jeux Xbox ONE-->
             <li><img class="image_slider" src="../img/xboxOne/assassin_xbx_1024x1024.jpg" alt="image du jeux assassin creed origin sur Xbox One"/></li>
             <li><img class="image_slider" src="../img/xboxOne/Halo-5xb1015-2.jpg" alt="image du jeux halo 5 sur Xbox One"/></li>
