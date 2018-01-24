@@ -75,23 +75,16 @@
     </ul>
 </div>
 <div>
-    <h1 id="titre_slider">Top 10 des ventes du moment sur XBOX ONE</h1>
-    <div class="slideshow">
-        <ul>
-            <!--top des jeux Xbox ONE-->
-            <li><img class="image_slider" src="../img/xboxOne/assassin_xbx_1024x1024.jpg" alt="image du jeux assassin creed origin sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/Halo-5xb1015-2.jpg" alt="image du jeux halo 5 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/la-terre-de-milieu-l-ombre-de-la-guerre-xbox-one.jpg" alt="image du jeux la terre de milieu l'ombre de la guerre sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/71cNKTRFJjL._AC_SX430_.jpg" alt="image du jeux Forza Motorsport 7 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/91AeJedA8jL._SX522_.jpg" alt="image du jeux The Elder Scrolls Online : Morrowind sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/10694913.jpg" alt="image du jeux NBA 2K18 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/1505305015-5789-jaquette-avant.jpg" alt="image du jeux Tekken 7 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/images.jpg" alt="image du jeux L.A. Noire sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/téléchargement (1).jpg" alt="image du jeux Madden NFL 18 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/téléchargement.jpg" alt="image du jeux South Park : L'Annale du Destin sur Xbox One"/></li>
-        </ul>
+    <!--Liste des jeux-->
+
+    <div>
+        <img class="image" src="../img/xboxOne/sport/595.jpg" alt="image du jeux Assassin's Creed: Unity sur Xbox ONE"/>
     </div>
 </div>
+
+
+
+
 
 
 <?php include('footer.php'); ?>
