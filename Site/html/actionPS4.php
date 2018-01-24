@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PS4 action: GamingKeys</title>
-    <link type="text/css" rel="stylesheet" href="../css/PS4.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/actionPS4.css"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
     <link type="text/php" href="../html/recup.php"/>
@@ -75,22 +75,30 @@
     </ul>
 </div>
 <div>
-    <h1 id="titre_slider">Top 10 des ventes du moment sur PS4</h1>
-    <div class="slideshow">
-        <ul>
-            <!--top des jeux PS4-->
-            <li><img class="image_slider" src="../img/ps4/cod-wwii-ps4-front-en_2000x.png" alt="image du jeux Call of duty World War II sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/jaquette-grand-theft-auto-v-playstation-4-ps4-cover-avant-g-1415122088.jpg" alt="image du jeux grand theft auto v sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/166433-ps4-gtsport-standard.png" alt="image du jeux gran turismo sport sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/161376.jpg" alt="image du jeux Wolfenstein II : The New Colossus sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/C0R4myqWgAERMF2__92896_zoom.jpg" alt="image du jeux  Crash Bandicoot N. Sane Trilogy sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/cover_large.jpg" alt="image du jeux Full Throttle Remastered sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/shadow-tactics-blades-of-the-shogun-ps4-1511897711.jpg" alt="image du jeux Shadow Tactics : Blades of the Shogun sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/téléchargement (1).jpg" alt="image  du jeux Hellblade sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/téléchargement.jpg" alt="image du jeux Yakuza Kiwami sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/ud340_d827da85.jpg" alt="image du jeux Final Fantasy XII : The Zodiac Age sur PS4"/></li>
-        </ul>
-    </div>
+    <img class="image" src="../img/ps4/action/4690d6d1-c136-4bd3-8ae0-f5e8a35063f7_1.0e82e6ab1d2d695e58d10722da72157a.jpeg" alt="image du jeux Ark: Survival Evolved sur PC"/>
+    <img class="image1" src="../img/ps4/action/81MztoQMa8L._SL1500_.jpg" alt="image du jeux Assassin's Creed Origins sur PC"/>
+    <img class="image1" src="../img/ps4/action/packArt.img.jpg" alt="image du jeux Battlefront 2 sur PC"/>
+    <img class="image1" src="../img/ps4/action/cod-wwii-ps4-front-en_2000x.png" alt="image du jeux Call of duty ww 2 sur PC"/>
+    <img class="image" src="../img/ps4/action/dark-souls-iii-21.jpg" alt="image du jeux Dark Souls III sur PC"/>
+    <img class="image1" src="../img/ps4/action/81cE54LtHML._SL1500_.jpg" alt="image du jeux Dark Souls II sur PC"/>
+    <img class="image1" src="../img/ps4/action/boxart PS4.jpg" alt="image du jeux destiny 2  sur PC"/>
+    <img class="image1" src="../img/ps4/action/DIS2_LE_PS4_frontcover_PEGI_eng_1465830454-zoom.jpg" alt="image du jeux dishonored 2 sur PC"/>
+    <img class="image" src="../img/ps4/action/far-cry-5-edition-gold-3307216023425_0.jpg" alt="image du jeux far cry 5 sur PC"/>
+    <img class="image1" src="../img/ps4/action/ud340_d827da85.jpg" alt="image du jeux final fantasy 12 sur PC"/>
+    <img class="image1" src="../img/ps4/action/81CNQe3zmEL._SL1500_.jpg" alt="image du jeux Fortnite sur PC"/>
+    <img class="image1" src="../img/ps4/action/1448601_videogames-ubisoft-tom-clancys-ghost-recon-wildlands-ps4-300079443.jpg" alt="image du jeux Ghost Recon Wildlands sur PC"/>
+    <img class="image" src="../img/ps4/action/jaquette-grand-theft-auto-v-playstation-4-ps4-cover-avant-g-1415122088.jpg" alt="image du jeux GTA 5 sur PC"/>
+    <img class="image1" src="../img/ps4/action/téléchargement (1).jpg" alt="image du jeux hellblade sur PC"/>
+    <img class="image1" src="../img/ps4/action/914QsRTPpEL._SL1500_.jpg" alt="image du jeux Horizon Zero Dawn sur PC"/>
+    <img class="image1" src="../img/ps4/action/Terre-du-milieu-ombre-de-la-guerre-shadow-of-war-ps4-jaquette-cover-gold-edition.jpg" alt="image du jeux la terre du milieu l'ombre de la guerre sur PC"/>
+    <img class="image" src="../img/ps4/action/metal-gear-survive-jaquet-59f037a0ce97f.jpg" alt="image du jeux Metal Gear Survive sur PC"/>
+    <img class="image1" src="../img/ps4/action/91E11PZDr4L._SL1500_.jpg" alt="image du jeux Nier: Automata sur PC"/>
+    <img class="image1" src="../img/ps4/action/71toLn02f2L._AC_SL1149_.jpg" alt="image du jeux overwatch sur PC"/>
+    <img class="image1" src="../img/ps4/action/1512466645-7362-jaquette-avant.jpg" alt="image du jeux Rainbow Six: Siege sur PC"/>
+    <img id="image1" src="../img/ps4/action/71FH9Ghks5L._SL1000_.jpg" alt="image du jeux Uncharted 4 sur PC"/>
+    <img class="image2" src="../img/ps4/action/1503056993-9756-jaquette-avant.jpg" alt="image du jeux Uncharted: The Lost Legacy sur PC"/>
+    <img class="image2" src="../img/ps4/action/711H7pRK2VL._SL1000_.jpg" alt="image du jeux Watch Dogs sur PC"/>
+    <img class="image2" src="../img/ps4/action/161376.jpg" alt="image du jeux Wolfenstein II: The New Colossus sur PC"/>
 </div>
 
     <?php include('footer.php'); ?>
