@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PS4 strategie: GamingKeys</title>
+    <title>PS4 sport: GamingKeys</title>
     <link type="text/css" rel="stylesheet" href="../css/PS4.css"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>

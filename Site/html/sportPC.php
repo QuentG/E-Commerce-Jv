@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PC strategie: GamingKeys</title>
+    <title>PC sport: GamingKeys</title>
     <link type="text/css" rel="stylesheet" href="../css/sportPC.css"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
