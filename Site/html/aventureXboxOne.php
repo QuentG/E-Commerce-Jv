@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>xboxOne aventure: GamingKeys</title>
     <link type="text/css" rel="stylesheet" href="../css/XboxONE.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/aventurePC.css"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
     <link type="text/php" href="../html/recup.php"/>
@@ -75,21 +76,38 @@
     </ul>
 </div>
 <div>
-    <h1 id="titre_slider">Top 10 des ventes du moment sur XBOX ONE</h1>
-    <div class="slideshow">
-        <ul>
-            <!--top des jeux Xbox ONE-->
-            <li><img class="image_slider" src="../img/xboxOne/assassin_xbx_1024x1024.jpg" alt="image du jeux assassin creed origin sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/Halo-5xb1015-2.jpg" alt="image du jeux halo 5 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/la-terre-de-milieu-l-ombre-de-la-guerre-xbox-one.jpg" alt="image du jeux la terre de milieu l'ombre de la guerre sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/71cNKTRFJjL._AC_SX430_.jpg" alt="image du jeux Forza Motorsport 7 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/91AeJedA8jL._SX522_.jpg" alt="image du jeux The Elder Scrolls Online : Morrowind sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/10694913.jpg" alt="image du jeux NBA 2K18 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/1505305015-5789-jaquette-avant.jpg" alt="image du jeux Tekken 7 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/images.jpg" alt="image du jeux L.A. Noire sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/téléchargement (1).jpg" alt="image du jeux Madden NFL 18 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/téléchargement.jpg" alt="image du jeux South Park : L'Annale du Destin sur Xbox One"/></li>
-        </ul>
+            <!--Liste des jeux-->
+    <div>
+        <img class="image" src="../img/xboxOne/aventure/595.jpg" alt="image du jeux Assassin's Creed: Unity sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/597.jpg" alt="image du jeux Assassin's Creed 4: Black Flag sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/2228.jpg" alt="image du jeux Assassin's Creed: Origins sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/1196.jpg" alt="image du jeux Rise of the Tomb Raider sur Xbox ONE"/>
+        <img class="image" src="../img/xboxOne/aventure/691.jpg" alt="image du jeux Ryse: Son of Rome sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/2176.jpg" alt="image du jeux Far Cry Primal sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/691.jpg" alt="image du jeux Ryse: Son of Rome sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/1259.jpg" alt="image du jeux Sunset Overdrive sur Xbox ONE"/>
+        <img class="image" src="../img/xboxOne/aventure/1330.jpg" alt="image du jeux The Division  sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/1173.jpg" alt="image du jeux Tomb Raider Definitive Edition sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/jaquette-retour-vers-le-futur-le-jeu-xboxone-cover.jpg" alt="image du jeux Retour vers le futur sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/91Pd3Fj5kGL._AC_SL1500_.jpg" alt="image du jeux he Hobbit sur Xbox ONE"/>
+        <img class="image" src="../img/xboxOne/aventure/715aBL3A5uL._SX342_.jpg" alt="image du jeux Recore sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/943.jpg" alt="image du jeux The Witcher wild hunt sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/1564.jpg" alt="image du jeux mirror's Edge Catalyst sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/1330.jpg" alt="image du jeux The Division  sur Xbox ONE"/>
+        <img class="image" src="../img/xboxOne/aventure/2036.jpg" alt="image du Mad Max sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/2037.jpg" alt="image du jeux GTA V sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/2039.jpg" alt="image du jeux just Cause 3 sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/2058.jpg" alt="image du jeux Batman sur Xbox ONE"/>
+        <img class="image" src="../img/xboxOne/aventure/2227.jpg" alt="image du jeux Shadow of war sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/2346.jpg" alt="image du jeux Steep sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/3299_ghostbusters_one.jpg" alt="image du jeux Ghostbusters sur Xbox ONE"/>
+        <img class="image1" src="../img/xboxOne/aventure/1435841651-7594-jaquette-avant.jpg" alt="image du jeux Naruto Storm 4 sur Xbox ONE"/>
+        <img id="image1" src="../img/xboxOne/aventure/1465995560-4492-jaquette-avant.jpg" alt="image du jeux South Park sur Xbox ONE"/>
+        <img class="image2" src="../img/xboxOne/aventure/1467894446-9044-jaquette-avant.jpg" alt="image du jeux DragonBall Xenoverse 2 sur Xbox ONE"/>
+        <img class="image2" src="../img/xboxOne/aventure/5021290073050_1654799_XPUD.png" alt="image du jeux Final Fantasy XV sur Xbox ONE"/>
+        <img class="image2" src="../img/xboxOne/aventure/watch-dogs-2-cover.jpg" alt="image du jeux Watch Dogs 2 sur Xbox ONE"/>
+
+
     </div>
 </div>
 
