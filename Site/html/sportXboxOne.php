@@ -98,10 +98,10 @@
         <img class="image1" src="../img/xboxOne/sport/preco-pro-evolution-soccer-2018-pes-18-xbox-one-neuf.jpg" alt="image du jeux pes 2018 sur Xbox ONE"/>
         <img class="image1" src="../img/xboxOne/sport/ShapeUp_XboxOne_pack_2D_FR.png" alt="image du jeux ShapeUp sur Xbox ONE"/>
         <img class="image1" src="../img/xboxOne/sport/s-l300.jpg" alt="image du jeux NBA 2K16 sur Xbox ONE"/>
-        <img class="image" src="../img/xboxOne/sport/tony-hawk-s-pro-skater-5-jeu-xbox-one.jpg" alt="image du jeux Tony Hawk's pro skater 5 sur Xbox ONE"/>
-        <img class="image1" src="../img/xboxOne/sport/Tour-de-France-2017-Xbox-One.jpg" alt="image du jeux Le tour de France sur Xbox ONE"/>
-        <img class="image1" src="../img/xboxOne/sport/wwe-2k18-jaquette-598951ed61e34.jpg" alt="image du jeux W2K18 sur Xbox ONE"/>
-        <img class="image1" src="../img/xboxOne/sport/XB1HANDBALL16_p1-751x1024.jpg" alt="image du jeux HandBall 16 sur Xbox ONE"/>
+        <img id="image" src="../img/xboxOne/sport/tony-hawk-s-pro-skater-5-jeu-xbox-one.jpg" alt="image du jeux Tony Hawk's pro skater 5 sur Xbox ONE"/>
+        <img class="image2" src="../img/xboxOne/sport/Tour-de-France-2017-Xbox-One.jpg" alt="image du jeux Le tour de France sur Xbox ONE"/>
+        <img class="image2" src="../img/xboxOne/sport/wwe-2k18-jaquette-598951ed61e34.jpg" alt="image du jeux W2K18 sur Xbox ONE"/>
+        <img class="image2" src="../img/xboxOne/sport/XB1HANDBALL16_p1-751x1024.jpg" alt="image du jeux HandBall 16 sur Xbox ONE"/>
     </div>
 </div>
 

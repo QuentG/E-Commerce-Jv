@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PS4 combat: GamingKeys</title>
-    <link type="text/css" rel="stylesheet" href="../css/PS4.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/combatPS4.css"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
     <link type="text/php" href="../html/recup.php"/>
@@ -71,28 +71,35 @@
         <li><a href="aventureXboxOne.php"><button class="bouton">Aventure</button></a></li>
         <li><a href="actionXboxOne.php"><button class="bouton"> Action</button></a></li>
         <li><a href="combatXboxOne.php"><button class="bouton">Combat</button></a></li>
-        <li><a href="ssportXboxOne.php"><button class="bouton">Sport</button></a></li>
+        <li><a href="sportXboxOne.php"><button class="bouton">Sport</button></a></li>
     </ul>
 </div>
 <div>
-    <h1 id="titre_slider">Top 10 des ventes du moment sur PS4</h1>
-    <div class="slideshow">
-        <ul>
-            <!--top des jeux PS4-->
-            <li><img class="image_slider" src="../img/ps4/cod-wwii-ps4-front-en_2000x.png" alt="image du jeux Call of duty World War II sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/jaquette-grand-theft-auto-v-playstation-4-ps4-cover-avant-g-1415122088.jpg" alt="image du jeux grand theft auto v sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/166433-ps4-gtsport-standard.png" alt="image du jeux gran turismo sport sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/161376.jpg" alt="image du jeux Wolfenstein II : The New Colossus sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/C0R4myqWgAERMF2__92896_zoom.jpg" alt="image du jeux  Crash Bandicoot N. Sane Trilogy sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/cover_large.jpg" alt="image du jeux Full Throttle Remastered sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/shadow-tactics-blades-of-the-shogun-ps4-1511897711.jpg" alt="image du jeux Shadow Tactics : Blades of the Shogun sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/téléchargement (1).jpg" alt="image  du jeux Hellblade sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/téléchargement.jpg" alt="image du jeux Yakuza Kiwami sur PS4"/></li>
-            <li><img class="image_slider" src="../img/ps4/ud340_d827da85.jpg" alt="image du jeux Final Fantasy XII : The Zodiac Age sur PS4"/></li>
-        </ul>
-    </div>
+    <img class="image" src="../img/ps4/combat/dissidia-final-fantasy-nt-ps4-91ff35ff.jpg" alt="image du jeux dissidia final fantasy sur PS4"/>
+    <img class="image1" src="../img/ps4/combat/1482919658-4617-jaquette-avant.jpg" alt="image du jeux dragon ball xenoverse XV sur PS4"/>
+    <img class="image1" src="../img/ps4/combat/1467894445-1006-jaquette-avant.jpg" alt="image du jeux dragon ball xenoverse 2 sur PS4"/>
+    <img class="image1" src="../img/ps4/combat/dragon-ball-fighterz-jaqu-59ee5661989db.jpg" alt="image du jeux Dragon Ball FighterZ sur PS4"/>
+    <img class="image" src="../img/ps4/combat/71rKJrioelL._SL1000_.jpg" alt="image du jeux For Honor sur PS4"/>
+    <img class="image1" src="../img/ps4/combat/71rbvu3PyFL._SL1000_.jpg" alt="image du jeux Guilty Gear Xrd sur PS4"/>
+    <img class="image1" src="../img/ps4/combat/6552f044-cd69-4ea2-865b-90d476592792_1.322d7f28fb508756182a31a503634fd8.jpeg" alt="image du jeux injustice 2 sur PS4"/>
+    <img class="image1" src="../img/ps4/combat/jaquette-injustice-les-dieux-sont-parmi-nous-playstation-4-ps4-cover-avant-g-1381156486.jpg" alt="image du jeux Injustice : Les Dieux sont Parmi Nous – Ultimate Edition sur PS4"/>
+    <img class="image" src="../img/ps4/combat/81UOhMU7DbL._SL1476_.jpg" alt="image du jeux J-Stars Victory Vs sur PS4"/>
+    <img class="image1" src="../img/ps4/combat/marvel-vs-capcom-infinite-5979ec7b8798e.jpg" alt="image du jeux marvel vs capcom infinite sur PS4"/>
+    <img class="image1" src="../img/ps4/combat/Mortal_Kombat_XL_ps4_cover.jpg" alt="image du jeux mortal kombat XL sur PS4"/>
+    <img class="image1" src="../img/ps4/combat/jaquette-mortal-kombat-x-playstation-4-ps4-cover-avant-g-1401724529.jpg" alt="image du jeux mortal kombat X sur PS4"/>
+    <img class="image" src="../img/ps4/combat/71o0aLz6T0L._SL1000_.jpg" alt="image du jeux naruto ultimate ninja storm 4 sur PS4"/>
+    <img class="image1" src="../img/ps4/combat/naruto-to-boruto-shinob-58eb512fa27b8.jpg" alt="image du jeux Naruto to Boruto: Shinobi Striker sur PS4"/>
+    <img class="image1" src="../img/ps4/combat/816OKXL75KL._SL1000_.jpg" alt="image du jeux Street Saint Seiya: Soldiers' Soul sur PS4"/>
+    <img class="image1" src="../img/ps4/combat/71Zpv18Lf3L._SL1000_.jpg" alt="image du jeux Street Fighter V sur PS4"/>
+    <img class="image" src="../img/ps4/combat/81HNE-+Y6WL._SL1500_.jpg" alt="image du jeux tekken7 sur PS4"/>
+    <img class="image1" src="../img/ps4/combat/KOF-XIV.png" alt="image du jeux The King of Fighters XIV sur PS4"/>
+    <img class="image1" src="../img/ps4/combat/undernight-inbirthx1024.jpg" alt="image du jeux Under Night In-Birth sur PS4"/>
+    <img class="image1" src="../img/ps4/combat/71i634KZ0+L._SL1000_.jpg" alt="image du jeux ufc 2 sur PS4"/>
+    <img id="image1" src="../img/ps4/combat/jaquette-ea-sports-ufc-playstation-4-ps4-cover-avant-g-1402929478.jpg" alt="image du jeux ufc sur PS4"/>
+    <img class="image2" src="../img/ps4/combat/capcom-ultimate-marvel-vs-capcom-3-sony-ps4-impor.jpg" alt="image du jeux Ultimate Marvel vs. Capcom 3 sur PS4"/>
+    <img class="image2" src="../img/ps4/combat/1505306395-6137-jaquette-avant.jpg" alt="image du jeux w2018 sur PS4"/>
+    <img class="image2" src="../img/ps4/combat/81jIbx1wuyL._SL1500_.jpg" alt="image du jeux w2016 sur PS4"/>
 </div>
-
 
 <?php include('footer.php'); ?>
 
