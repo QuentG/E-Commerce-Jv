@@ -46,28 +46,42 @@
     <p> Waw on va mettre du texte ça va être trop bien.</p>
 </div>
 
-    <h2>Enregistrement</h2>
+    <div id="inscription">
+
+    <h2 class="ash">Enregistrement</h2>
 
         <form action="./register.php" method="POST">
             <label>Identifiant :</label>
-            <input type="text" name="username" required /> <br /><br />
+            <input type="text" name="username" required /> <br /> <br />
+
             <label>Mot de passe :</label>
-            <input type="password" name="password" required /> <br /><br />
+            <input type="password" name="password" required /> <br /> <br />
+
             <label>Retapez mot de passe :</label>
-            <input type="password" name="password2" required /> <br /><br />
+            <input type="password" name="password2" required /> <br /> <br />
             <input type="submit" />
         </form>
-        <br /> <hr />
+        <br />
+        <hr />
 
-    <h2>Connexion</h2>
+    </div>
+
+    <div id="connexion">
+
+    <h2 class="ash">Connexion</h2>
 
         <form action="./login.php" method="POST">
             <label>Identifiant :</label>
-            <input type="text" name="username" required /> <br /><br />
+            <input type="text" name="username" required /> <br /> <br />
+
             <label>Mot de passe :</label>
-            <input type="password" name="password" required /> <br /><br />
+            <input type="password" name="password" required /> <br /> <br />
+
             <input type="submit" />
+
         </form>
+
+    </div>
 
 </body>
 </html>

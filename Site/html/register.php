@@ -1,4 +1,5 @@
 <?php
+
 //Connexion à la base de données
 try {
     $pdo = new PDO('mysql:host=localhost:8888;dbname=ecommerce', 'root', 'root');
