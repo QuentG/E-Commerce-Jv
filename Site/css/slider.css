@@ -1,11 +1,4 @@
-
-body {
-	width: 800px;
-	margin: 0 auto;
-	color:#777;
-	margin-top: 150px;
-}
-figure { 
+figure {
 	display: inline-block; 
 }
 a {
@@ -34,7 +27,8 @@ a:focus {
 	height: 200px;
 	padding: 15px;
 	border: 1px solid #ddd;
-	margin: 0 auto 2em;
+	margin-top: 150px;
+	margin-left: 550px;
 	background: #FFF;
 	background: -webkit-linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
 	background: -moz-linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
@@ -308,8 +302,9 @@ a:focus {
 }
 #slideshow .c_slider {
 	position: absolute;
-	left:0; top:0;
-	width: 400%;
+	left:0;
+	top:0;
+	width: 100px;
 	height: 200px;
 	//background: url(img/dummy-640x310-1.jpg) 0 0 no-repeat, url(img/dummy-640x310-2.jpg) 640px 0 no-repeat, url(img/dummy-640x310-3.jpg) 1280px 0 no-repeat, url(img/dummy-640x310-4.jpg) 1920px 0 no-repeat;
 }
@@ -413,7 +408,7 @@ a:focus {
 /* dots styles */
 .dots_commands  {
 	position: relative;
-	padding:0; margin:0;
+	padding-top: 250px; margin:0;
 	text-align:center;
 }
 .dots_commands li {
@@ -429,6 +424,7 @@ a:focus {
 	text-indent: -9999px;
 	background: #fff;
 	border-bottom:0;
+
 	
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
