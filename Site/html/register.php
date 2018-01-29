@@ -1,8 +1,11 @@
 <?php
 //Connexion à la base de données
+try {
+    $pdo = new PDO('mysql:host=localhost:8888;dbname=ecommerce', 'root', 'root');
 
-$pdo = new PDO('mysql:host=localhost:8888;dbname=ecommerce', 'root', 'root');
-
+} catch (Exception $e) {
+    die('Erreur : ' .$e->getMessage() );
+}
 //On vérifie que l'utilisateur a bien envoyé les informations demandées
 if(isset($_POST["username"]) && isset($_POST["password"]) && isset($_POST["password2"])){
 
@@ -20,5 +23,7 @@ if(isset($_POST["username"]) && isset($_POST["password"]) && isset($_POST["passw
         header('Location: index.php');
         exit();
     }
+} else {
+    echo('Fail');
 }
 ?>

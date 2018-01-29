@@ -48,7 +48,7 @@
 
     <h2>Enregistrement</h2>
 
-        <form action="../html/register.php" method="POST">
+        <form action="./register.php" method="POST">
             <label>Identifiant :</label>
             <input type="text" name="username" required /> <br /><br />
             <label>Mot de passe :</label>
@@ -61,7 +61,7 @@
 
     <h2>Connexion</h2>
 
-        <form action="../html/login.php" method="POST">
+        <form action="./login.php" method="POST">
             <label>Identifiant :</label>
             <input type="text" name="username" required /> <br /><br />
             <label>Mot de passe :</label>
