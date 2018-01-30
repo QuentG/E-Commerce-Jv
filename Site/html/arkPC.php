@@ -99,12 +99,12 @@
 </div>
 </div>
 <!--Début du slider-->
-<span id="sl_play" class="sl_command">&nbsp;</span>
-<span id="sl_pause" class="sl_command">&nbsp;</span>
-<span id="sl_i1" class="sl_command sl_i">&nbsp;</span>
-<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
-<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
-<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
+<span id="sl_play" class="sl_command"></span>
+<span id="sl_pause" class="sl_command"></span>
+<span id="sl_i1" class="sl_command sl_i"></span>
+<span id="sl_i2" class="sl_command sl_i"></span>
+<span id="sl_i3" class="sl_command sl_i"></span>
+<span id="sl_i4" class="sl_command sl_i"></span>
 
 
 <section id="slideshow">
