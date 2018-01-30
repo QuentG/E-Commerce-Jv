@@ -6,7 +6,6 @@
     <title>GamingKeys</title>
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
-    <link type="text/php" href="../html/recup.php"/>
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="../bootstrap/js/bootstrap.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
@@ -38,6 +37,8 @@
                         <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
                     </div>
                 </form>
+                <button id="btninsciption" type="button"> <a href="./inscription.php">Inscription </a></button>
+                <button id="btnconnexion" type="button"> <a href="./login.php"> Connexion </a> </button>
             </div>
         </nav>
     </div>
