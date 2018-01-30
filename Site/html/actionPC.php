@@ -80,8 +80,8 @@
     <img class="image1" src="../img/pc/action/jaquette-batman-arkham-city-pc-cover-avant-g-1307626331.jpg" alt="image du jeux Batman: Arkham City GOTY sur PC"/>
     <img class="image1" src="../img/pc/action/battlecry_9z68.jpg" alt="image du jeux Battlecry sur PC"/>
     <img class="image1" src="../img/pc/action/item_1834769_135.jpg" alt="image du jeux bayonetta sur PC"/>
-    <img class="image" src="../img/pc/action/jaquette-dead-or-alive-5-last-round-playstation-4-ps4-cover-avant-g-1415868672.jpg" alt="image du jeux Darksiders Warmastered Edition sur PC"/>
-    <img class="image1" src="../img/pc/action/91NOaD3itmL._SL1500_.jpg" alt="image du jeux Dead or Alive 5: Last Round sur PC"/>
+    <img class="image" src="../img/pc/action/1482943576-2461-jaquette-avant.png" alt="image du jeux Darksiders Warmastered Edition sur PC"/>
+    <img class="image1" src="../img/pc/action/jaquette-dead-or-alive-5-last-round-playstation-4-ps4-cover-avant-g-1415868672.jpg" alt="image du jeux Dead or Alive 5: Last Round sur PC"/>
     <img class="image1" src="../img/pc/action/91NOaD3itmL._SL1500_.jpg" alt="image du jeux Dead Rising 2 sur PC"/>
     <img class="image1" src="../img/pc/action/Dishonored_2.jpg" alt="image du jeux Dishonored 2 sur PC"/>
     <img class="image" src="../img/pc/action/08b01c4978e08b4735caa69214bc929b.jpg" alt="image du jeux Dragon Ball Xenoverse sur PC"/>

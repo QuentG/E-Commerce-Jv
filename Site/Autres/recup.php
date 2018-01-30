@@ -2,7 +2,7 @@
 //Recup de la BDD
 try
 {
-    $bdd = new PDO('mysql:host=localhost;dbname=E-Commerce Jv;charset=utf8', 'root', '');
+    $bdd = new PDO('mysql:host=localhost;dbname=E-Commerce Jv;charset=utf8', 'root', 'root');
 }
 catch (Exception $e)
 {
@@ -11,27 +11,33 @@ catch (Exception $e)
 
 
 if(isset($_POST['forminscription'])) {
+
     // Protection
     $pseudo = htmlspecialchars($_POST['pseudo']);
     $mail = htmlspecialchars($_POST['mail']);
     $mail2 = htmlspecialchars($_POST['mail2']);
+
     // Cryptage du MDP
     $mdp = password_hash($_POST['pass1'], PASSWORD_DEFAULT);
     $mdp2 = password_hash($_POST['pass2'], PASSWORD_DEFAULT);
 
     // Verification : Champs tous bien remplis
     if(!empty($_POST['pseudo']) AND !empty($_POST['mail']) AND !empty($_POST['mail2']) AND !empty($_POST['pass1']) AND !empty($_POST['pass2'])) {
+
         // Condition pseudo
         $pseudolength = strlen($pseudo);
         if($pseudolength <= 100) {
+
             // Condition mail
             if($mail == $mail2) {
+
                 // Verification mail
                 if(filter_var($mail, FILTER_VALIDATE_EMAIL)) {
                     $reqmail = $bdd->prepare(" SELECT * FROM Membres WHERE mail = ?");
                     $reqmail->execute(array($mail));
                     $mailexist = $reqmail->rowCount();
                     if($mailexist == 0) {
+
                         // Verification MDP
                         if($mdp == $mdp2) {
                             $insertmbr = $bdd->prepare("INSERT INTO Membres(pseudo, mail, motdepasse) VALUES(?, ?, ?)");
@@ -61,8 +67,7 @@ if(isset($_POST['forminscription'])) {
 ?>
 
 
-
-<!--
+<?php
 
 //Recuperation de la bdd
 try {
@@ -83,7 +88,7 @@ while ($donnees = $req->fetch()) {  //fetch = passer a la ligne suivante / parco
 //Pour enregister un formulaire
 if (isset($_POST['envoyer'])) {
     $req = $bdd->prepare('INSERT INTO utilisateurs (pseudo, password, mail) VALUES (?, ?, ?)');
-    $rep->execute(array($_POST['pseudo'], $_POST['password'], $_POST['mail']));
+    $req->execute(array($_POST['pseudo'], $_POST['password'], $_POST['mail']));
 
 
 }
@@ -91,7 +96,7 @@ if (isset($_POST['envoyer'])) {
 //Connexion
 if (isset($_POST['envoyer'])) {
     $req = $bdd->prepare('SELECT count(id) AND "nb", id FROM utilisateurs WHERE mail = ? AND password = ? ');
-    $rep->execute(array($_POST['mail'], $_POST['password']));
+    $req->execute(array($_POST['mail'], $_POST['password']));
 
     $result = $req->fetch(); //Assigne
 
@@ -104,10 +109,10 @@ if (isset($_POST['envoyer'])) {
 
 }
 
-?> -->
+?>
 
 
-<!-- //Recuperation de la bdd
+<?php //Recuperation de la bdd
 try {
     $bdd = new PDO('mysql:host-localhost:8888;dbname=E-Commerce Jv;charset=utf8', 'root', '');
 } catch (Exception $e) {
@@ -124,6 +129,8 @@ try {
     $req->execute(array(
         'pseudo' => $pseudo,
         'pass' => $pass_hache,
-        'email' => $email)); -->
+        'email' => $email));
+
+?>
 
 

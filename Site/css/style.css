@@ -37,6 +37,24 @@
     right: 7px;
 }
 
+#btninsciption{
+
+    position: absolute;
+    width: 100px;
+    right: 130px;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+#btnconnexion{
+
+    position: absolute;
+    width: 100px;
+    right: 130px;
+    margin-top: 28px;
+    border-radius: 10px;
+    color: whitesmoke;
+}
 
 .jumbotron{
 
@@ -54,7 +72,8 @@
     padding-left: 8px;
     border-top-right-radius : 150px 100px;
     border-bottom-left-radius: 100px 150px;
-    height: 85%;
+    height: 70%;
+    margin-top: 15px;
 
 }
 
@@ -72,7 +91,7 @@
 
 a{
 
-    color: #449d44;
+    color: black;
 
 }
 
@@ -84,8 +103,8 @@ ul{
 
 #fond{
 
-    background-color: #363636;
-    height: 650px;
+    background-color: white;
+    height: 1000px;
 
 }
 
@@ -118,7 +137,7 @@ ul{
 #titre_slider{
 
     margin-left: 30%;
-    color: whitesmoke;
+    color: black;
 
 }
 
@@ -127,7 +146,7 @@ ul{
     width: 1120px;
     height: 500px;
     overflow: hidden;
-    border: 3px solid #363636;
+    border: 3px solid white;
     margin-left: 25%;
     margin-top: 40px;
 
@@ -173,6 +192,7 @@ footer{
     font-size:18px;
     text-align:center;
     margin-top: auto;
+
 }
 
 
@@ -183,6 +203,7 @@ footer .container {
     width:20%;
     min-width:150px;
     vertical-align:top;
+
 }
 
 span {
@@ -239,6 +260,7 @@ footer .cta button:active {
 
 /*image de bas de page de tous les catégories */
 #image1{
+
     display: inline-block;
     width: 250px;
     height: 350px;
@@ -248,10 +270,36 @@ footer .cta button:active {
 }
 
 .image2{
+
     display: inline-block;
     width: 250px;
     height: 350px;
     margin-left: 2%;
     margin-top: 3%;
     margin-bottom: 3%;
+}
+
+#inscription{
+
+    text-align: center;
+
+}
+
+
+label{
+
+    right: auto;
+
+}
+
+#connexion{
+
+    text-align: center;
+
+}
+
+.ash{
+
+    padding-bottom: 15px;
+
 }
