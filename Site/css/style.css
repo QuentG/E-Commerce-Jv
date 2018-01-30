@@ -10,7 +10,6 @@
     display: inline-block;
     position: absolute;
     width: 12%;
-    height: 10%;
     left: 0%;
 }
 
@@ -36,26 +35,37 @@
     height: 70px;
     right: 7px;
 }
-
+/*bouton de connexion et d'inscription*/
 #btninsciption{
 
-    position: absolute;
+    //position: absolute;
     width: 100px;
     right: 130px;
     border-radius: 10px;
     color: whitesmoke;
+    margin-left: 105%;
+    display: flex;
+}
+#btninsciption a{
+    margin-left: 15px;
+    color: black;
 }
 
 #btnconnexion{
 
-    position: absolute;
+    //position: absolute;
     width: 100px;
     right: 130px;
-    margin-top: 28px;
     border-radius: 10px;
     color: whitesmoke;
+    margin-left: 105%;
+    display: flex;
 }
-
+#btnconnexion a{
+    margin-left: 15px;
+    color: black;
+}
+/*Fin des bouton de connexion et d'inscription*/
 .jumbotron{
 
     text-align: center;
