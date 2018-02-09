@@ -1,5 +1,5 @@
 <?php
-
+//Verif Error
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -19,7 +19,7 @@ if(isset($_POST["username"]) && isset($_POST["password"]) && isset($_POST["passw
     //On vérifie que password et password2 sont identiques
     if($_POST["password"] == $_POST["password2"]){
 
-        echo "john";
+
         //On utilise alors notre fonction password_hash :
         $hash = password_hash($_POST["password"], PASSWORD_DEFAULT);
 

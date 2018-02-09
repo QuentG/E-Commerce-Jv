@@ -1,3 +1,8 @@
+<?php
+
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -16,7 +21,7 @@
     <body>
 
 
-
+    
     <div class="container">
         <!--logo du site-->
         <div>
