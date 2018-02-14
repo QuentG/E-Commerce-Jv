@@ -14,7 +14,7 @@ try {
 
 if(isset($_POST["username"]) && isset($_POST["password"])){
 
-    # Nous allons demander le hash pour cet utilisateur à notre base de données :
+    # Nous allons demander le hash pour cet utilisateur à notre BDD :
 
     $query = $pdo->prepare('SELECT password FROM membres WHERE username = :username');
     $query->bindParam(':username', $_POST["username"]);
@@ -34,7 +34,8 @@ if(isset($_POST["username"]) && isset($_POST["password"])){
         # Sinon nous signalons une erreur d'identifiant ou de mot de passe
         echo "login/password incorrect";
     }
-    header('Location: ./index.php');
+    header('Location: index.php');
 }
+
 
 ?>

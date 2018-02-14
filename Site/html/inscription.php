@@ -20,7 +20,7 @@
 <div class="container">
     <!--logo du site-->
     <div>
-        <img id="logo" src="../img/Logo.png" alt="image du logo du site"/>
+        <a href="index.php"> <img id="logo" src="../img/Logo.png" alt="image du logo du site"/> </a>
     </div>
     <!--nav bar-->
     <nav class="navbar-inverse">

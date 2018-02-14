@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +26,7 @@ session_start();
     <div class="container">
         <!--logo du site-->
         <div>
-        <img id="logo" src="../img/Logo.png" alt="image du logo du site"/>
+        <a href="index.php"> <img id="logo" src="../img/Logo.png" alt="image du logo du site"/> </a>
         </div>
         <!--nav bar-->
         <nav class="navbar-inverse">
@@ -43,7 +44,7 @@ session_start();
                     </div>
                 </form>
                 <button id="btninsciption" type="button"> <a href="./inscription.php">Inscription </a></button>
-                <button id="btnconnexion" type="button"> <a href="./login.php"> Connexion </a> </button>
+                <button id="btnconnexion" type="button"> <a href="./inscription.php"> Connexion </a> </button>
             </div>
         </nav>
     </div>

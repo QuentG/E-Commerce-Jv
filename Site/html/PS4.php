@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PS4: GamingKeys</title>
-    <link type="text/css" rel="stylesheet" href="../css/PS4.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
-    <link type="text/php" href="../html/recup.php"/>
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="../bootstrap/js/bootstrap.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
@@ -46,6 +45,20 @@
     <h1>GamingKeys !</h1>
     <p> Waw on va mettre du texte ça va être trop bien.</p>
 </div>
+
+<div id="sort">
+    <div>
+        <p>Type : </p>
+        <select id="product">
+            <option value="all">Tous</option>
+            <option value="AventurePS4">Aventure</option>
+            <option value="ActionPS4">Action</option>
+            <option value="SportPS4">Sport</option>
+            <option value="CombatPS4">Combat</option>
+        </select>
+    </div>
+
+    <div>
 
 <div id="categorie">
     <!--Sommaire pour le PC-->

@@ -7,7 +7,6 @@
     <link type="text/css" rel="stylesheet" href="../css/aventurePS4.css"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
-    <link type="text/php" href="../html/recup.php"/>
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="../bootstrap/js/bootstrap.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
