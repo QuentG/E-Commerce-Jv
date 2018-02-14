@@ -131,10 +131,4 @@ session_start();
 
 </html>
 
-<!-- <form method="post" action="">
-    <input type="text" name="pseudo" placeholder="pseudo"/>
-    <input type="password" name="password" placeholder="password"/>
-    <input type="mail" name="mail" placeholder="mail"/>
-    <button type="submit" name="envoyer">Envoyer</button>
-</form> -->
 

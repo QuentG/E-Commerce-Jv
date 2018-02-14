@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PS4: GamingKeys</title>
-    <link type="text/css" rel="stylesheet" href="../css/PS4.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
-    <link type="text/php" href="../html/recup.php"/>
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" href="../js/script.js"></script>
     <script src="../bootstrap/js/bootstrap.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js%22%3E"></script>
@@ -47,7 +47,7 @@
     <p> Waw on va mettre du texte ça va être trop bien.</p>
 </div>
 
-<div id="categorie">
+    <div id="categorie">
     <!--Sommaire pour le PC-->
     <p class="TitreCat">Catégorie PC</p>
     <ul class="liste1">
@@ -73,7 +73,7 @@
         <li><a href="sportXboxOne.php"><button class="bouton">Sport</button></a></li>
     </ul>
 </div>
-<div>
+<div id="fond">
     <h1 id="titre_slider">Top 10 des ventes du moment sur PS4</h1>
     <div class="slideshow">
         <ul>

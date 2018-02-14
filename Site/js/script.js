@@ -35,7 +35,7 @@ function sortProduct() {
         }
     } else {
         for (products of document.getElementsByClassName('product')) {
-            products.style.display = "block";
+             products.style.display = "block";
         }
     }
 }
