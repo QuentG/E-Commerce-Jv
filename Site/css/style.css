@@ -26,6 +26,49 @@
     width: 100px;
 
 }
+/*Début menu*/
+.niveau1 {
+    display: inline-block;
+}
+.niveau1 a{
+    color: #fff;
+}
+.niveau1 ul ul {
+    display: none;
+    position: absolute;
+    left: 144px;
+    top: -1px;
+    margin:0px;
+    padding: 0px;
+    border: 1px solid grey;
+}
+.niveau1 {
+    list-style-type: none;
+    position: relative;
+    background-color:  #080808;
+    padding: 2px;
+    margin: 0px;
+}
+
+.niveau2 {
+    display: none;
+}
+
+.niveau1:hover .niveau2{
+    display: block;
+    position: absolute;
+    width: auto;
+    background: black;
+    padding-right: 2em;
+}
+
+.niveau1 li.plus {
+    background-position:right;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid grey;}
+
+
+/*Fin menu*/
 /*Fin Nav bar*/
 
 #logo1{
@@ -39,23 +82,23 @@
 #btninsciption{
 
     //position: absolute;
-    width: 100px;
-    right: 130px;
+    width: 9%;
     border-radius: 10px;
     color: whitesmoke;
     margin-left: 105%;
     display: flex;
+
 }
 #btninsciption a{
     margin-left: 15px;
     color: black;
+    text-decoration: none;
 }
 
 #btnconnexion{
 
     //position: absolute;
-    width: 100px;
-    right: 130px;
+    width: 9%;
     border-radius: 10px;
     color: whitesmoke;
     margin-left: 105%;
@@ -64,6 +107,7 @@
 #btnconnexion a{
     margin-left: 15px;
     color: black;
+    text-decoration: none;
 }
 /*Fin des bouton de connexion et d'inscription*/
 .jumbotron{
@@ -82,7 +126,7 @@
     padding-left: 8px;
     border-top-right-radius : 150px 100px;
     border-bottom-left-radius: 100px 150px;
-    height: 70%;
+    height: 85%;
     margin-top: 15px;
 
 }
@@ -114,7 +158,7 @@ ul{
 #fond{
 
     background-color: white;
-    height: 1000px;
+    height: 750px;
 
 }
 
@@ -157,7 +201,7 @@ ul{
     height: 500px;
     overflow: hidden;
     border: 3px solid white;
-    margin-left: 25%;
+    margin-left: 15%;
     margin-top: 40px;
 
 }

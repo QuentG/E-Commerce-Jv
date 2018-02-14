@@ -9,8 +9,8 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GamingKeys</title>
-    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="../bootstrap/js/bootstrap.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
@@ -18,23 +18,46 @@ session_start();
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js%22%3E"></script>
 </head>
 
-    <body>
+<body>
 
 
-    
-    <div class="container">
-        <!--logo du site-->
-        <div>
+
+<div class="container">
+    <!--logo du site-->
+    <div>
         <img id="logo" src="../img/Logo.png" alt="image du logo du site"/>
-        </div>
-        <!--nav bar-->
-        <nav class="navbar-inverse">
-            <div class="container-fluid">
-                <ul class="nav navbar-nav">
-                    <li class="active"> <a href="#" target="_blank">Accueil</a> </li>
-                    <li> <a href="PC.php" target="_blank">PC</a> </li>
-                    <li> <a href="PS4.php" target="_blank">PS4</a> </li>
-                    <li> <a href="XboxONE.php" target="_blank">XBOX ONE</a> </li>
+    </div>
+    <!--nav bar-->
+    <nav class="navbar-inverse">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li class="active"> <a href="#">Accueil</a> </li>
+                    <li class="niveau1"> <a href="PC.php" target="_blank">PC</a>
+                        <ul class="niveau2">
+                            <li><a href="aventurePC.php">Aventure</a></li>
+                            <li><a href="actionPC.php">Action</a></li>
+                            <li><a href="combatPC.php">Combat</a></li>
+                            <li><a href="sportPC.php">Sport</a></li>
+                        </ul>
+                    </li>
+                    <li class="niveau1"> <a href="PS4.php" target="_blank">PS4</a>
+                        <ul class="niveau2">
+                            <li><a href="aventurePS4.php">Aventure</a></li>
+                            <li><a href="actionPS4.php">Action</a></li>
+                            <li><a href="combatPS4.php">Combat</a></li>
+                            <li><a href="sportPS4.php">Sport</a></li>
+                        </ul>
+                    </li>
+                    <li class="niveau1"> <a href="XboxONE.php" target="_blank">XBOX ONE</a>
+                        <ul class="niveau2">
+                            <li><a href="aventureXboxOne.php">Aventure</a></li>
+                            <li><a href="actionXboxOne.php">Action</a></li>
+                            <li><a href="combatXboxOne.php">Combat</a></li>
+                            <li><a href="sportXboxOne.php">Sport</a></li>
+                        </ul>
+                    </li>
+
+
                 </ul>
                 <form class="navbar-form navbar-right inline-form">
                     <div class="form-group">
@@ -44,45 +67,18 @@ session_start();
                 </form>
                 <button id="btninsciption" type="button"> <a href="./inscription.php">Inscription </a></button>
                 <button id="btnconnexion" type="button"> <a href="./login.php"> Connexion </a> </button>
-            </div>
-        </nav>
-    </div>
-
-    <div class="jumbotron">
-        <h1>GamingKeys !</h1>
-        <p> Waw on va mettre du texte ça va être trop bien.</p>
-    </div>
-
-        <div id="categorie">
-            <!--Sommaire pour le PC-->
-            <p class="TitreCat">Catégorie PC</p>
-            <ul class="liste1">
-                <li><a href="aventurePC.php"><button class="bouton"> Aventure</button></a></li>
-                <li><a href="actionPC.php"><button class="bouton"> Action</button></a></li>
-                <li><a href="combatPC.php"><button class="bouton"> Combat</button></a></li>
-                <li><a href="sportPC.php"><button class="bouton"> Sport</button></a></li>
-            </ul>
-            <!--Sommaire pour la PS4-->
-            <p class="TitreCat">Catégorie Playsation 4</p>
-            <ul class="liste1">
-                <li><a href="aventurePS4.php"><button class="bouton">Aventure</button></a></li>
-                <li><a href="actionPS4.php"><button class="bouton"> Action</button></a></li>
-                <li><a href="combatPS4.php"><button class="bouton">Combat</button></a></li>
-                <li><a href="sportPS4.php"><button class="bouton">Sport</button></a></li>
-            </ul>
-            <!--Sommaire pour l'Xbox one-->
-            <p class="TitreCat">Catégorie Xbox ONE</p>
-            <ul class="liste1">
-                <li><a href="aventureXboxOne.php"><button class="bouton"> Aventure</button></a></li>
-                <li><a href="actionXboxOne.php"><button class="bouton"> Action</button></a></li>
-                <li><a href="combatXboxOne.php"><button class="bouton">Combat</button></a></li>
-                <li><a href="sportXboxOne.php"><button class="bouton">Sport</button></a></li>
-            </ul>
         </div>
-    <!--titre slider-->
-    <div id="fond">
-        <h1 id="titre_slider">Top 3 des ventes du moment sur PC, PS4 & XBOX ONE</h1>
-        <!--slider-->
+    </nav>
+</div>
+
+<div class="jumbotron">
+    <h1>GamingKeys !</h1>
+    <p> Waw on va mettre du texte ça va être trop bien.</p>
+</div>
+<!--titre slider-->
+<div id="fond">
+    <h1 id="titre_slider">Top 3 des ventes du moment sur PC, PS4 & XBOX ONE</h1>
+    <!--slider-->
     <div class="slideshow">
         <ul>
             <!--top des jeux pc-->
@@ -100,12 +96,12 @@ session_start();
 
         </ul>
     </div>
-    </div>
+</div>
 
-    <?php include_once('./footer.php'); ?>
+<?php include_once('./footer.php'); ?>
 
 
-    </body>
+</body>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 <!--Slider-->
 <script type="text/javascript">
@@ -118,13 +114,13 @@ session_start();
     });
 
     // Effet Fondus
-   /* setInterval(Frames,50);
-    function Frames(){
-        var pos = $(".slideshow ul").find(":eq(3)").position();
-        pos.left = Math.abs(390-Math.abs(300-pos.left))/370;
-        console.log(pos.left);
-        $(".slideshow ul").find(":eq(6)").css("opacity",pos.left);
-    }; */
+    /* setInterval(Frames,50);
+     function Frames(){
+         var pos = $(".slideshow ul").find(":eq(3)").position();
+         pos.left = Math.abs(390-Math.abs(300-pos.left))/370;
+         console.log(pos.left);
+         $(".slideshow ul").find(":eq(6)").css("opacity",pos.left);
+     }; */
 
 </script>
 
