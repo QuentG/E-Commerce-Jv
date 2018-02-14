@@ -77,7 +77,7 @@
 
     <h2 class="ash">Connexion</h2>
 
-        <form action="./login.php" method="POST">
+        <form action="./index.php" method="POST">
             <label>Identifiant :</label>
             <input type="text" name="username" required /> <br /> <br />
 

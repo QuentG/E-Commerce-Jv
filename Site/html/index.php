@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +22,6 @@ session_start();
 <body>
 
 
-
 <div class="container">
     <!--logo du site-->
     <div>
@@ -32,41 +32,39 @@ session_start();
         <div class="container-fluid">
             <ul class="nav navbar-nav">
                 <li class="active"> <a href="#">Accueil</a> </li>
-                    <li class="niveau1"> <a href="PC.php" target="_blank">PC</a>
-                        <ul class="niveau2">
-                            <li><a href="aventurePC.php">Aventure</a></li>
-                            <li><a href="actionPC.php">Action</a></li>
-                            <li><a href="combatPC.php">Combat</a></li>
-                            <li><a href="sportPC.php">Sport</a></li>
-                        </ul>
-                    </li>
-                    <li class="niveau1"> <a href="PS4.php" target="_blank">PS4</a>
-                        <ul class="niveau2">
-                            <li><a href="aventurePS4.php">Aventure</a></li>
-                            <li><a href="actionPS4.php">Action</a></li>
-                            <li><a href="combatPS4.php">Combat</a></li>
-                            <li><a href="sportPS4.php">Sport</a></li>
-                        </ul>
-                    </li>
-                    <li class="niveau1"> <a href="XboxONE.php" target="_blank">XBOX ONE</a>
-                        <ul class="niveau2">
-                            <li><a href="aventureXboxOne.php">Aventure</a></li>
-                            <li><a href="actionXboxOne.php">Action</a></li>
-                            <li><a href="combatXboxOne.php">Combat</a></li>
-                            <li><a href="sportXboxOne.php">Sport</a></li>
-                        </ul>
-                    </li>
-
-
-                </ul>
-                <form class="navbar-form navbar-right inline-form">
-                    <div class="form-group">
-                        <input type="search" class="input-sm form-control" placeholder="Recherche">
-                        <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
-                    </div>
-                </form>
-                <button id="btninsciption" type="button"> <a href="./inscription.php">Inscription </a></button>
-                <button id="btnconnexion" type="button"> <a href="./login.php"> Connexion </a> </button>
+                <li class="niveau1"> <a href="PC.php" target="_blank">PC</a>
+                    <ul class="niveau2">
+                        <li><a href="aventurePC.php">Aventure</a></li>
+                        <li><a href="actionPC.php">Action</a></li>
+                        <li><a href="combatPC.php">Combat</a></li>
+                        <li><a href="sportPC.php">Sport</a></li>
+                    </ul>
+                </li>
+                <li class="niveau1"> <a href="PS4.php" target="_blank">PS4</a>
+                    <ul class="niveau2">
+                        <li><a href="aventurePS4.php">Aventure</a></li>
+                        <li><a href="actionPS4.php">Action</a></li>
+                        <li><a href="combatPS4.php">Combat</a></li>
+                        <li><a href="sportPS4.php">Sport</a></li>
+                    </ul>
+                </li>
+                <li class="niveau1"> <a href="XboxONE.php" target="_blank">XBOX ONE</a>
+                    <ul class="niveau2">
+                        <li><a href="aventureXboxOne.php">Aventure</a></li>
+                        <li><a href="actionXboxOne.php">Action</a></li>
+                        <li><a href="combatXboxOne.php">Combat</a></li>
+                        <li><a href="sportXboxOne.php">Sport</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-right inline-form">
+                <div class="form-group">
+                    <input type="search" class="input-sm form-control" placeholder="Recherche">
+                    <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+                </div>
+            </form>
+            <button id="btninsciption" type="button"> <a href="./inscription.php">Inscription </a></button>
+            <button id="btnconnexion" type="button"> <a href="./login.php"> Connexion </a> </button>
         </div>
     </nav>
 </div>
@@ -126,10 +124,4 @@ session_start();
 
 </html>
 
-<!-- <form method="post" action="">
-    <input type="text" name="pseudo" placeholder="pseudo"/>
-    <input type="password" name="password" placeholder="password"/>
-    <input type="mail" name="mail" placeholder="mail"/>
-    <button type="submit" name="envoyer">Envoyer</button>
-</form> -->
 

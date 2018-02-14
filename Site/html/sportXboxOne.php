@@ -98,12 +98,10 @@
         <img class="image1" src="../img/xboxOne/sport/3307215974735_1677853_IPCA.png" alt="image du jeux Steep sur Xbox ONE"/>
         <img class="image1" src="../img/xboxOne/sport/bfr_overlay.jpg" alt="image du jeux the crew sur Xbox ONE"/>
         <img class="image1" src="../img/xboxOne/sport/ee941770a23af6c78da4db5c4ed46768--ps-video-video-games-xbox.jpg" alt="image du jeux The Golf Club sur Xbox ONE"/>
-<<<<<<< HEAD
         <img id="image1" src="../img/xboxOne/sport/tony-hawk-s-pro-skater-5-jeu-xbox-one.jpg" alt="image du jeux Tony Hawk's pro skater 5 sur Xbox ONE"/>
         <img class="image2" src="../img/xboxOne/sport/20150103_514981420301898.jpg" alt="image du jeux UFC Ultimate fighting championship sur Xbox ONE"/>
         <img class="image2" src="../img/xboxOne/sport/ea-sports-ufc-2-jaquette-568bf8f9478a7.jpg" alt="image du jeux UFC 2 sur Xbox ONE"/>
         <img class="image2" src="../img/xboxOne/sport/wwe-2k18-jaquette-598951ed61e34.jpg" alt="image du jeux W2K18 sur Xbox ONE"/>
-=======
         <img class="image" src="../img/xboxOne/sport/forza-horizon-2-presents-fast-and-furious-xbox-one.jpg" alt="image du jeux Fast & furious sur Xbox ONE"/>
         <img class="image1" src="../img/xboxOne/sport/jaquette-kinect-sports-rivals-xbox-one-cover-avant-g-1377078139.jpg" alt="image du jeux Kinect Sports Rivals sur Xbox ONE"/>
         <img class="image1" src="../img/xboxOne/sport/jx1001788902@2x.jpg" alt="image du jeux Fifa 18 sur Xbox ONE"/>
@@ -116,7 +114,6 @@
         <img class="image2" src="../img/xboxOne/sport/Tour-de-France-2017-Xbox-One.jpg" alt="image du jeux Le tour de France sur Xbox ONE"/>
         <img class="image2" src="../img/xboxOne/sport/wwe-2k18-jaquette-598951ed61e34.jpg" alt="image du jeux W2K18 sur Xbox ONE"/>
         <img class="image2" src="../img/xboxOne/sport/XB1HANDBALL16_p1-751x1024.jpg" alt="image du jeux HandBall 16 sur Xbox ONE"/>
->>>>>>> master
     </div>
 </div>
 

@@ -7,7 +7,6 @@
     <link type="text/css" rel="stylesheet" href="../css/PC.css"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
-    <link type="text/php" href="../html/recup.php"/>
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="../bootstrap/js/bootstrap.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
@@ -112,9 +111,3 @@
 
 </html>
 
-<!-- <form method="post" action="">
-    <input type="text" name="pseudo" placeholder="pseudo"/>
-    <input type="password" name="password" placeholder="password"/>
-    <input type="mail" name="mail" placeholder="mail"/>
-    <button type="submit" name="envoyer">Envoyer</button>
-</form>

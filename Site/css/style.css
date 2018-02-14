@@ -89,6 +89,7 @@
     display: flex;
 
 }
+
 #btninsciption a{
     margin-left: 15px;
     color: black;
@@ -96,20 +97,23 @@
 }
 
 #btnconnexion{
-
-    //position: absolute;
-    width: 9%;
+    
+    width: 100px;
+    right: 130px;
     border-radius: 10px;
     color: whitesmoke;
     margin-left: 105%;
     display: flex;
 }
+
 #btnconnexion a{
     margin-left: 15px;
     color: black;
     text-decoration: none;
 }
+
 /*Fin des bouton de connexion et d'inscription*/
+
 .jumbotron{
 
     text-align: center;
