@@ -29,10 +29,31 @@
     <nav class="navbar-inverse">
         <div class="container-fluid">
             <ul class="nav navbar-nav">
-                <li class="active"> <a href="index.php" target="_blank">Accueil</a> </li>
-                <li> <a href="PC.php" target="_blank">PC</a> </li>
-                <li> <a href="PS4.php" target="_blank">PS4</a> </li>
-                <li> <a href="XboxONE.php" target="_blank">XBOX ONE</a> </li>
+                <li class="active"> <a href="#">Accueil</a> </li>
+                <li class="niveau1"> <a href="PC.php" target="_blank">PC</a>
+                    <ul class="niveau2">
+                        <li><a href="aventurePC.php">Aventure</a></li>
+                        <li><a href="actionPC.php">Action</a></li>
+                        <li><a href="combatPC.php">Combat</a></li>
+                        <li><a href="sportPC.php">Sport</a></li>
+                    </ul>
+                </li>
+                <li class="niveau1"> <a href="PS4.php" target="_blank">PS4</a>
+                    <ul class="niveau2">
+                        <li><a href="aventurePS4.php">Aventure</a></li>
+                        <li><a href="actionPS4.php">Action</a></li>
+                        <li><a href="combatPS4.php">Combat</a></li>
+                        <li><a href="sportPS4.php">Sport</a></li>
+                    </ul>
+                </li>
+                <li class="niveau1"> <a href="XboxONE.php" target="_blank">XBOX ONE</a>
+                    <ul class="niveau2">
+                        <li><a href="aventureXboxOne.php">Aventure</a></li>
+                        <li><a href="actionXboxOne.php">Action</a></li>
+                        <li><a href="combatXboxOne.php">Combat</a></li>
+                        <li><a href="sportXboxOne.php">Sport</a></li>
+                    </ul>
+                </li>
             </ul>
             <form class="navbar-form navbar-right inline-form">
                 <div class="form-group">
@@ -40,6 +61,8 @@
                     <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
                 </div>
             </form>
+            <button id="btninsciption" type="button"> <a href="./inscription.php">Inscription </a></button>
+            <button id="btnconnexion" type="button"> <a href="./inscription.php"> Connexion </a> </button>
         </div>
     </nav>
 </div>
@@ -47,33 +70,6 @@
 <div class="jumbotron">
     <h1>GamingKeys !</h1>
     <p> Waw on va mettre du texte ça va être trop bien.</p>
-</div>
-
-<div id="categorie">
-    <!--Sommaire pour le PC-->
-    <p class="TitreCat">Catégorie PC</p>
-    <ul class="liste1">
-        <li><a href="aventurePC.php"><button class="bouton">Aventure</button></a></li>
-        <li><a href="actionPC.php"><button class="bouton"> Action</button></a></li>
-        <li><a href="combatPC.php"><button class="bouton">Combat</button></a></li>
-        <li><a href="sportPC.php"><button class="bouton">Sport</button></a></li>
-    </ul>
-    <!--Sommaire pour la PS4-->
-    <p class="TitreCat">Catégorie Playsation 4</p>
-    <ul class="liste1">
-        <li><a href="aventurePS4.php"><button class="bouton">Aventure</button></a></li>
-        <li><a href="actionPS4.php"><button class="bouton"> Action</button></a></li>
-        <li><a href="combatPS4.php"><button class="bouton">Combat</button></a></li>
-        <li><a href="sportPS4.php"><button class="bouton">Sport</button></a></li>
-    </ul>
-    <!--Sommaire pour l'Xbox one-->
-    <p class="TitreCat">Catégorie Xbox ONE</p>
-    <ul class="liste1">
-        <li><a href="aventureXboxOne.php"><button class="bouton">Aventure</button></a></li>
-        <li><button class="bouton"> Action</button></li>
-        <li><a href="combatXboxOne.php"><button class="bouton">Combat</button></a></li>
-        <li><a href="sportXboxOne.php"><button class="bouton">Sport</button></a></li>
-    </ul>
 </div>
 <div>
     <!--liste des jeux-->

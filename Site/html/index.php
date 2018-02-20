@@ -64,7 +64,7 @@ session_start();
                 </div>
             </form>
             <button id="btninsciption" type="button"> <a href="./inscription.php">Inscription </a></button>
-            <button id="btnconnexion" type="button"> <a href="./login.php"> Connexion </a> </button>
+            <button id="btnconnexion" type="button"> <a href="./inscription.php"> Connexion </a> </button>
         </div>
     </nav>
 </div>
