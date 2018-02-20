@@ -127,7 +127,6 @@
 
 #categorie{
 
-    position: absolute;
     width: 300px;
     font-size: 25px;
     margin-left:  50px;
@@ -364,5 +363,16 @@ label{
 .ash{
 
     padding-bottom: 15px;
+}
 
+#resp_1 {
+    padding-left:5%;
+    margin-bottom: 36px;
+    margin-right: inherit;
+}
+
+#resp_1 .img-responsive {
+    height: 350px;
+    width: auto;
+    margin-top: 61px;
 }
