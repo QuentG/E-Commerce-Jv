@@ -147,7 +147,7 @@
         <img class="img-responsive image1" src="../img/pc/action/mok2pc0f.jpg" alt="image du jeux Mortal Kombat II sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image" src="../img/pc/action/71CrmyTp4YL._SL1200_.jpg" alt="image du jeux Naruto Shippuden: Ultimate Ninja Storm 4 sur PC"/>
+        <img class="img-responsive image" src="../img/pc/action/71O-PFSFJPL._SL1000_.jpg" alt="image du jeux Naruto Shippuden: Ultimate Ninja Storm 4 sur PC"/>
     </div>
     <div class="col-sm-3">
         <img class="img-responsive image1" src="../img/pc/action/c06930f810081523e7af4edadd464c85.jpg" alt="image du jeux One Piece: Burning Blood sur PC"/>

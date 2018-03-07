@@ -142,7 +142,7 @@
         <img class="img-responsive image1" src="../img/xboxOne/aventure/3299_ghostbusters_one.jpg" alt="image du jeux Ghostbusters sur Xbox ONE"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/xboxOne/aventure/1435841651-7594-jaquette-avant.jpg" alt="image du jeux Naruto Storm 4 sur Xbox ONE"/>
+        <img class="img-responsive image1" src="../img/xboxOne/aventure/71O-PFSFJPL._SL1000_.jpg" alt="image du jeux Naruto Storm 4 sur Xbox ONE"/>
     </div>
     <div class="col-sm-3">
         <img id="image1" class="img-responsive" src="../img/xboxOne/aventure/1465995560-4492-jaquette-avant.jpg" alt="image du jeux South Park sur Xbox ONE"/>
