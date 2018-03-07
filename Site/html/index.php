@@ -17,6 +17,9 @@ session_start();
     <script src="../bootstrap/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js%22%3E"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js%22%3E"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -28,40 +31,39 @@ session_start();
         <img id="logo" src="../img/Logo.png" alt="image du logo du site"/>
     </div>
     <!--nav bar-->
-    <nav class="navbar-inverse">
-        <div class="container-fluid">
-            <ul class="nav navbar-nav">
-                <li class="active"> <a href="index.php">Accueil</a> </li>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <a class="navbar-brand" href="index.php">Accueil</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
                 <li class="niveau1"> <a href="PC.php">PC</a>
                     <ul class="niveau2">
-                        <li><a href="aventurePC.php">Aventure</a></li>
-                        <li><a href="actionPC.php">Action</a></li>
-                        <li><a href="combatPC.php">Combat</a></li>
-                        <li><a href="sportPC.php">Sport</a></li>
+                        <li><a class="nav-link" href="aventurePC.php">Aventure</a></li>
+                        <li><a class="nav-link" href="actionPC.php">Action</a></li>
+                        <li><a class="nav-link" href="combatPC.php">Combat</a></li>
+                        <li><a class="nav-link" href="sportPC.php">Sport</a></li>
                     </ul>
                 </li>
                 <li class="niveau1"> <a href="PS4.php">PS4</a>
                     <ul class="niveau2">
-                        <li><a href="aventurePS4.php">Aventure</a></li>
-                        <li><a href="actionPS4.php">Action</a></li>
-                        <li><a href="combatPS4.php">Combat</a></li>
-                        <li><a href="sportPS4.php">Sport</a></li>
+                        <li><a class="nav-link" href="aventurePS4.php">Aventure</a></li>
+                        <li><a class="nav-link" href="actionPS4.php">Action</a></li>
+                        <li><a class="nav-link" href="combatPS4.php">Combat</a></li>
+                        <li><a class="nav-link" href="sportPS4.php">Sport</a></li>
                     </ul>
                 </li>
                 <li class="niveau1"> <a href="XboxONE.php">XBOX ONE</a>
                     <ul class="niveau2">
-                        <li><a href="aventureXboxOne.php">Aventure</a></li>
-                        <li><a href="actionXboxOne.php">Action</a></li>
-                        <li><a href="combatXboxOne.php">Combat</a></li>
-                        <li><a href="sportXboxOne.php">Sport</a></li>
+                        <li><a class="nav-link"  href="aventureXboxOne.php">Aventure</a></li>
+                        <li><a class="nav-link" href="actionXboxOne.php">Action</a></li>
+                        <li><a class="nav-link" href="combatXboxOne.php">Combat</a></li>
+                        <li><a class="nav-link" href="sportXboxOne.php">Sport</a></li>
                     </ul>
                 </li>
             </ul>
-            <form class="navbar-form navbar-right inline-form">
-                <div class="form-group">
-                    <input type="search" class="input-sm form-control" placeholder="Recherche">
-                    <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
-                </div>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Recherche">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Chercher</button>
             </form>
             <button id="btninsciption" type="button"> <a href="./inscription.php">Inscription </a></button>
             <button id="btnconnexion" type="button"> <a href="./inscription.php"> Connexion </a> </button>
