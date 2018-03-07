@@ -4,12 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>xboxOne action: GamingKeys</title>
-    <link type="text/css" rel="stylesheet" href="../css/XboxONE.css"/>
-    <link type="text/css" rel="stylesheet" href="../css/actionXboxONE.css"/>
-    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
-    <link type="text/php" href="../html/recup.php"/>
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <script src="../bootstrap/js/bootstrap.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js%22%3E"></script>
@@ -29,8 +26,8 @@
     <nav class="navbar-inverse">
         <div class="container-fluid">
             <ul class="nav navbar-nav">
-                <li class="active"> <a href="#">Accueil</a> </li>
-                <li class="niveau1"> <a href="PC.php" target="_blank">PC</a>
+                <li class="active"> <a href="index.php">Accueil</a> </li>
+                <li class="niveau1"> <a href="PC.php">PC</a>
                     <ul class="niveau2">
                         <li><a href="aventurePC.php">Aventure</a></li>
                         <li><a href="actionPC.php">Action</a></li>
@@ -38,7 +35,7 @@
                         <li><a href="sportPC.php">Sport</a></li>
                     </ul>
                 </li>
-                <li class="niveau1"> <a href="PS4.php" target="_blank">PS4</a>
+                <li class="niveau1"> <a href="PS4.php">PS4</a>
                     <ul class="niveau2">
                         <li><a href="aventurePS4.php">Aventure</a></li>
                         <li><a href="actionPS4.php">Action</a></li>
@@ -46,7 +43,7 @@
                         <li><a href="sportPS4.php">Sport</a></li>
                     </ul>
                 </li>
-                <li class="niveau1"> <a href="XboxONE.php" target="_blank">XBOX ONE</a>
+                <li class="niveau1"> <a href="XboxONE.php">XBOX ONE</a>
                     <ul class="niveau2">
                         <li><a href="aventureXboxOne.php">Aventure</a></li>
                         <li><a href="actionXboxOne.php">Action</a></li>
