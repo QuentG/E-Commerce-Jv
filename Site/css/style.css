@@ -12,6 +12,11 @@
     width: 12%;
     left: 0%;
 }
+@media only screen and (max-width: 1500px) {
+    #logo{
+        visibility: hidden;
+    }
+}
 
 /*Nav bar*/
 .container-fluid{
@@ -26,6 +31,7 @@
     width: 100px;
 
 }
+/*Fin Nav bar*/
 /*Début menu*/
 .niveau1 {
     display: inline-block;
@@ -74,7 +80,7 @@
 
 
 /*Fin menu*/
-/*Fin Nav bar*/
+
 
 #logo1{
 
@@ -319,28 +325,6 @@ footer .cta button:active {
 
 }
 /*Fin du footer*/
-
-/*image de bas de page de tous les catégories */
-#image1{
-
-    display: inline-block;
-    width: 250px;
-    height: 350px;
-    margin-left: 25%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-.image2{
-
-    display: inline-block;
-    width: 250px;
-    height: 350px;
-    margin-left: 2%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
 #inscription{
 
     text-align: center;
@@ -376,3 +360,47 @@ label{
     width: auto;
     margin-top: 61px;
 }
+
+/*CSS des pages de jeux*/
+/*image des boites*/
+.image{
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+.image1{
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+#image{
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    margin-left: 25%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#image1{
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    margin-left: 25%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.image2{
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    margin-left: 2%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+

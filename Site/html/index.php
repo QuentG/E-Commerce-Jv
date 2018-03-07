@@ -67,6 +67,7 @@ session_start();
             <button id="btnconnexion" type="button"> <a href="./inscription.php"> Connexion </a> </button>
         </div>
     </nav>
+    <!--fin nav bar-->
 </div>
 
 <div class="jumbotron">
