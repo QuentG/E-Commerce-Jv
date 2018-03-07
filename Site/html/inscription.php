@@ -73,18 +73,25 @@
     <h2 class="ash">Enregistrement</h2>
 
         <form action="./register.php" method="POST">
-            <label>Identifiant :</label>
-            <input type="text" name="username" required /> <br /> <br />
+            <label>Pseudo :</label>
+            <input type="text" placeholder="Pseudo" id="pseudo" name="pseudo" required /> <br /> <br />
+
+            <label>Mail :</label>
+            <input type="email" placeholder="Email" id="email" name="email" required /> <br /> <br />
+
+            <label>Retapez l'email :</label>
+            <input type="email" placeholder="Email" id="email2" name="email2" required /> <br /> <br />
 
             <label>Mot de passe :</label>
-            <input type="password" name="password" required /> <br /> <br />
+            <input type="password" placeholder="Password" id="password" name="password" required /> <br /> <br />
 
-            <label>Retapez mot de passe :</label>
-            <input type="password" name="password2" required /> <br /> <br />
+            <label>Retapez le mot de passe :</label>
+            <input type="password" placeholder="Password" id="password2" name="password2" required /> <br /> <br />
             <input type="submit" />
         </form>
         <br />
         <hr />
+
 
     </div>
 
@@ -93,11 +100,11 @@
     <h2 class="ash">Connexion</h2>
 
         <form action="./index.php" method="POST">
-            <label>Identifiant :</label>
-            <input type="text" name="username" required /> <br /> <br />
+            <label>Pseudo :</label>
+            <input type="text" placeholder="Votre pseudo" name="pseudo" required /> <br /> <br />
 
             <label>Mot de passe :</label>
-            <input type="password" name="password" required /> <br /> <br />
+            <input type="password" placeholder="Votre password" name="password" required /> <br /> <br />
 
             <input type="submit" />
 
