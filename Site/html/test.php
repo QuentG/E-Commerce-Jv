@@ -42,35 +42,38 @@
     <div class="collapse navbar-collapse" id="main-menu" style="margin-bottom: 0px;">
         <ul class="nav navbar-nav">
             <li class="dropdown">
-                <a data-toggle="dropdown" href="index.php">Accueil<b></b></a>
+                <a data-toggle="dropdown" href="../html/index.php">Accueil<b></b></a>
             </li>
             <li class="dropdown">
-                <a data-toggle="dropdown" href="PC.php">PC<b class="caret"></b></a>
+                <a data-toggle="dropdown" href="#">PC<b class="caret"></b></a>
                 <ul class="dropdown-menu jqueryFadeIn">
-                    <li><a href="aventurePC.php">Aventure</a></li>
-                    <li><a href="actionPC.php">Action</a></li>
-                    <li><a href="combatPC.php">Combat</a></li>
-                    <li><a href="sportPC.php">Sport</a></li>
+                    <li><a href="../html/PC.php">Accueil PC</a></li>
+                    <li><a href="../html/aventurePC.php">Aventure</a></li>
+                    <li><a href="../html/actionPC.php">Action</a></li>
+                    <li><a href="../html/combatPC.php">Combat</a></li>
+                    <li><a href="../html/sportPC.php">Sport</a></li>
                 </ul>
             </li>
 
             <li class="dropdown">
-                <a data-toggle="dropdown" href="PS4.php">PS4<b class="caret"></b></a>
+                <a data-toggle="dropdown" href="#">PS4<b class="caret"></b></a>
                 <ul class="dropdown-menu jqueryFadeIn">
-                    <li><a href="aventurePS4.php">Aventure</a></li>
-                    <li><a href="actionPS4.php">Action</a></li>
-                    <li><a href="combatPS4.php">Combat</a></li>
-                    <li><a href="sportPS4.php">Sport</a></li>
+                    <li><a href="../html/PS4.php">Accueil PS4</a></li>
+                    <li><a href="../html/aventurePS4.php">Aventure</a></li>
+                    <li><a href="../html/actionPS4.php">Action</a></li>
+                    <li><a href="../html/combatPS4.php">Combat</a></li>
+                    <li><a href="../html/sportPS4.php">Sport</a></li>
                 </ul>
             </li>
 
             <li class="dropdown">
-                <a data-toggle="dropdown" href="XboxONE.php">XBOX ONE<b class="caret"></b></a>
+                <a data-toggle="dropdown" href="#">XBOX ONE<b class="caret"></b></a>
                 <ul class="dropdown-menu jqueryFadeIn">
-                    <li><a href="aventureXboxOne.php">Aventure</a></li>
-                    <li><a href="actionXboxOne.php">Action</a></li>
-                    <li><a href="combatXboxOne.php">Combat</a></li>
-                    <li><a href="sportXboxOne.php">Sport</a></li>
+                    <li><a href="../html/XboxONE.php">Accueil XBOX ONE</a></li>
+                    <li><a href="../html/aventureXboxOne.php">Aventure</a></li>
+                    <li><a href="../html/actionXboxOne.php">Action</a></li>
+                    <li><a href="../html/combatXboxOne.php">Combat</a></li>
+                    <li><a href="../html/sportXboxOne.php">Sport</a></li>
                 </ul>
             </li>
 
@@ -78,7 +81,7 @@
         <img id="logo" src="../img/Logo.png" alt="image du logo du site"/>
 
         <form class="navbar-form pull-right">
-            <input type="text" style="width:150px" class="input-sm form-control" placeholder="Recherche">
+            <input id="recherche" type="text" style="width:150px"  placeholder="Recherche">
             <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-search"></span> </button>
         </form>
 

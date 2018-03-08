@@ -32,7 +32,7 @@ session_start();
     </div>
     <!--nav bar-->
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-        <a class="navbar-brand" href="index.php">Accueil</a>
+        <a class="navbar-brand" href="../html/index.php">Accueil</a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
 

@@ -387,6 +387,7 @@ label{
 }
 
 #image1{
+
     display: inline-block;
     width: 250px;
     height: 350px;
@@ -396,6 +397,7 @@ label{
 }
 
 .image2{
+
     display: inline-block;
     width: 250px;
     height: 350px;

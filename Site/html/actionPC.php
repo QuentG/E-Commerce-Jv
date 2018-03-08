@@ -35,10 +35,10 @@
                         <li><a href="sportPC.php">Sport</a></li>
                     </ul>
                 </li>
-                <li class="niveau1"> <a href="PS4.php">PS4</a>
+                <li class="niveau1"> <a href="#">PS4</a>
                     <ul class="niveau2">
-                        <li><a href="aventurePS4.php">Aventure</a></li>
-                        <li><a href="actionPS4.php">Action</a></li>
+                        <li><a href="../html/aventurePS4.php">Aventure</a></li>
+                        <li><a href="../html/actionPS4.php">Action</a></li>
                         <li><a href="combatPS4.php">Combat</a></li>
                         <li><a href="sportPS4.php">Sport</a></li>
                     </ul>
