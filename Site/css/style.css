@@ -4,121 +4,77 @@
     padding: 0;
 
 }
-
+/*Nav bar*/
 #logo{
 
     display: inline-block;
     position: absolute;
     width: 12%;
-    left: 0%;
+    height: auto;
+    margin-top: 1%;
+    left: 40%;
 }
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1200px) {
     #logo{
+        width: 13.5%;
+        left: 40%;
+    }
+}
+@media only screen and (max-width: 1060px) {
+    #logo{
+        width: 15%;
+        left: 38%;
+    }
+
+}
+@media only screen and (max-width: 990px) {
+    #logo {
         visibility: hidden;
     }
 }
 
-/*Nav bar*/
-.container-fluid{
-
-    margin-left: 90%;
-
+.dropdown-submenu{position:relative;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.dropdown-submenu:hover>.dropdown-menu{display:block;}
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+.blue{color:#1D38FC}
+.green{color:#0EC929}
+.red{color:#FF0000}
+.orange{color:#ffe100}
+.navbar-toggle{
+    color: white;
 }
 
-.inline-form input {
-
-    display: inline-block;
-    width: 100px;
-
+@media only screen and (max-width: 767px) {
+    #recherche{
+        margin-left: 10px;
+    }
 }
+
 /*Fin Nav bar*/
-/*Début menu*/
-.niveau1 {
-    display: inline-block;
-}
 
-.niveau1 a{
-    color: #fff;
-}
-.niveau1 a:hover{
-    text-decoration: none;
-}
-
-.niveau1 ul ul {
-    display: none;
-    position: absolute;
-    left: 144px;
-    top: -1px;
-    margin:0px;
-    padding: 0px;
-    border: 1px solid grey;
-}
-.niveau1 {
-    list-style-type: none;
-    position: relative;
-    background-color:  #080808;
-    padding: 2px;
-    margin: 0px;
-}
-
-.niveau2 {
-    display: none;
-}
-
-.niveau1:hover .niveau2{
-    display: block;
-    position: absolute;
-    width: auto;
-    background: black;
-    padding-right: 2em;
-}
-
-.niveau1 li.plus {
-    background-position:right;
-    background-repeat: no-repeat;
-    border-bottom: 1px solid grey;}
-
-
-/*Fin menu*/
-
-
-#logo1{
-
-    position: absolute;
-    width: 180px;
-    height: 70px;
-    right: 7px;
-}
 /*bouton de connexion et d'inscription*/
 #btninsciption{
 
-    //position: absolute;
-    width: 9%;
     border-radius: 10px;
     color: whitesmoke;
-    margin-left: 105%;
-    display: flex;
+    margin-top: 3px;
 
 }
 
 #btninsciption a{
-    margin-left: 15px;
     color: black;
     text-decoration: none;
 }
 
 #btnconnexion{
-    
-    width: 100px;
-    right: 130px;
+
     border-radius: 10px;
     color: whitesmoke;
-    margin-left: 105%;
-    display: flex;
 }
 
 #btnconnexion a{
-    margin-left: 15px;
     color: black;
     text-decoration: none;
 }
