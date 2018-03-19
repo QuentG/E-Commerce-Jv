@@ -24,13 +24,13 @@
         <a>GamingKeys@hotmail.fr</a>
         <address>
             12 allée des bergers <br/>
-            Quelquepart, FR </br>
+            Quelquepart, FR <br />
             1.800.555.6666
         </address>
     </div>
 
     <div class="container cta">
-        <h4>Tu veux des infos ? </br>
+        <h4>Tu veux des infos ? <br />
             Clique ici!</h4>
         <button onclick="window.open('mailto:quentin.gans@ynov.com');">Me contacter</button>
     </div>

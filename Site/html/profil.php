@@ -22,8 +22,11 @@ if(isset($_GET ['id']) AND $_GET ['id'] > 0 ) {
     <html>
     <head>
 
-        <title>Page de profil</title>
         <meta charset="utf-8">
+        <title> Page de profil </title>
+        <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+
 
     </head>
 
