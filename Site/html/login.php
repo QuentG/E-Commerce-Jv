@@ -34,7 +34,7 @@ if(isset($_POST["username"]) && isset($_POST["password"])){
         # Sinon nous signalons une erreur d'identifiant ou de mot de passe
         echo "login/password incorrect";
     }
-    header('Location: ./index.php');
+    header('Location: ./profil');
 }
 
 ?>
