@@ -38,6 +38,7 @@
 <div class="container">
     <!--nav bar-->
 
+
     <nav class="navbar navbar-inverse">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
@@ -57,6 +58,7 @@
                 <li class="dropdown">
                     <a data-toggle="dropdown" href="#">PC<b class="caret"></b></a>
                     <ul class="dropdown-menu jqueryFadeIn">
+                        <li><a href="../html/index.php">Accueil</a> </li>
                         <li><a href="../html/PC.php">Accueil PC</a></li>
                         <li><a href="../html/aventurePC.php">Aventure</a></li>
                         <li><a href="../html/actionPC.php">Action</a></li>
@@ -68,6 +70,7 @@
                 <li class="dropdown">
                     <a data-toggle="dropdown" href="#">PS4<b class="caret"></b></a>
                     <ul class="dropdown-menu jqueryFadeIn">
+                        <li><a href="../html/index.php">Accueil</a> </li>
                         <li><a href="../html/PS4.php">Accueil PS4</a></li>
                         <li><a href="../html/aventurePS4.php">Aventure</a></li>
                         <li><a href="../html/actionPS4.php">Action</a></li>
@@ -79,6 +82,7 @@
                 <li class="dropdown">
                     <a data-toggle="dropdown" href="#">XBOX ONE<b class="caret"></b></a>
                     <ul class="dropdown-menu jqueryFadeIn">
+                        <li><a href="../html/index.php">Accueil</a> </li>
                         <li><a href="../html/XboxONE.php">Accueil XBOX ONE</a></li>
                         <li><a href="../html/aventureXboxOne.php">Aventure</a></li>
                         <li><a href="../html/actionXboxOne.php">Action</a></li>
