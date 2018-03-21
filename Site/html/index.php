@@ -25,12 +25,7 @@ session_start();
 </head>
 
 <body>
-
-
-<div class="container">
     <!--nav bar-->
-
-
     <nav class="navbar navbar-inverse">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
@@ -84,7 +79,7 @@ session_start();
                 </li>
 
             </ul>
-            <img id="logo" src="../img/Logo.png" alt="image du logo du site"/>
+            <a href="../html/test.php" title="liens vers la page d'accueil"> <img id="logo" src="../img/Logo.png" alt="image du logo du site"/></a>
 
             <form class="navbar-form pull-right">
                 <input id="recherche" type="text" style="width:150px"  placeholder="Recherche">
@@ -99,7 +94,6 @@ session_start();
     </nav>
 
     <!--fin nav bar-->
-</div>
 
 <div class="jumbotron">
     <h1>GamingKeys !</h1>

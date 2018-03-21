@@ -19,16 +19,7 @@
 </head>
 
 <body>
-
-
-<div class="container">
-    <!--logo du site-->
-    <div>
-        <img id="logo" src="../img/Logo.png" alt="image du logo du site"/>
-    </div>
     <!--nav bar-->
-
-
     <nav class="navbar navbar-inverse">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
@@ -82,7 +73,7 @@
                 </li>
 
             </ul>
-            <img id="logo" src="../img/Logo.png" alt="image du logo du site"/>
+            <a href="../html/index.php" title="liens vers la page d'accueil"> <img id="logo" src="../img/Logo.png" alt="image du logo du site"/></a>
 
             <form class="navbar-form pull-right">
                 <input id="recherche" type="text" style="width:150px"  placeholder="Recherche">
@@ -95,7 +86,7 @@
             </form>
         </div>
     </nav>
-</div>
+
 <div class="jumbotron">
     <h1>GamingKeys !</h1>
     <p> Waw on va mettre du texte ça va être trop bien.</p>
