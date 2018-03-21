@@ -4,12 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< Updated upstream
-    <title>GamingKeys</title>
-    <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
-=======
     <title>xboxOne sport: GamingKeys</title>
->>>>>>> Stashed changes
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>

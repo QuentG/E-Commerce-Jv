@@ -162,7 +162,7 @@
             <img class="image1" src="../img/xboxOne/action/1330.jpg" alt="image du jeux The Division  sur Xbox ONE"/>
         </div>
         <div class="col-sm-3">
-            <img id="image1" src="../img/xboxOne/action/342.jpg" alt="image du jeux Titanfall sur Xbox ONE"/>
+            <img class="image1" src="../img/xboxOne/action/342.jpg" alt="image du jeux Titanfall sur Xbox ONE"/>
         </div>
         <div class="col-sm-3">
             <img class="image2" src="../img/xboxOne/action/1173.jpg" alt="image du jeux Tomb Raider Definitive Edition sur Xbox ONE"/>
