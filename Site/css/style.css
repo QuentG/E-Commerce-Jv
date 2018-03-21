@@ -160,25 +160,55 @@ ul{
 
 /*Debut du slide*/
 /*debut responsive du slider*/
-@media only screen and (max-width: 1450px){
-    .slideshow
+@media only screen and (max-width: 1160px){
+    .slideshow{
+        visibility: hidden;
+    }
+    #titre_slider{
+        visibility: hidden;
+    }
+    #fond{
+        display: none;
+    }
 }
+@media only screen and (min-width: 1160px){
+    .image_jeux1{
+        visibility: hidden;
+    }
+    .titre_slider1{
+        visibility: hidden;
+    }
+    #responsive{
+        display: none;
+    }
+}
+.titre_slider1{
+    text-align: center;
+}
+
+.image_jeux {
+    height: 500px;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.image_jeux li{
+    width: 100%;
+}
+
 /*fin responsive du slider*/
 #titre_slider{
 
     text-align: center;
-    color: black;
 
 }
 
 .slideshow {
-
     width: 1120px;
     height: 500px;
     overflow: hidden;
     border: 3px solid white;
     margin: auto;
-    margin-top: 40px;
 
 }
 
@@ -371,10 +401,10 @@ label{
     margin-bottom: 3%;
 }
 @media (min-width: 768px) {
-.col-sm-3{
-    display: flex;
+    .col-sm-3{
+        display: flex;
 
 
-    justify-content: center;}
+        justify-content: center;}
 
 }
