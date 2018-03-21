@@ -95,7 +95,7 @@
 <!--liste des jeux-->
 <div id="resp_1" class="row">
     <div class="col-sm-3">
-        <a href="arkPC.php"><img class="image" src="../img/pc/action/ARK_Survival_Evolved_Download_Cover_Free_Game.jpeg" alt="image du jeux Ark: Survival Evolved sur PC"/></a>
+        <a href="arkPC.php"><img class="img-responsive image" src="../img/pc/action/ARK_Survival_Evolved_Download_Cover_Free_Game.jpeg" alt="image du jeux Ark: Survival Evolved sur PC"/></a>
     </div>
     <div class="col-sm-3">
         <img class="img-responsive image" src="../img/pc/action/jaquette-batman-arkham-city-pc-cover-avant-g-1307626331.jpg" alt="image du jeux Batman: Arkham City GOTY sur PC"/>
