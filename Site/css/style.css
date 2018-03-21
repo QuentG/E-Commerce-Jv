@@ -160,8 +160,8 @@ ul{
 
 /*Debut du slide*/
 /*debut responsive du slider*/
-@media only screen and (max-width: ){
-
+@media only screen and (max-width: 1450px){
+    .slideshow
 }
 /*fin responsive du slider*/
 #titre_slider{
@@ -177,7 +177,7 @@ ul{
     height: 500px;
     overflow: hidden;
     border: 3px solid white;
-    margin-left: 15%;
+    margin: auto;
     margin-top: 40px;
 
 }
