@@ -160,7 +160,9 @@ ul{
 
 /*Debut du slide*/
 /*debut responsive du slider*/
+@media only screen and (max-width: ){
 
+}
 /*fin responsive du slider*/
 #titre_slider{
 

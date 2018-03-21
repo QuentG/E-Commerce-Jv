@@ -30,11 +30,14 @@
         margin-left: 10px;
     }
 }
-
+body { background: #221; }
+#slidy-container {
+    width: 70%; height: 600px; overflow: hidden; margin: 0 auto;
+}
 .slideshow {
 
     width: 1120px;
-    height: 500px;
+    height: 600px;
     overflow: hidden;
     border: 3px solid white;
     margin-left: 15%;
@@ -42,7 +45,7 @@
 
 }
 
-.slideshow ul {
+.slidy-container ul {
 
     /* 4 images donc 4 x 100% */
     width: 400%;
@@ -53,9 +56,15 @@
 
 }
 
-.slideshow li {
+.slidy-container li {
 
     float: left;
     margin-left: 10px;
+
+}
+.image_slider{
+
+    width: 5%;
+    height: 600px;
 
 }

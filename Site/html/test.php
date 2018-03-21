@@ -7,7 +7,7 @@
     <title>GamingKeys</title>
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/test.css"/>
     <script src="../bootstrap/js/bootstrap.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js%22%3E"></script>
@@ -94,10 +94,20 @@
 
     <div id="slidy-container">
         <figure id="slidy">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/eyes.jpg" alt="eyes" >
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/lou.jpg" alt="lou" >
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/lucie-2.jpg" alt="lucie-2" >
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/lucie.jpg" alt="lucie" >
+            <ul>
+            <!--top des jeux pc-->
+            <li><img class="image_slider" src="../img/pc/sport/91xtxVeMLHL._SL1500_.jpg" alt="image du jeux Fifa 18 sur PC"/></li>
+            <li><img class="image_slider" src="../img/pc/action/jaquette-grand-theft-auto-v-pc-cover-avant-g-1415122060.jpg" alt="image du jeux Grand Theft Auto V sur PC"/></li>
+            <li><img class="image_slider" src="../img/pc/action/9139QQmsbdL._SL1500.jpg" alt="image du jeux Star Wars Battlefront II sur PC"/></li>
+            <!--top des jeux PS4-->
+            <li><img class="image_slider" src="../img/ps4/action/cod-wwii-ps4-front-en_2000x.png" alt="image  du jeux Call of duty World War II sur PS4"/></li>
+            <li><img class="image_slider" src="../img/ps4/action/jaquette-grand-theft-auto-v-playstation-4-ps4-cover-avant-g-1415122088.jpg" alt="image  du jeux grand theft auto v sur PS4"/></li>
+            <li><img class="image_slider" src="../img/ps4/sport/166433-ps4-gtsport-standard.png" alt="image  du jeux gran turismo sport sur PS4"/></li>
+            <!--top des jeux Xbox ONE-->
+            <li><img class="image_slider" src="../img/xboxOne/action/2228.jpg" alt="image du jeux assassin creed origin sur Xbox One"/></li>
+            <li><img class="image_slider" src="../img/xboxOne/action/108668b.jpg" alt="image du jeux halo 5 sur Xbox One"/></li>
+            <li><img class="image_slider" src="../img/xboxOne/aventure/2227.jpg" alt="image du jeux la terre de milieu l'ombre de la guerre sur Xbox One"/></li>
+            </ul>
         </figure>
     </div>
 
@@ -144,12 +154,11 @@
             totalTime = (timeOnSlide + timeBetweenSlides) * (imgCount - 1), // calculate the total length of the animation by multiplying the number of _actual_ images by the amount of time for both static display of each image and motion between them
             slideRatio = (timeOnSlide / totalTime)*100, // determine the percentage of time an induvidual image is held static during the animation
             moveRatio = (timeBetweenSlides / totalTime)*100, // determine the percentage of time for an individual movement
-            basePercentage = 100/imgCount, // work out how wide each image should be in the slidy, as a percentage.
             position = 0, // set the initial position of the slidy element
             css = document.createElement("style"); // start marking a new style sheet
         css.type = "text/css";
         css.innerHTML += "#slidy { text-align: left; margin: 0; font-size: 0; position: relative; width: " + (imgCount * 100) + "%;  }\n"; // set the width for the slidy container
-        css.innerHTML += "#slidy img { float: left; width: " + basePercentage + "%; }\n";
+        css.innerHTML += "#slidy img { float: left;}\n";
         css.innerHTML += "@"+keyframeprefix+"keyframes slidy {\n";
         for (i=0;i<(imgCount-1); i++) { //
             position+= slideRatio; // make the keyframe the position of the image

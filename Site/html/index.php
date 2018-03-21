@@ -79,7 +79,7 @@ session_start();
                 </li>
 
             </ul>
-            <a href="../html/test.php" title="liens vers la page d'accueil"> <img id="logo" src="../img/Logo.png" alt="image du logo du site"/></a>
+            <a href="../html/index.php" title="liens vers la page d'accueil"> <img id="logo" src="../img/Logo.png" alt="image du logo du site"/></a>
 
             <form class="navbar-form pull-right">
                 <input id="recherche" type="text" style="width:150px"  placeholder="Recherche">
