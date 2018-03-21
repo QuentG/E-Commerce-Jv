@@ -102,7 +102,7 @@ session_start();
 <!--debut du reponsive à parir 1120px-->
 <div id="responsive">
     <div class="titre_slider1">
-        <h2>top 3 des ventes du moment sur PC</h2>
+        <h2>Top 3 des ventes du moment sur PC</h2>
     </div>
     <div class="image_jeux1">
         <!--top des jeux pc-->
@@ -113,7 +113,7 @@ session_start();
     </div>
 
     <div class="titre_slider1">
-        <h2>top 3 des ventes du moment sur PS4</h2>
+        <h2>Top 3 des ventes du moment sur PS4</h2>
     </div>
     <div class="image_jeux1">
         <!--top des jeux PS4-->
@@ -123,7 +123,7 @@ session_start();
     </div>
 
     <div class="titre_slider1">
-        <h2>top 3 des ventes du moment sur XBOX ONE</h2>
+        <h2>Top 3 des ventes du moment sur XBOX ONE</h2>
     </div>
     <div class="image_jeux1">
         <!--top des jeux Xbox ONE-->
