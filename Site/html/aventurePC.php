@@ -48,7 +48,7 @@
             <img class="img-responsive image1" src="../img/pc/aventure/91-DiF8H9tL._SL1500_.jpg" alt="image du jeux Fallout 4 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image" src="../img/pc/aventure/6e1cd1cee54368df1abc843a347a4346.jpg" alt="image du jeux Ghost Recon: Wildlands sur PC"/>
+            <img class="img-responsive image" src="../img/pc/aventure/1.jpg" alt="image du jeux Ghost Recon: Wildlands sur PC"/>
         </div>
         <div class="col-sm-3">
             <img class="img-responsive image1" src="../img/pc/aventure/jaquette-grand-theft-auto-v-pc-cover-avant-g-1415122060.jpg" alt="image du jeux Grand Theft Auto V sur PC"/>
