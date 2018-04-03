@@ -118,6 +118,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 <script type="text/javascript">
+
     /*début de la nav bar*/
     $(function() {
         // Affichage du sous menu en douceur
@@ -137,23 +138,8 @@
             })
         }, 3500);
     });
-    /*fin slider*/
-    // Effet Fondus
-    /* setInterval(Frames,50);
-     function Frames(){
-         var pos = $(".slideshow ul").find(":eq(3)").position();
-         pos.left = Math.abs(390-Math.abs(300-pos.left))/370;
-         console.log(pos.left);
-         $(".slideshow ul").find(":eq(6)").css("opacity",pos.left);
-     }; */
+
 
 </script>
 
 </html>
-
-<!-- <form method="post" action="">
-    <input type="text" name="pseudo" placeholder="pseudo"/>
-    <input type="password" name="password" placeholder="password"/>
-    <input type="mail" name="mail" placeholder="mail"/>
-    <button type="submit" name="envoyer">Envoyer</button>
-</form>
