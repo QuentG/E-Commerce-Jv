@@ -22,76 +22,76 @@
 <!--Liste des jeux-->
 <div id="resp_1" class="row">
     <div class="col-sm-3">
-        <img class="img-responsive image" src="../img/pc/combat/battlecry_9z68.jpg" alt="image du jeux Battlecry sur PC"/>
+        <img class="img-responsive image" src="../img/pc/combat/79.jpg" alt="image du jeux Battlecry sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/combat/original.png" alt="image du Brawlhalla sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/combat/86.jpg" alt="image du Brawlhalla sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/combat/SQ_NSwitchDS_Brawlout.jpg" alt="image du jeux Brawlout sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/combat/88.jpg" alt="image du jeux Brawlout sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/combat/jaquette-dead-or-alive-5-last-round-playstation-4-ps4-cover-avant-g-1415868672.jpg" alt="image du jeux Dead or Alive 5: Last Round sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/combat/82.jpg" alt="image du jeux Dead or Alive 5: Last Round sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image" src="../img/pc/combat/1085.jpg" alt="image du jeux Dead Star sur PC"/>
+        <img class="img-responsive image" src="../img/pc/combat/77.jpg" alt="image du jeux Dead Star sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/combat/08b01c4978e08b4735caa69214bc929b.jpg" alt="image du jeux Dragon Ball Xenoverse sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/combat/70.jpg" alt="image du jeux Dragon Ball Xenoverse 9 sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/combat/30b7443c3ed5b37d42e2328ad9eabf90.jpg" alt="image du jeux Dragon Ball FighterZ sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/combat/71.jpg" alt="image du jeux Dragon Ball FighterZ sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/combat/téléchargement.jpg" alt="image du jeux Dragon Ball Xenoverse 2 sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/combat/91.jpg" alt="image du jeux Dragon Ball Xenoverse 2 sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image" src="../img/pc/combat/PRECOMMANDE-Injustice-2-Mix-PC-Sortie-18-05-2017.jpg" alt="image du jeux Injustice II sur PC"/>
+        <img class="img-responsive image" src="../img/pc/combat/87.jpg" alt="image du jeux Injustice II sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/combat/91FWKB2a6NL._AC_SL1500_.jpg" alt="image du jeux Injustice: Gods Among Us Ultimate Edition sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/combat/73.jpg" alt="image du jeux Injustice: Gods Among Us Ultimate Edition sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/combat/633.jpg" alt="image du jeux Last Fight sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/combat/76.jpg" alt="image du jeux Last Fight sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/combat/81T9kE9xhPL._AC_SL1500_.jpg" alt="image du jeux lockon sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/combat/72.jpg" alt="image du jeux lockon sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image" src="../img/pc/combat/mok2pc0f.jpg" alt="image du jeux Mortal Kombat II sur PC"/>
+        <img class="img-responsive image" src="../img/pc/combat/85.jpg" alt="image du jeux Mortal Kombat II sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/combat/jaquette-mortal-kombat-x-pc-cover-avant-g-1401724587.jpg" alt="image du jeux Mortal Kombat X sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/combat/83.jpg" alt="image du jeux Mortal Kombat X sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/combat/marvel-vs-capcom-infinite-5055060972908_0.jpg" alt="image du jeux Marvel vs. Capcom: Infinite sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/combat/84.jpg" alt="image du jeux Marvel vs. Capcom: Infinite sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/combat/c06930f810081523e7af4edadd464c85.jpg" alt="image du jeux One Piece: Burning Blood sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/combat/80.jpg" alt="image du jeux One Piece: Burning Blood sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image" src="../img/pc/combat/téléchargement (2).jpg" alt="image du jeux Saint Seiya: Soldiers' Soul sur PC"/>
+        <img class="img-responsive image" src="../img/pc/combat/90.jpg" alt="image du jeux Saint Seiya: Soldiers' Soul sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/combat/1467358229-4937-jaquette-avant.jpg" alt="image du jeux Street Fighter V sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/combat/78.jpg" alt="image du jeux Street Fighter V sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/combat/319c2b7570d4621c20a0198040039bf8.jpg" alt="image du jeux Tekken 7 sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/combat/75.jpg" alt="image du jeux Tekken 7 sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/combat/THE-KING-OF-FIGHTERS-XIV-Free-Download.png" alt="image du jeux The King of Fighters XIV sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/combat/92.jpg" alt="image du jeux The King of Fighters XIV sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/combat/91R5IkToSPL._SL1500_.jpg" alt="image du jeux Ultra Street Fighter IV sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/combat/74.jpg" alt="image du jeux Ultra Street Fighter IV sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image2" src="../img/pc/combat/téléchargement (1).jpg" alt="image du jeux W2K16 sur PC"/>
+        <img class="img-responsive image2" src="../img/pc/combat/89.jpg" alt="image du jeux W2K16 sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image2" src="../img/pc/combat/images.jpg" alt="image du jeux W2K17 sur PC"/>
+        <img class="img-responsive image2" src="../img/pc/combat/81.jpg" alt="image du jeux W2K17 sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image2" src="../img/pc/combat/w4pN5Yy.jpg" alt="image du jeux W2K18 sur PC"/>
+        <img class="img-responsive image2" src="../img/pc/combat/93.jpg" alt="image du jeux W2K18 sur PC"/>
     </div>
 </div>
 
