@@ -9,7 +9,7 @@ try {
     die('Erreur : ' .$e->getMessage());
 }
 
-if(isset($_GET['id'])) {
+if(isset($_SESSION['id'])) {
 
     $requser = $bdd->prepare("SELECT * FROM membres WHERE id=  ?");
     $requser->execute(array($_SESSION['id']));
@@ -75,8 +75,8 @@ if(isset($_GET['id'])) {
             if(in_array($extensionsUpload, $extensionsValides))
             {
 
-              $chemin = "membres/avatars".$_SESSION['id'].".".$extensionsUpload;
-              $resultat = move_uploaded_files($_FILES['avatar']['tmp_name'], $chemin);
+              $chemin = "membres/avatars/".$_SESSION['id'].".".$extensionsUpload;
+              $resultat = move_uploaded_file($_FILES['avatar']['tmp_name'], $chemin);
 
 
               if($resultat)

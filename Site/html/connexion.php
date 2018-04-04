@@ -16,7 +16,7 @@ if(isset($_POST['formconnexion'])) {
 
     if(!empty($mailconnect) AND !empty($mdpconnect)) {
 
-        $requser = $bdd->prepare("SELECT * FROM membres WHERE mail = ? AND motdepasse = ?");
+        $requser = $bdd->prepare("SELECT * FROM membres WHERE mail = ? AND password = ?");
         $requser->execute(array($mailconnect, $mdpconnect));
         $userexist = $requser->rowCount();
 

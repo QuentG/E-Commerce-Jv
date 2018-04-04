@@ -5,6 +5,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+
 //Connexion à la base de données
 try {
     $bdd = new PDO('mysql:host=localhost;dbname=ecommerce_espace_membre', 'root', 'root');
@@ -13,17 +14,18 @@ try {
     die('Erreur : ' .$e->getMessage());
 }
 
-if (isset($_POST['forminscription']))
+if (isset($_POST))
 {
-    $pseudo = htmlspecialchars($_POST['pseudo']);
-    $mail = htmlspecialchars($_POST['mail']);
-    $mail2 = htmlspecialchars($_POST['mail2']);
-    $mdp = sha1($_POST['password']);
-    $mdp2 = sha1($_POST['password2']);
 
 
-    if(!empty($_POST['pseudo']) AND !empty($_POST['password']) AND !empty($_POST['password2']) AND !empty($_POST['mail']) AND !empty($_POST['mail2']))
+    if(isset($_POST['pseudo']) AND isset($_POST['password']) AND isset($_POST['password2']) AND isset($_POST['mail']) AND isset($_POST['mail2']))
     {
+        $pseudo = htmlspecialchars($_POST['pseudo']);
+        $mail = htmlspecialchars($_POST['mail']);
+        $mail2 = htmlspecialchars($_POST['mail2']);
+        $mdp = sha1($_POST['password']);
+        $mdp2 = sha1($_POST['password2']);
+
 
         $pseudolength = strlen($pseudo);
         if ($pseudolength <= 255)
@@ -37,7 +39,6 @@ if (isset($_POST['forminscription']))
                     $mailexist = $reqmail->rowCount();
                     if ($mailexist == 0)
                     {
-
                         if ($mdp == $mdp2)
                         {
                             $insertmember = $bdd->prepare("INSERT INTO membres(pseudo, mail, password, avatar) VALUES (?,?,?,?)");
@@ -111,15 +112,15 @@ if (isset($_POST['forminscription']))
 
     <h2 class="ash">Inscription</h2>
 
-    <form method="POST" action="inscription.php">
+    <form method="POST" action="">
         <label>Pseudo :</label>
         <input type="text" placeholder="Pseudo" id="pseudo" name="pseudo" required /> <br /> <br />
 
         <label>Mail :</label>
-        <input type="email" placeholder="Email" id="email" name="email" required /> <br /> <br />
+        <input type="email" placeholder="Email" id="email" name="mail" required /> <br /> <br />
 
         <label>Retapez l'email :</label>
-        <input type="email" placeholder="Email" id="email2" name="email2" required /> <br /> <br />
+        <input type="email" placeholder="Email" id="email2" name="mail2" required /> <br /> <br />
 
         <label>Mot de passe :</label>
         <input type="password" placeholder="Password" id="password" name="password" required /> <br /> <br />
