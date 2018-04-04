@@ -24,76 +24,76 @@
     <!--Liste des jeux-->
     <div id="resp_1" class="row">
         <div class="col-sm-3">
-            <img class="img-responsive image" src="../img/ps4/combat/dissidia-final-fantasy-nt-ps4-91ff35ff.jpg" alt="image du jeux dissidia final fantasy sur PS4"/>
+            <img class="img-responsive image" src="../img/ps4/combat/180.jpg" alt="image du jeux dissidia final fantasy sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/ps4/combat/1482919658-4617-jaquette-avant.jpg" alt="image du jeux dragon ball xenoverse XV sur PS4"/>
+            <img class="img-responsive image1" src="../img/ps4/combat/177.jpg" alt="image du jeux dragon ball xenoverse XV sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/ps4/combat/1467894445-1006-jaquette-avant.jpg" alt="image du jeux dragon ball xenoverse 2 sur PS4"/>
+            <img class="img-responsive image1" src="../img/ps4/combat/176.jpg" alt="image du jeux dragon ball xenoverse 2 sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/ps4/combat/dragon-ball-fighterz-jaqu-59ee5661989db.jpg" alt="image du jeux Dragon Ball FighterZ sur PS4"/>
+            <img class="img-responsive image1" src="../img/ps4/combat/181.jpg" alt="image du jeux Dragon Ball FighterZ sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image" src="../img/ps4/combat/71rKJrioelL._SL1000_.jpg" alt="image du jeux For Honor sur PS4"/>
+            <img class="img-responsive image" src="../img/ps4/combat/169.jpg" alt="image du jeux For Honor sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/ps4/combat/71rbvu3PyFL._SL1000_.jpg" alt="image du jeux Guilty Gear Xrd sur PS4"/>
+            <img class="img-responsive image1" src="../img/ps4/combat/168.jpg" alt="image du jeux Guilty Gear Xrd sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/ps4/combat/6552f044-cd69-4ea2-865b-90d476592792_1.322d7f28fb508756182a31a503634fd8.jpeg" alt="image du jeux injustice 2 sur PS4"/>
+            <img class="img-responsive image1" src="../img/ps4/combat/175.jpg" alt="image du jeux injustice 2 sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/ps4/combat/jaquette-injustice-les-dieux-sont-parmi-nous-playstation-4-ps4-cover-avant-g-1381156486.jpg" alt="image du jeux Injustice : Les Dieux sont Parmi Nous – Ultimate Edition sur PS4"/>
+            <img class="img-responsive image1" src="../img/ps4/combat/183.jpg" alt="image du jeux Injustice : Les Dieux sont Parmi Nous – Ultimate Edition sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image" src="../img/ps4/combat/81UOhMU7DbL._SL1476_.jpg" alt="image du jeux J-Stars Victory Vs sur PS4"/>
+            <img class="img-responsive image" src="../img/ps4/combat/173.jpg" alt="image du jeux J-Stars Victory Vs + sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/ps4/combat/marvel-vs-capcom-infinite-5979ec7b8798e.jpg" alt="image du jeux marvel vs capcom infinite sur PS4"/>
+            <img class="img-responsive image1" src="../img/ps4/combat/186.jpg" alt="image du jeux marvel vs capcom infinite sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/ps4/combat/Mortal_Kombat_XL_ps4_cover.jpg" alt="image du jeux mortal kombat XL sur PS4"/>
+            <img class="img-responsive image1" src="../img/ps4/combat/187.jpg" alt="image du jeux mortal kombat XL sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/ps4/combat/jaquette-mortal-kombat-x-playstation-4-ps4-cover-avant-g-1401724529.jpg" alt="image du jeux mortal kombat X sur PS4"/>
+            <img class="img-responsive image1" src="../img/ps4/combat/184.jpg" alt="image du jeux mortal kombat X sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image" src="../img/ps4/combat/71o0aLz6T0L._SL1000_.jpg" alt="image du jeux naruto ultimate ninja storm 4 sur PS4"/>
+            <img class="img-responsive image" src="../img/ps4/combat/167.jpg" alt="image du jeux naruto ultimate ninja storm 4 sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/ps4/combat/naruto-to-boruto-shinob-58eb512fa27b8.jpg" alt="image du jeux Naruto to Boruto: Shinobi Striker sur PS4"/>
+            <img class="img-responsive image1" src="../img/ps4/combat/188.jpg" alt="image du jeux Naruto to Boruto: Shinobi Striker sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/ps4/combat/816OKXL75KL._SL1000_.jpg" alt="image du jeux Street Saint Seiya: Soldiers' Soul sur PS4"/>
+            <img class="img-responsive image1" src="../img/ps4/combat/174.jpg" alt="image du jeux Street Saint Seiya: Soldiers' Soul sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/ps4/combat/71Zpv18Lf3L._SL1000_.jpg" alt="image du jeux Street Fighter V sur PS4"/>
+            <img class="img-responsive image1" src="../img/ps4/combat/170.jpg" alt="image du jeux Street Fighter V sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image" src="../img/ps4/combat/KOF-XIV.png" alt="image du jeux The King of Fighters XIV sur PS4"/>
+            <img class="img-responsive image" src="../img/ps4/combat/185.jpg" alt="image du jeux The King of Fighters XIV sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/ps4/combat/81HNE-+Y6WL._SL1500_.jpg" alt="image du jeu takken7"/>
+            <img class="img-responsive image1" src="../img/ps4/combat/171.jpg" alt="image du jeu tekken7"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/ps4/combat/undernight-inbirthx1024.jpg" alt="image du jeux Under Night In-Birth sur PS4"/>
+            <img class="img-responsive image1" src="../img/ps4/combat/189.jpg" alt="image du jeux Under Night In-Birth sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/ps4/combat/71i634KZ0+L._SL1000_.jpg" alt="image du jeux ufc 2 sur PS4"/>
+            <img class="img-responsive image1" src="../img/ps4/combat/166.jpg" alt="image du jeux ufc 2 sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/ps4/combat/jaquette-ea-sports-ufc-playstation-4-ps4-cover-avant-g-1402929478.jpg" alt="image du jeux ufc sur PS4"/>
+            <img class="img-responsive image1" src="../img/ps4/combat/182.jpg" alt="image du jeux ufc sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image2" src="../img/ps4/combat/capcom-ultimate-marvel-vs-capcom-3-sony-ps4-impor.jpg" alt="image du jeux Ultimate Marvel vs. Capcom 3 sur PS4"/>
+            <img class="img-responsive image2" src="../img/ps4/combat/179.jpg" alt="image du jeux Ultimate Marvel vs. Capcom 3 sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image2" src="../img/ps4/combat/1505306395-6137-jaquette-avant.jpg" alt="image du jeux w2018 sur PS4"/>
+            <img class="img-responsive image2" src="../img/ps4/combat/178.jpg" alt="image du jeux w2018 sur PS4"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image2" src="../img/ps4/combat/81jIbx1wuyL._SL1500_.jpg" alt="image du jeux w2016 sur PS4"/>
+            <img class="img-responsive image2" src="../img/ps4/combat/172.jpg" alt="image du jeux w2016 sur PS4"/>
         </div>
 
     </div>
