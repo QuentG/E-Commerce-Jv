@@ -186,12 +186,16 @@ ul{
 .titre_slider1{
     text-align: center;
 }
-
++
 .image_jeux {
     height: 500px;
     width: 30%;
     margin-bottom: 5%;
     margin-top: 5%;
+<<<<<<< HEAD
+    width: 30%;
+    margin-left: 2%;
+=======
     margin-left: 2%;
 }
 
@@ -215,6 +219,7 @@ ul{
     .titre_slider1 h2{
         font-size: 25px;
     }
+>>>>>>> master
 }
 .image_jeux li{
     width: 100%;

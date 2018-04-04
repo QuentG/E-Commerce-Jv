@@ -24,7 +24,7 @@
     <!--Liste des jeux-->
     <div id="resp_1" class="row">
         <div class="col-sm-3">
-            <img class="img-responsive image" src="../img/pc/aventure/ARK_Survival_Evolved_Download_Cover_Free_Game.jpeg" alt="image du jeux Ark: Survival Evolved sur PC"/>
+            <img class="img-responsive image" src="../img/pc/aventure/42.jpeg" alt="image du jeux Ark: Survival Evolved sur PC"/>
         </div>
         <div class="col-sm-3">
             <img class="img-responsive image1" src="../img/pc/aventure/jaquette-batman-arkham-city-pc-cover-avant-g-1307626331.jpg" alt="image du jeux Batman: Arkham City GOTY sur PC"/>
