@@ -23,7 +23,7 @@ if(isset($_SESSION['id'])) {
       $insertpseudo = $bdd->prepare("UPDATE membres SET pseudo = ? WHERE id = ?");
       $insertpseudo->execute(array($newpseudo,  $_SESSION['id']));
 
-      header('Location : profil.php?id='.$_SESSION['id']);
+      header('Location:profil.php?id='.$_SESSION['id']);
     }
 
         // MAIL
@@ -34,7 +34,7 @@ if(isset($_SESSION['id'])) {
       $insertmail = $bdd->prepare("UPDATE membres SET mail = ? WHERE id = ?");
       $insertmail->execute(array($newmail,  $_SESSION['id']));
 
-      header('Location : profil.php?id='.$_SESSION['id']);
+      header('Location:profil.php?id='.$_SESSION['id']);
     }
 
         // MOT DE PASSE
@@ -50,7 +50,7 @@ if(isset($_SESSION['id'])) {
         $insertmdp = $bdd->prepare("UPDATE membres SET motdepasse = ? WHERE id = ?");
         $insertmdp->execute(array($mdp1, $_SESSION['id']));
 
-        header('Location : profil.php?id='.$_SESSION['id']);
+        header('Location:profil.php?id='.$_SESSION['id']);
       }
       else
       {
@@ -60,7 +60,7 @@ if(isset($_SESSION['id'])) {
 
         // AVATAR
 
-      if(isset($_FILES['avatar']) AND !empty($_FILES['avatar']['name']));
+      if(isset($_FILES['avatar']) AND !empty($_FILES['avatar']['name']))
       {
           $tailleMax = 2097152;
           $extensionsValides = array('jpg', 'jpeg', 'gif', 'png');
@@ -88,7 +88,7 @@ if(isset($_SESSION['id'])) {
                   'id' => $_SESSION['id']
                 ));
 
-                header('Location : profil.php?id='.$_SESSION['id']);
+                header('Location:profil.php?id='.$_SESSION['id']);
 
               }
               else
@@ -111,7 +111,7 @@ if(isset($_SESSION['id'])) {
 
     <?php
 
-      include('./header.php')
+      include('./header.php');
     ?>
 
     <!DOCTYPE html>
@@ -131,7 +131,7 @@ if(isset($_SESSION['id'])) {
     <div align="center">
 
         <h2> Edition de mon profil</h2>
-        <div align="left">
+        <div align="center">
         <form method="post" action="" enctype="multipart/form-data">
 
           <label> Pseudo : </label>
@@ -176,5 +176,9 @@ if(isset($_SESSION['id'])) {
 
     <?php
          }
-         else header("Location: connexion.php");
+         else header('Location:connexion.php');
     ?>
+
+
+
+
