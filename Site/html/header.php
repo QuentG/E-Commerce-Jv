@@ -34,7 +34,7 @@
     <div class="collapse navbar-collapse" id="main-menu" style="margin-bottom: 0px;">
         <ul class="nav navbar-nav">
             <li class="dropdown">
-                <a data-toggle="dropdown" href="../html/index.php">Accueil<b></b></a>
+                <a href="../html/index.php">Accueil<b></b></a>
             </li>
             <li class="dropdown">
                 <a data-toggle="dropdown" href="#">PC<b class="caret"></b></a>
