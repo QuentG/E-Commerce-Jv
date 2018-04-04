@@ -82,7 +82,7 @@
 
         <form class="navbar-form pull-right">
             <button id="btninsciption" type="button"> <a href="./inscription.php">Inscription </a></button>
-            <button id="btnconnexion" type="button"> <a href="./inscription.php"> Connexion </a> </button>
+            <button id="btnconnexion" type="button"> <a href="./connexion.php"> Connexion </a> </button>
         </form>
     </div>
 </nav>
