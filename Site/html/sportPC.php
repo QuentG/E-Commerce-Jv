@@ -24,76 +24,76 @@
     <!--Liste des jeux-->
     <div id="resp_1" class="row">
         <div class="col-sm-3">
-            <img class="img-responsive image" src="../img/pc/sport/téléchargement (6).jpg" alt="image du jeux Blood Bowl 3 sur PC"/>
+            <img class="img-responsive image" src="../img/pc/sport/110.jpg" alt="image du jeux Blood Bowl 3 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/pc/sport/mAbyR.jpg" alt="image du jeux Dirt 3 sur PC"/>
+            <img class="img-responsive image1" src="../img/pc/sport/99.jpg" alt="image du jeux Dirt 3 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/pc/sport/téléchargement (4).jpg" alt="image du jeux Dirt showdown sur PC"/>
+            <img class="img-responsive image1" src="../img/pc/sport/108.jpg" alt="image du jeux Dirt showdown sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/pc/sport/zc.jpg" alt="image du jeux Fast and furious showdown sur PC"/>
+            <img class="img-responsive image1" src="../img/pc/sport/117.jpg" alt="image du jeux Fast and furious showdown sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image" src="../img/pc/sport/91xtxVeMLHL._SL1500_.jpg" alt="image du jeux Fifa 2018 sur PC"/>
+            <img class="img-responsive image" src="../img/pc/sport/94.jpg" alt="image du jeux Fifa 2018 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/pc/sport/téléchargement (10).jpg" alt="image du jeux Fifa 2017 sur PC"/>
+            <img class="img-responsive image1" src="../img/pc/sport/114.jpg" alt="image du jeux Fifa 2017 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/pc/sport/téléchargement (3).jpg" alt="image du jeux Football manager 2018 sur PC"/>
+            <img class="img-responsive image1" src="../img/pc/sport/107.jpg" alt="image du jeux Football manager 2018 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/pc/sport/téléchargement (2).jpg" alt="image du jeux Football manager 2017 sur PC"/>
+            <img class="img-responsive image1" src="../img/pc/sport/106.jpg" alt="image du jeux Football manager 2017 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image" src="../img/pc/sport/1505823372-3407-jaquette-avant.jpg" alt="image du jeux Formule 1 2017 sur PC"/>
+            <img class="img-responsive image" src="../img/pc/sport/96.jpg" alt="image du jeux Formule 1 2017 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/pc/sport/jaquette-f1-2014-pc-cover-avant-g-1413447548.jpg" alt="image du jeux Formaule 1 2014 sur PC"/>
+            <img class="img-responsive image1" src="../img/pc/sport/97.jpg" alt="image du jeux Formaule 1 2014 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/pc/sport/téléchargement.jpg" alt="image du jeux Grid autosport sur PC"/>
+            <img class="img-responsive image1" src="../img/pc/sport/116.jpg" alt="image du jeux Grid autosport sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/pc/sport/téléchargement (1).jpg" alt="image du jeux Grid 2 limited edition sur PC"/>
+            <img class="img-responsive image1" src="../img/pc/sport/105.jpg" alt="image du jeux Grid 2 limited edition sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image" src="../img/pc/sport/MotoGP 17 - Capa Game PC.jpg" alt="image du jeux Moto GP 17 sur PC"/>
+            <img class="img-responsive image" src="../img/pc/sport/100.jpg" alt="image du jeux Moto GP 17 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/pc/sport/motogp13_pc.jpg" alt="image du jeux Moto GP 13 sur PC"/>
+            <img class="img-responsive image1" src="../img/pc/sport/101.jpg" alt="image du jeux Moto GP 13 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/pc/sport/nascar-14-jaquette-52d01b8a9aa57.jpg" alt="image du jeux Nascar 14 sur PC"/>
+            <img class="img-responsive image1" src="../img/pc/sport/102.jpg" alt="image du jeux Nascar 14 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/pc/sport/nba-2k18-artwork-59b434e3a8254.jpg" alt="image du jeux Nba 2018 sur PC"/>
+            <img class="img-responsive image1" src="../img/pc/sport/103.jpg" alt="image du jeux Nba 2018 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image" src="../img/pc/sport/téléchargement (9).jpg" alt="image du jeux Nba 2017 sur PC"/>
+            <img class="img-responsive image" src="../img/pc/sport/113.jpg" alt="image du jeux Nba 2017 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/pc/sport/téléchargement (5).jpg" alt="image du jeux PES 2017 sur PC"/>
+            <img class="img-responsive image1" src="../img/pc/sport/109.jpg" alt="image du jeux PES 2017 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/pc/sport/jaquette-pro-evolution-soccer-2015-pc-cover-avant-g-1415380248.jpg" alt="image du jeux PES 2015 sur PC"/>
+            <img class="img-responsive image1" src="../img/pc/sport/98.jpg" alt="image du jeux PES 2015 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/pc/sport/téléchargement (7).jpg" alt="image du jeux Pro Cycling Manager 2017 sur PC"/>
+            <img class="img-responsive image1" src="../img/pc/sport/111.jpg" alt="image du jeux Pro Cycling Manager 2017 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image1" src="../img/pc/sport/téléchargement (8).jpg" alt="image du jeux Pro Cycling Manager 2014 sur PC"/>
+            <img class="img-responsive image1" src="../img/pc/sport/112.jpg" alt="image du jeux Pro Cycling Manager 2014 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image2" src="../img/pc/sport/rugby-18-3499550359190_0.jpg" alt="image du jeux Rugby 2018 sur PC"/>
+            <img class="img-responsive image2" src="../img/pc/sport/104.jpg" alt="image du jeux Rugby 2018 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image2" src="../img/pc/sport/2702881-8629818250-91lRW.jpg" alt="image du jeux Rugby 2015 sur PC"/>
+            <img class="img-responsive image2" src="../img/pc/sport/95.jpg" alt="image du jeux Rugby 2015 sur PC"/>
         </div>
         <div class="col-sm-3">
-            <img class="img-responsive image2" src="../img/pc/sport/téléchargement (11).jpg" alt="image du jeux Steep sur PC"/>
+            <img class="img-responsive image2" src="../img/pc/sport/115.jpg" alt="image du jeux Steep sur PC"/>
         </div>
     </div>
 

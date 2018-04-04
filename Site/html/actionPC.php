@@ -25,7 +25,7 @@ include('./header.php');
 <!--liste des jeux-->
 <div id="resp_1" class="row">
     <div class="col-sm-3">
-        <a href="arkPC.php"><img class="img-responsive image" src="../img/pc/action/42.jpeg" alt="image du jeux Ark: Survival Evolved sur PC"/></a>
+        <a href="arkPC.php"><img class="img-responsive image" src="../img/pc/action/42.jpg" alt="image du jeux Ark: Survival Evolved sur PC"/></a>
     </div>
     <div class="col-sm-3">
         <img class="img-responsive image" src="../img/pc/action/51.jpg" alt="image du jeux Batman: Arkham City GOTY sur PC"/>
@@ -37,7 +37,7 @@ include('./header.php');
         <img class="img-responsive image1" src="../img/pc/action/50.jpg" alt="image du jeux bayonetta sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image1" src="../img/pc/action/40.png" alt="image du jeux Darksiders Warmastered Edition sur PC"/>
+        <img class="img-responsive image1" src="../img/pc/action/40.jpg" alt="image du jeux Darksiders Warmastered Edition sur PC"/>
     </div>
     <div class="col-sm-3">
         <img class="img-responsive image" src="../img/pc/action/52.jpg" alt="image du jeux Dead or Alive 5: Last Round sur PC"/>
@@ -64,7 +64,7 @@ include('./header.php');
         <img class="img-responsive image1" src="../img/pc/action/30.jpg" alt="image du jeux Fallout 4 sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image" src="../img/pc/action/44.jpeg" alt="image du jeux Farcry Primal sur PC"/>
+        <img class="img-responsive image" src="../img/pc/action/44.jpg" alt="image du jeux Farcry Primal sur PC"/>
     </div>
     <div class="col-sm-3">
         <img class="img-responsive image1" src="../img/pc/action/49.jpg" alt="image du jeux Fortnite Deluxe Edition sur PC"/>
@@ -151,7 +151,7 @@ include('./header.php');
         <img class="img-responsive image2" src="../img/pc/action/38.jpg" alt="image du jeux Ultra Street Fighter IV sur PC"/>
     </div>
     <div class="col-sm-3">
-        <img class="img-responsive image2" src="../img/pc/action/41.png" alt="image du jeux vanquish sur PC"/>
+        <img class="img-responsive image2" src="../img/pc/action/41.jpg" alt="image du jeux vanquish sur PC"/>
     </div>
     <div class="col-sm-3">
         <img class="img-responsive image2" src="../img/pc/action/64.jpg" alt="image du jeux watch dogs 2 sur PC"/>
