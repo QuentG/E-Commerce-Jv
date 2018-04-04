@@ -130,7 +130,7 @@ session_start();
         <img class="image_jeux" src="../img/xboxOne/action/2228.jpg" alt="image du jeux assassin creed origin sur Xbox One"/>
         <img class="image_jeux" src="../img/xboxOne/action/108668b.jpg" alt="image du jeux halo 5 sur Xbox One"/>
         <img class="image_jeux" src="../img/xboxOne/aventure/2227.jpg" alt="image du jeux la terre de milieu l'ombre de la guerre sur Xbox One"/>
-    </div>
+        </div>
 </div>
 <!--fin du reponsive à parir 1120px-->
 
