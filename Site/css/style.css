@@ -186,15 +186,15 @@ ul{
 .titre_slider1{
     text-align: center;
 }
-+
+
+
 .image_jeux {
     height: 500px;
     width: 30%;
     margin-bottom: 5%;
     margin-top: 5%;
-    width: 30%;
     margin-left: 2%;
-    margin-left: 2%;
+
 }
 
 @media only screen and (max-width: 800px){
@@ -465,3 +465,8 @@ label{
 /*animation bouton*/
 #connect:hover {background-color: #EE7410}
 /*fin pae de connexion*/
+
+.game_title{
+
+
+}
