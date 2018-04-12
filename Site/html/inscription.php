@@ -103,7 +103,6 @@ if (isset($_POST['forminscription']))
 <body>
 
 
-
 <div>
 
     <div align="center">
@@ -168,14 +167,8 @@ if (isset($_POST['forminscription']))
   </form>
 
 
-<<<<<<< Updated upstream
-        <label>Retapez le mot de passe :</label>
-        <input type="password" placeholder="Password" id="password2" name="password2" required /> <br /> <br />
-
-        <input type="submit" id="inscription"/>
-=======
     <p>Déjà membre ? <a href="connexion.php">Connectez-vous !</a></p>
->>>>>>> Stashed changes
+
 
     <?php
     if (isset($erreur)) {
