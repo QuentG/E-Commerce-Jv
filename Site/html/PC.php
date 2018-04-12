@@ -25,27 +25,31 @@
     <div class="slideshow">
         <ul>
             <!--top des jeux pc-->
-            <li><img class="image_slider" src="../img/pc/sport/91xtxVeMLHL._SL1500_.jpg" alt="image du jeux Fifa 18 sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/action/6e1cd1cee54368df1abc843a347a4346.jpg" alt="image du jeux Ghost Recon: Wildlands sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/action/9139QQmsbdL._SL1500.jpg" alt="image du jeux Star Wars Battlefront II sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/action/1496311184-9714-jaquette-avant.png" alt="image du jeux Vanquish sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/action/810i1JU82-L._SL1500_.jpg" alt="image du jeux Rocket league sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/action/PRECOMMANDE-Injustice-2-Mix-PC-Sortie-18-05-2017.jpg" alt="image du jeux Injustice II sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/aventure/jaquette-grand-theft-auto-v-pc-cover-avant-g-1415122060.jpg" alt="image du jeux Grand Theft Auto V sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/action/Dishonored_2.jpg" alt="image du jeux Dishonored 2"/></li>
-            <li><img class="image_slider" src="../img/pc/action/fhmw07hz085z.jpg" alt="image du jeux Playerunknown's Battlegrounds sur PC"/></li>
-            <li><img class="image_slider" src="../img/pc/aventure/item_1834769_135.jpg" alt="image du jeux bayonetta sur PC"/></li>
+            <li><img class="image_slider" src="../img/91xtxVeMLHL._SL1500_.jpg" alt="image du jeux Fifa 18 sur PC"/></li>
+            <li><img class="image_slider" src="../img/6e1cd1cee54368df1abc843a347a4346.jpg" alt="image du jeux Ghost Recon: Wildlands sur PC"/></li>
+            <li><img class="image_slider" src="../img/9139QQmsbdL._SL1500.jpg" alt="image du jeux Star Wars Battlefront II sur PC"/></li>
+            <li><img class="image_slider" src="../img/1496311184-9714-jaquette-avant.png" alt="image du jeux Vanquish sur PC"/></li>
+            <li><img class="image_slider" src="../img/810i1JU82-L._SL1500_.jpg" alt="image du jeux Rocket league sur PC"/></li>
+            <li><img class="image_slider" src="../img/PRECOMMANDE-Injustice-2-Mix-PC-Sortie-18-05-2017.jpg" alt="image du jeux Injustice II sur PC"/></li>
+            <li><img class="image_slider" src="../img/jaquette-grand-theft-auto-v-pc-cover-avant-g-1415122060.jpg" alt="image du jeux Grand Theft Auto V sur PC"/></li>
+            <li><img class="image_slider" src="../img/Dishonored_2.jpg" alt="image du jeux Dishonored 2"/></li>
+            <li><img class="image_slider" src="../img/fhmw07hz085z.jpg" alt="image du jeux Playerunknown's Battlegrounds sur PC"/></li>
+            <li><img class="image_slider" src="../img/item_1834769_135.jpg" alt="image du jeux bayonetta sur PC"/></li>
         </ul>
     </div>
 </div>
+
+
 <?php include('footer.php'); ?>
 
 
 </body>
+
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 <script type="text/javascript">
+
     /*début de la nav bar*/
     $(function() {
         // Affichage du sous menu en douceur
