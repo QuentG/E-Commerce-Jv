@@ -465,3 +465,18 @@ label{
 /*animation bouton*/
 #connect:hover {background-color: #EE7410}
 /*fin pae de connexion*/
+
+/*Page d'inscription*/
+#inscription{
+    margin-bottom: 4.5%;
+    font-size: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    width: 12%;
+    border: none;
+    color: white;
+}
+
+/*animation bouton*/
+#inscription:hover {background-color: #EE7410}
+

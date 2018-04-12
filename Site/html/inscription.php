@@ -108,7 +108,11 @@ if (isset($_POST))
 
 <body>
 
-<div id="inscription">
+
+
+<div>
+
+    <div align="center">
 
     <h2 class="ash">Inscription</h2>
 
@@ -128,7 +132,7 @@ if (isset($_POST))
         <label>Retapez le mot de passe :</label>
         <input type="password" placeholder="Password" id="password2" name="password2" required /> <br /> <br />
 
-        <input type="submit" />
+        <input type="submit" id="inscription"/>
 
     </form>
 
