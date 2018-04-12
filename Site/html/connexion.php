@@ -41,7 +41,7 @@ if(isset($_POST['formconnexion'])) {
 
 <?php
 
-  include('./header.php');
+include('./header.php');
 ?>
 
 <!DOCTYPE html>
@@ -57,22 +57,24 @@ if(isset($_POST['formconnexion'])) {
 </head>
 <body>
 
-<div align="center">
+<div align="center" id="tous_connection">
 
-    <h2>Connexion</h2>
+    <h2 id="co">Connexion</h2>
 
-    <br /> <br />
+
 
     <form method="POST" action="">
-
-        <input type="email" name="mailconnect" placeholder="Mail" />
-
-        <input type="password" name="mdpconnect" placeholder="Mot de passe" />
-
-        <br /> <br />
-
-        <input type="submit" name="formconnexion" value="Se connecter !" id="connect"/>
-
+        <div>
+            <div>
+                <input type="email" name="mailconnect" placeholder="Mail" class="mail_pwd"/>
+            </div>
+            <div>
+                <input type="password" name="mdpconnect" placeholder="Mot de passe"  class="mail_pwd"/>
+            </div>
+        </div>
+        <div>
+            <input type="submit" name="formconnexion" value="Se connecter !" id="connect"/>
+        </div>
     </form>
 
     <?php
@@ -87,7 +89,7 @@ if(isset($_POST['formconnexion'])) {
 
 </div>
 
-    <?php include('footer.php'); ?>
+<?php include('footer.php'); ?>
 
 </body>
 
