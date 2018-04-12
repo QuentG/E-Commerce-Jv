@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+<<<<<<< Updated upstream
 //Connexion à la base de données
 try {
     $bdd = new PDO('mysql:host=localhost;dbname=ecommerce_espace_membre', 'root', '');
@@ -8,6 +9,9 @@ try {
 } catch (Exception $e) {
     die('Erreur : ' .$e->getMessage());
 }
+=======
+include ('./dbconnect.php');
+>>>>>>> Stashed changes
 
 // SELECT JEUX PAR L'ID
 
@@ -64,6 +68,7 @@ if(isset($_GET['jeu'])) {
         <div class="col-sm-6">
             <h1><?= $jeu['nom']?></h1>
             <p><?= $jeu['description']?></p>
+            <p><?= $jeu['prix']?></p>
 
         </div>
     </div>

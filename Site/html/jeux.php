@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+<<<<<<< Updated upstream
 //Connexion à la base de données
 try {
     $bdd = new PDO('mysql:host=localhost;dbname=ecommerce_espace_membre', 'root', '');
@@ -9,6 +10,9 @@ try {
     die('Erreur : ' .$e->getMessage());
 }
 
+=======
+include ('./dbconnect.php');
+>>>>>>> Stashed changes
 
 $req = $bdd->prepare("SELECT * FROM jeux");
 $req->execute();

@@ -6,15 +6,9 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 
-//Connexion à la base de données
-try {
-    $bdd = new PDO('mysql:host=localhost;dbname=ecommerce_espace_membre', 'root', '');
+include ('./dbconnect.php');
 
-} catch (Exception $e) {
-    die('Erreur : ' .$e->getMessage());
-}
-
-if (isset($_POST))
+if (isset($_POST['forminscription']))
 {
 
 
@@ -114,29 +108,81 @@ if (isset($_POST))
 
     <div align="center">
 
-    <h2 class="ash">Inscription</h2>
+  <form method="POST" action="">
 
-    <form method="POST" action="">
-        <label>Pseudo :</label>
-        <input type="text" placeholder="Pseudo" id="pseudo" name="pseudo" required /> <br /> <br />
+    <table id="formulaire">
+      <tr>
 
-        <label>Mail :</label>
-        <input type="email" placeholder="Email" id="email" name="mail" required /> <br /> <br />
+          <td align="center">
+            <label for="nom">Nom:</label>
+          </td>
+          <td>
+            <input type="text" placeholder="Votre Pseudo" id="pseudo" name="pseudo" value="<?php if (isset($pseudo)) { echo  $pseudo;  } ?>"/>
+          </td>
+      </tr>
+      <tr>
 
-        <label>Retapez l'email :</label>
-        <input type="email" placeholder="Email" id="email2" name="mail2" required /> <br /> <br />
+          <td align="center">
+            <label for ="mail">Mail:</label>
+          </td>
+          <td>
+            <input type="email" placeholder="Votre email" id="mail" name="mail" value="<?php if (isset($mail)) { echo  $mail;  } ?>"/>
+          </td>
+      </tr>
+      <tr>
 
-        <label>Mot de passe :</label>
-        <input type="password" placeholder="Password" id="password" name="password" required /> <br /> <br />
+          <td align="center">
+            <label for="mail2">Confirmation du mail:</label>
+          </td>
+          <td>
+            <input type="email" placeholder="Confirmation de l'email" id="mail2" name="mail2" value="<?php if (isset($mail2)) { echo  $mail2;  } ?>"/>
+          </td>
+      </tr>
+      <tr>
 
+          <td align="center">
+            <label for="password">Mot de passe:</label>
+          </td>
+          <td>
+            <input type="password" placeholder="Votre mot de passe" id="password" name="password"/>
+          </td>
+      </tr>
+      <tr>
+
+          <td align="center">
+            <label for="password2">Confirmation mot de passe:</label>
+          </td>
+          <td>
+            <input type="password" placeholder="Confirmation de votre mot de passe" id="password2" name="password2"/>
+          </td>
+      </tr>
+      <tr>
+
+        <td>
+          <input type="submit" name="forminscription" value="S'inscrire"/>
+        </td>
+      </tr>
+
+    </table>
+
+  </form>
+
+
+<<<<<<< Updated upstream
         <label>Retapez le mot de passe :</label>
         <input type="password" placeholder="Password" id="password2" name="password2" required /> <br /> <br />
 
         <input type="submit" id="inscription"/>
-
-    </form>
-
+=======
     <p>Déjà membre ? <a href="connexion.php">Connectez-vous !</a></p>
+>>>>>>> Stashed changes
+
+    <?php
+    if (isset($erreur)) {
+        echo '<span style="color:red">'.$erreur.'</span>';
+    }
+
+    ?>
 
   </div>
 
