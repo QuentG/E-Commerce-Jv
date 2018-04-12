@@ -3,7 +3,7 @@ session_start();
 
 //Connexion à la base de données
 try {
-    $bdd = new PDO('mysql:host=localhost;dbname=ecommerce_espace_membre', 'root', '');
+    $bdd = new PDO('mysql:host=localhost;dbname=ecommerce_espace_membre', 'root', 'root');
 
 } catch (Exception $e) {
     die('Erreur : ' .$e->getMessage());
@@ -52,7 +52,7 @@ include('./header.php');
     <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
-    <title>GamingKeys - Connexion </title>
+    <title> GamingKeys - Connexion </title>
 
 </head>
 <body>
@@ -81,7 +81,7 @@ include('./header.php');
 
     if(isset($erreur)) {
 
-        echo '<font color="red">'.$erreur."</font>";
+        echo '<font>'.$erreur."</font>";
 
     }
     ?>

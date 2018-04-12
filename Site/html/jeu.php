@@ -18,14 +18,12 @@ if(isset($_GET['jeu'])) {
     if(!empty($jeu)) {
 
         $req = $bdd->prepare("SELECT * FROM jeux WHERE id = ?");
-
         $req->execute(array($jeu));
         $exist = $req->rowCount();
 
         if($exist == 1) {
 
             $jeu = $req->fetch();
-
         }
     }
 }
@@ -61,10 +59,12 @@ if(isset($_GET['jeu'])) {
 
     <div id="resp_1" class="row">
         <div class="col-sm-6">
-            <img class="img-responsive image" src="../img/pc/aventure/<?= $jeu['id']?>.jpg"/>
-            <img class="img-responsive image" src="../img/pc/action/<?= $jeu['id']?>.jpg"/>
-            <img class="img-responsive image" src="../img/pc/combat/<?= $jeu['id']?>.jpg"/>
-            <img class="img-responsive image" src="../img/pc/sport/<?= $jeu['id']?>.jpg"/>
+            <img class="img-responsive image" src="../img/<?= $jeu['id']?>.jpg"/>
+        </div>
+        <div class="col-sm-6">
+            <h1><?= $jeu['nom']?></h1>
+            <p><?= $jeu['description']?></p>
+
         </div>
     </div>
 
