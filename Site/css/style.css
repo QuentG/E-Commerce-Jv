@@ -453,10 +453,21 @@ label{
 }
 
 /*page de connexion*/
+#tous_connection{
+    background-image: url("../img/pc_ps4_xboxOne.jpg");
+}
+#co{
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+.mail_pwd{
+    margin-bottom: 1%;
+
+}
 #connect{
-    margin-bottom: 4.5%;
+    margin-bottom: 4.8%;
     font-size: 20px;
-    background-color: #000000;
+    background-color: #EE7410;
     border-radius: 10px;
     width: 12%;
     border: none;
@@ -464,4 +475,4 @@ label{
 }
 /*animation bouton*/
 #connect:hover {background-color: #EE7410}
-/*fin pae de connexion*/
+/*fin page de connexion*/

@@ -85,7 +85,7 @@
 </nav>
 <div class="jumbotron">
     <h1>GamingKeys !</h1>
-    <p> Waw on va mettre du texte ça va être trop bien.</p>
+    <p> Bienvenue sur GamingKeys.</p>
 </div>
 <!--fin nav bar-->
 

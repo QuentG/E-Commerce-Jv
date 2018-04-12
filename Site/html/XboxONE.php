@@ -25,16 +25,16 @@
     <div class="slideshow">
         <ul>
             <!--top des jeux Xbox ONE-->
-            <li><img class="image_slider" src="../img/xboxOne/action/2228.jpg" alt="image du jeux assassin creed origin sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/action/108668b.jpg" alt="image du jeux halo 5 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/aventure/2227.jpg" alt="image du jeux la terre de milieu l'ombre de la guerre sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/sport/71cNKTRFJjL._AC_SX430_.jpg" alt="image du jeux Forza Motorsport 7 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/aventure/943.jpg" alt="image du jeux the witcher 3 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/sport/10694913.jpg" alt="image du jeux NBA 2K18 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/combat/1505305015-5789-jaquette-avant.jpg" alt="image du jeux Tekken 7 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/combat/injustice_2_cover___xbox_one_by_johngohex-da5qwgn.png" alt="image du jeux injustice 2 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/sport/madden-nfl-18-jeu-xbox-one.jpg" alt="image du jeux Madden NFL 18 sur Xbox One"/></li>
-            <li><img class="image_slider" src="../img/xboxOne/aventure/1465995560-4492-jaquette-avant.jpg" alt="image du jeux South Park : L'Annale du Destin sur Xbox One"/></li>
+            <li><img class="image_slider" src="../img/xboxOne/action/231.jpg" alt="image du jeux assassin creed origin sur Xbox One"/></li>
+            <li><img class="image_slider" src="../img/xboxOne/action/233.jpg" alt="image du jeux halo 5 sur Xbox One"/></li>
+            <li><img class="image_slider" src="../img/xboxOne/aventure/256.jpg" alt="image du jeux la terre de milieu l'ombre de la guerre sur Xbox One"/></li>
+            <li><img class="image_slider" src="../img/xboxOne/sport/290.jpg" alt="image du jeux Forza Motorsport 7 sur Xbox One"/></li>
+            <li><img class="image_slider" src="../img/xboxOne/aventure/245.jpg" alt="image du jeux the witcher 3 sur Xbox One"/></li>
+            <li><img class="image_slider" src="../img/xboxOne/sport/294.jpg" alt="image du jeux NBA 2K18 sur Xbox One"/></li>
+            <li><img class="image_slider" src="../img/xboxOne/combat/275.jpg" alt="image du jeux Tekken 7 sur Xbox One"/></li>
+            <li><img class="image_slider" src="../img/xboxOne/combat/280.jpg" alt="image du jeux injustice 2 sur Xbox One"/></li>
+            <li><img class="image_slider" src="../img/xboxOne/sport/307.jpg" alt="image du jeux Madden NFL 18 sur Xbox One"/></li>
+            <li><img class="image_slider" src="../img/xboxOne/aventure/261.jpg" alt="image du jeux South Park : L'Annale du Destin sur Xbox One"/></li>
         </ul>
     </div>
 </div>
