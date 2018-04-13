@@ -1,7 +1,17 @@
 <?php
 session_start();
 
+<<<<<<< Updated upstream
 include ('./dbconnect.php');
+=======
+//Connexion à la base de données
+try {
+    $bdd = new PDO('mysql:host=localhost;dbname=ecommerce_espace_membre', 'root', '');
+
+} catch (Exception $e) {
+    die('Erreur : ' .$e->getMessage());
+}
+>>>>>>> Stashed changes
 
 if(isset($_POST['formconnexion'])) {
 

@@ -475,12 +475,16 @@ label{
 }
 /*animation bouton*/
 #connect:hover {background-color: #EE7410}
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 /*fin page de connexion*/
 =======
 >>>>>>> master
+=======
+/*fin page de connexion*/
+>>>>>>> Stashed changes
 /*fin pae de connexion*/
 
 <<<<<<< HEAD
@@ -502,6 +506,7 @@ label{
 .game_title{
 
 
+<<<<<<< Updated upstream
 }
 >>>>>>> master
 <<<<<<< HEAD
@@ -510,3 +515,6 @@ label{
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+}
+>>>>>>> Stashed changes
