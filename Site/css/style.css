@@ -324,6 +324,7 @@ ul{
 
 /*Début du footer*/
 
+
 footer{
     width:100%;
     padding: 20px 0 4px 0;
@@ -333,6 +334,8 @@ footer{
     font-size:18px;
     text-align:center;
     margin-top: auto;
+    //position: fixed;
+    bottom: 0px;
 
 }
 
@@ -509,27 +512,49 @@ label{
 
 /*page de connexion*/
 #tous_connection{
-    background-image: url("../img/pc_ps4_xboxOne.jpg");
+    //background-image: url("../img/pc_ps4_xboxOne.jpg");
+    //background-position: center;
+    height: 350px;
 }
-#co{
-    font-size: 40px;
+
+#co {
+    font-size: 70px;
     margin-bottom: 2%;
 }
 .mail_pwd{
+    font-size: 17px;
     margin-bottom: 1%;
+    width: 15%;
+    height: 40px;
+    text-align: center;
 
 }
 #connect{
-    margin-bottom: 4.8%;
+    background-color: white;
+    color: black;
     font-size: 20px;
-    background-color: #EE7410;
     border-radius: 10px;
     width: 12%;
-    border: none;
-    color: white;
+    text-decoration: none;
+    padding: 5px 9px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #EE7410;
+}
+#erreur{
+    padding-top: 1%;
 }
 /*animation bouton*/
 #connect:hover {background-color: #EE7410}
+<<<<<<< HEAD
+=======
+
+/*fin page de connexion*/
+
+/*fin page de connexion*/
+
+/*fin pae de connexion*/
+>>>>>>> master
 
 /*Page d'inscription*/
 #inscription{
@@ -549,10 +574,16 @@ label{
 .game_title{
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 }
 
 /*fin page de connexion*/
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> master
