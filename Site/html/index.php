@@ -2,8 +2,6 @@
 
 session_start();
 
-include('./header.php');
-
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +24,30 @@ include('./header.php');
 
 </head>
 
-<body>
+<body onload="loadFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="load-div" class="animate-bottom"> </div>
+
+<script>
+    var varLoad;
+
+    function loadFunction() {
+    varLoad = setTimeout(showPage, 1000);
+    }
+
+    function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("load-div").style.display = "block";
+    }
+</script>
+
+<?php
+
+include('./header.php');
+
+?>
 <!--debut du reponsive à parir 1120px-->
 <div id="responsive">
     <div class="titre_slider1">
@@ -85,15 +106,17 @@ include('./header.php');
     </div>
 </div>
 
+
 <?php  include_once('./footer.php'); ?>
 
 </body>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-<script type="text/javascript">
 
-    /*début slider*/
+<script>
+
+    // Slider
     $(function(){
         setInterval(function(){
             $(".slideshow ul").animate({marginLeft:-350},800,function(){
@@ -101,7 +124,7 @@ include('./header.php');
             })
         }, 3500);
     });
-    /*fin slider*/
+
 
 </script>
 
