@@ -1,9 +1,9 @@
 <?php
 session_start();
 
-<<<<<<< Updated upstream
+
 include ('./dbconnect.php');
-=======
+
 //Connexion à la base de données
 try {
     $bdd = new PDO('mysql:host=localhost;dbname=ecommerce_espace_membre', 'root', '');
@@ -11,7 +11,7 @@ try {
 } catch (Exception $e) {
     die('Erreur : ' .$e->getMessage());
 }
->>>>>>> Stashed changes
+
 
 if(isset($_POST['formconnexion'])) {
 
@@ -85,7 +85,7 @@ include('./header.php');
 
     if(isset($erreur)) {
 
-        echo '<font>'.$erreur."</font>";
+        echo '<p id="erreur">'.$erreur."</p>";
 
     }
     ?>
