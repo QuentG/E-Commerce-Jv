@@ -33,7 +33,7 @@
     100% { transform: rotate(360deg); }
 }
 
-/* Add animation to "page content" */
+/* Animation "page content" */
 .animate-bottom {
     position: relative;
     -webkit-animation-name: animatebottom;
@@ -546,15 +546,7 @@ label{
 }
 /*animation bouton*/
 #connect:hover {background-color: #EE7410}
-<<<<<<< HEAD
-=======
 
-/*fin page de connexion*/
-
-/*fin page de connexion*/
-
-/*fin pae de connexion*/
->>>>>>> master
 
 /*Page d'inscription*/
 #inscription{
@@ -574,16 +566,6 @@ label{
 .game_title{
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 }
 
-/*fin page de connexion*/
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> master

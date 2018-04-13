@@ -28,7 +28,7 @@ session_start();
 
 <div id="loader"></div>
 
-<div style="display:none;" id="load-div" class="animate-bottom"> </div>
+<div style="display:none;" id="load-div" class="animate-bottom">
 
 <script>
     var varLoad;
@@ -41,6 +41,7 @@ session_start();
     document.getElementById("loader").style.display = "none";
     document.getElementById("load-div").style.display = "block";
     }
+
 </script>
 
 <?php
@@ -108,7 +109,7 @@ include('./header.php');
 
 
 <?php  include_once('./footer.php'); ?>
-
+</div>
 </body>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
