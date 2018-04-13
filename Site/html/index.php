@@ -31,10 +31,11 @@ session_start();
 <div style="display:none;" id="load-div" class="animate-bottom">
 
 <script>
+
     var varLoad;
 
     function loadFunction() {
-    varLoad = setTimeout(showPage, 1000);
+    varLoad = setTimeout(showPage, 1700);
     }
 
     function showPage() {
