@@ -44,13 +44,17 @@ include('./header.php');
 <html>
 <head>
 
-    <meta charset="utf-8">
-    <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
-    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+        <?php
+
+        include ('./head.php');
+
+        ?>
+
+
     <title> GamingKeys - Connexion </title>
 
 </head>
+
 <body>
 
 <div align="center" id="tous_connection">

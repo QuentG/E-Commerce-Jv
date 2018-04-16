@@ -44,7 +44,7 @@
 
 @-webkit-keyframes animatebottom {
     from { bottom:-100px; opacity:0 }
-    to { bottom:0px; opacity:1 }
+    to { bottom:0; opacity:1 }
 }
 
 @keyframes animatebottom {
@@ -201,7 +201,7 @@
 
 .liste1 {
 
-    margin-left: 0px;
+    margin-left: 0;
 
 }
 
@@ -370,7 +370,7 @@ footer{
     text-align:center;
     margin-top: auto;
     //position: fixed;
-    bottom: 0px;
+    bottom: 0;
 
 }
 
@@ -493,6 +493,7 @@ label{
 }
 
 /*CSS des pages de jeux*/
+
 /*image des boites*/
 .image{
     display: inline-block;
@@ -554,6 +555,7 @@ label{
     font-size: 70px;
     margin-bottom: 2%;
 }
+
 .mail_pwd{
     font-size: 20px;
     margin-bottom: 1%;
@@ -562,6 +564,7 @@ label{
     text-align: center;
 
 }
+
 #connect{
     background-color: white;
     color: black;
@@ -574,9 +577,11 @@ label{
     cursor: pointer;
     border: 2px solid #EE7410;
 }
+
 #erreur{
     padding-top: 1%;
 }
+
 /*animation bouton*/
 #connect:hover {background-color: #EE7410}
 
@@ -604,6 +609,18 @@ label{
     cursor: pointer;
     border: 2px solid #EE7410;
 }
+
+/*animation bouton*/
+#inscription:hover {background-color: #EE7410}
+
+p.nom_jeux{
+
+    font-size: 20px;
+    position: absolute;
+}
+
+div.col-sm-3{
+    margin-bottom: 3%;
 
 #membre{
     padding-top: 1%;

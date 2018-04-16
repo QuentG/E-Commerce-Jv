@@ -101,7 +101,7 @@
 <div>
 <div id="jeux">
     <p id="titre"><strong>Ark: Survival Evolved</strong></p>
-    <img id="image" src="../img/pc/action/ARK_Survival_Evolved_Download_Cover_Free_Game.jpeg" alt="image du jeux Ark: Survival Evolved sur PC"/>
+    <img id="image" src="../img/ARK_Survival_Evolved_Download_Cover_Free_Game.jpeg" alt="image du jeux Ark: Survival Evolved sur PC"/>
 </div>
 <div id="parametre">
     <p>Date de sortie....................29 août 2017</p>
@@ -198,9 +198,3 @@
 
 </html>
 
-<!-- <form method="post" action="">
-    <input type="text" name="pseudo" placeholder="pseudo"/>
-    <input type="password" name="password" placeholder="password"/>
-    <input type="mail" name="mail" placeholder="mail"/>
-    <button type="submit" name="envoyer">Envoyer</button>
-</form>

@@ -112,10 +112,16 @@ if(isset($_SESSION['id'])) {
     <html>
     <head>
 
-        <meta charset="utf-8">
-        <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
-        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+
+
+            <?php
+
+            include ('./head.php');
+
+            ?>
+
+
+
         <title>GamingKeys - Edition Du Profil</title>
 
     </head>

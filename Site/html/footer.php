@@ -10,7 +10,7 @@
                     <a href="../html/"> ***** </a>
                 </li>
                 <li>
-                    <a href="../html/"> Nouveautés </a>
+                    <a href="../html/"> **** </a>
                 </li>
                 <li>
                     <a href="#"> Autres </a>
