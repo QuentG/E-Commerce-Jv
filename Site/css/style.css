@@ -145,9 +145,10 @@
     width:100px;
     height: 30px;
     border-radius: 10px;
-    color: whitesmoke;
+    color: black;
     margin-top: 3px;
-
+    background-color: white;
+    border: 2px solid;
 }
 
 #btninsciption a{
@@ -159,7 +160,10 @@
     width:100px;
     height: 30px;
     border-radius: 10px;
-    color: whitesmoke;
+    color: black;
+    margin-top: 3px;
+    background-color: white;
+    border: 2px solid;
 }
 
 #btnconnexion a{
