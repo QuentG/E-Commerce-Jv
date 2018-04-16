@@ -34,20 +34,20 @@
 }
 
 /* Animation de "page content" */
-.animate-bottom {
+.anim_loader {
     position: relative;
-    -webkit-animation-name: animatebottom;
+    -webkit-animation-name: anim_loader;
     -webkit-animation-duration: 1s;
-    animation-name: animatebottom;
+    animation-name: anim_loader;
     animation-duration: 1s
 }
 
-@-webkit-keyframes animatebottom {
+@-webkit-keyframes anim_loader {
     from { bottom:-100px; opacity:0 }
     to { bottom:0; opacity:1 }
 }
 
-@keyframes animatebottom {
+@keyframes anim_loader {
     from{ bottom:-100px; opacity:0 }
     to{ bottom:0; opacity:1 }
 }
@@ -66,7 +66,7 @@
     position: absolute;
     width: 12%;
     margin-top: 0.3%;
-    left: 41%;
+    left: 44%;
     height: 80%;
 }
 @media only screen and (max-width: 1200px) {
@@ -371,6 +371,7 @@ footer{
     margin-top: auto;
     //position: fixed;
     bottom: 0;
+    top: 0;
 
 }
 
@@ -456,6 +457,7 @@ footer .cta button:active {
 
 }
 /*Fin du footer*/
+
 #inscription{
 
     text-align: center;
@@ -546,7 +548,7 @@ label{
         justify-content: center;}
 }
 
-/*page de connexion*/
+/*Page de connexion*/
 #tous_connection{
     height: 350px;
 }
@@ -556,7 +558,7 @@ label{
     margin-bottom: 2%;
 }
 
-.mail_pwd{
+.pwd{
     font-size: 20px;
     margin-bottom: 1%;
     width: 15%;
@@ -565,7 +567,7 @@ label{
 
 }
 
-#connect{
+.btns{
     background-color: white;
     color: black;
     font-size: 20px;
@@ -582,10 +584,11 @@ label{
     padding-top: 1%;
 }
 
-/*animation bouton*/
-#connect:hover {background-color: #EE7410}
+/*Animation bouton*/
+.btns:hover {background-color: #EE7410}
 
 #btn_inscription:hover{background-color: #EE7410}
+
 /*Page d'inscription*/
 #ins {
     font-size: 70px;
@@ -610,8 +613,8 @@ label{
     border: 2px solid #EE7410;
 }
 
-/*animation bouton*/
 #inscription:hover {background-color: #EE7410}
+/* */
 
 p.nom_jeux{
 
@@ -619,11 +622,62 @@ p.nom_jeux{
     position: absolute;
 }
 
-div.col-sm-3{
+div.col-sm-3 {
     margin-bottom: 3%;
+}
 
 #membre{
     padding-top: 1%;
     font-size: 18px;
 }
 
+/* Profil */
+h2.pseudo_profil {
+    margin-bottom: 2%;
+
+}
+
+.img_profil{
+
+    width: 30%;
+    border-radius: 2%;
+    background-color: #3c3c3c;
+}
+
+p.text_profil{
+
+    font-size: 25px;
+
+}
+
+.btn_profil{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 12%;
+    padding: 5px 9px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #EE7410;
+    margin-bottom: 2%;
+}
+
+.btn_profil a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn_profil:hover {background-color: #EE7410}
+
+/* */
+
+/* EditionProfil */
+
+
+#file_av{
+
+    margin-bottom: 1%;
+}
+
+/* */

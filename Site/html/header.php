@@ -1,4 +1,4 @@
-<!--nav bar-->
+<!--Nav bar-->
 <nav class="navbar navbar-inverse">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
@@ -51,10 +51,6 @@
         </ul>
         <a href="../html/index.php" title="liens vers la page d'accueil"> <img id="logo" src="../img/Logo.png" alt="image du logo du site"/></a>
 
-        <form class="navbar-form pull-right">
-            <input id="recherche" type="text" style="width:150px"  placeholder="Recherche">
-            <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-search"></span> </button>
-        </form>
 
         <form class="navbar-form pull-right">
             <button id="btninsciption" type="button"> <a href="./inscription.php">Inscription </a></button>
@@ -62,11 +58,12 @@
         </form>
     </div>
 </nav>
+
 <div class="jumbotron">
     <h1>GamingKeys !</h1>
     <p> Bienvenue sur GamingKeys.</p>
 </div>
-<!--fin nav bar-->
+<!--Fin Nav bar-->
 
 
 

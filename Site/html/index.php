@@ -22,7 +22,7 @@ session_start();
 
 <div id="loader"></div>
 
-<div style="display:none;" id="load-div" class="animate-bottom">
+<div style="display:none;" id="load-div" class="anim_loader">
 
 <script>
 

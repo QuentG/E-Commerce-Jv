@@ -36,13 +36,13 @@ if(isset($_SESSION['id'])) {
     if (isset($_POST['newmdp1']) AND !empty($_POST['newmdp1']) AND isset($_POST['newmdp2']) AND !empty($_POST['newmdp2']))
     {
 
-      $mdp1 = sha1($_POST['newmdp1']);
-      $mdp2 = sha1($_POST['newmdp2']);
+      $newmdp1 = sha1($_POST['newmdp1']);
+      $newmdp2 = sha1($_POST['newmdp2']);
 
-      if ($mdp1 == $mdp2)
+      if ($newmdp1 == $newmdp2)
       {
         $insertmdp = $bdd->prepare("UPDATE membres SET motdepasse = ? WHERE id = ?");
-        $insertmdp->execute(array($mdp1, $_SESSION['id']));
+        $insertmdp->execute(array($newmdp1, $_SESSION['id']));
 
         header('Location:profil.php?id='.$_SESSION['id']);
       }
@@ -103,24 +103,16 @@ if(isset($_SESSION['id'])) {
 
     ?>
 
-    <?php
-
-      include('./header.php');
-    ?>
 
     <!DOCTYPE html>
     <html>
     <head>
 
+        <?php
 
+        include ('./head.php');
 
-            <?php
-
-            include ('./head.php');
-
-            ?>
-
-
+        ?>
 
         <title>GamingKeys - Edition Du Profil</title>
 
@@ -128,33 +120,44 @@ if(isset($_SESSION['id'])) {
 
     <body>
 
+    <?php
+
+    include('./header.php');
+
+    ?>
+
     <div align="center">
 
         <h2> Edition de mon profil</h2>
+
         <div align="center">
+
         <form method="post" action="" enctype="multipart/form-data">
 
-          <label> Pseudo : </label>
-          <input type="text" name="newpseudo" placeholder="Pseudo" value="<?= $user['pseudo'];?>"/>
-            <br /> <br />
+            <div>
+                <input type="text" name="newpseudo" placeholder="Pseudo" class="pwd" value="<?= $user['pseudo'];?>"/>
+            </div>
 
-            <label> Mail : </label>
-            <input type="text" name="newmail" placeholder="Mail" value="<?= $user['mail'];?>"/>
-            <br /> <br />
+            <div>
+                <input type="text" name="newmail" placeholder="Mail" class="pwd" value="<?= $user['mail'];?>"/>
+            </div>
 
-            <label> Mot de passe : </label>
-            <input type="password" name="newmdp1" placeholder="Mot de passe"/>
-            <br /> <br />
+            <div>
+                <input type="password" name="newmdp1" class="pwd" placeholder="Mot de passe"/>
+            </div>
 
-            <label> Confirmation du mot de passe : </label>
-            <input type="password" name="newmdp2" placeholder="Confirmation du mot de passe"/>
-            <br /> <br />
+            <div>
+                 <input type="password" name="newmdp2" class="pwd" placeholder="Confirmation du mot de passe"/>
+            </div>
 
-            <label> Avatar : </label>
-            <input type="file" name="avatar"/>
-            <br /> <br />
+            <div>
+                <input id="file_av" type="file" name="avatar"/>
+            </div>
 
-            <input type="submit" value="Mettre à jour mon Profil"/>
+            <div>
+                <input class="btns" type="submit" value="Mettre à jour"/>
+            </div>
+
           </div>
 
 
