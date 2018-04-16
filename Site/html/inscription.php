@@ -85,7 +85,7 @@ if (isset($_POST['forminscription']))
 
 <?php
 
-  include('./header.php');
+include('./header.php');
 ?>
 
 <!DOCTYPE html>
@@ -103,71 +103,38 @@ if (isset($_POST['forminscription']))
 <body>
 
 
-<div>
+<div align="center">
+    <h2 id="ins">Inscription</h2>
 
-    <div align="center">
+    <form method="POST" action="">
 
-  <form method="POST" action="">
+        <div>
+            <div>
+                <input type="text" placeholder="Votre Pseudo" class="inscription" name="pseudo" value="<?php if (isset($pseudo)) { echo  $pseudo;  } ?>"/>
+            </div>
+            <div>
+                <input type="email" placeholder="Votre email" class="inscription" name="mail" value="<?php if (isset($mail)) { echo  $mail;  } ?>"/>
+            </div>
+            <div>
+                <input type="email" placeholder="Confirmation de l'email" class="inscription" name="mail2" value="<?php if (isset($mail2)) { echo  $mail2;  } ?>"/>
+            </div>
+            <div>
+                <input type="password" placeholder="Votre mot de passe" class="inscription" name="password"/>
+            </div>
+            <div>
+                <input type="password" placeholder="Confirmation de votre mot de passe" class="inscription" name="password2"/>
+            </div>
+            <div>
+                <input type="submit" name="forminscription" value="S'inscrire" id="btn_inscription"/>
+            </div>
+        </div>
 
-    <table id="formulaire">
-      <tr>
+        </table>
 
-          <td align="center">
-            <label for="nom">Nom:</label>
-          </td>
-          <td>
-            <input type="text" placeholder="Votre Pseudo" id="pseudo" name="pseudo" value="<?php if (isset($pseudo)) { echo  $pseudo;  } ?>"/>
-          </td>
-      </tr>
-      <tr>
-
-          <td align="center">
-            <label for ="mail">Mail:</label>
-          </td>
-          <td>
-            <input type="email" placeholder="Votre email" id="mail" name="mail" value="<?php if (isset($mail)) { echo  $mail;  } ?>"/>
-          </td>
-      </tr>
-      <tr>
-
-          <td align="center">
-            <label for="mail2">Confirmation du mail:</label>
-          </td>
-          <td>
-            <input type="email" placeholder="Confirmation de l'email" id="mail2" name="mail2" value="<?php if (isset($mail2)) { echo  $mail2;  } ?>"/>
-          </td>
-      </tr>
-      <tr>
-
-          <td align="center">
-            <label for="password">Mot de passe:</label>
-          </td>
-          <td>
-            <input type="password" placeholder="Votre mot de passe" id="password" name="password"/>
-          </td>
-      </tr>
-      <tr>
-
-          <td align="center">
-            <label for="password2">Confirmation mot de passe:</label>
-          </td>
-          <td>
-            <input type="password" placeholder="Confirmation de votre mot de passe" id="password2" name="password2"/>
-          </td>
-      </tr>
-      <tr>
-
-        <td>
-          <input type="submit" name="forminscription" value="S'inscrire"/>
-        </td>
-      </tr>
-
-    </table>
-
-  </form>
+    </form>
 
 
-    <p>Déjà membre ? <a href="connexion.php">Connectez-vous !</a></p>
+    <p id="membre">Déjà membre ? <a href="connexion.php">Connectez-vous !</a></p>
 
 
     <?php
@@ -177,9 +144,9 @@ if (isset($_POST['forminscription']))
 
     ?>
 
-  </div>
+</div>
 
-  <?php include('footer.php'); ?>
+<?php include('footer.php'); ?>
 
 </body>
 
