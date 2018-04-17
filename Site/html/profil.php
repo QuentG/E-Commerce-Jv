@@ -8,66 +8,62 @@ if(isset($_GET['id']) AND $_GET['id'] > 0) {
     $getid = intval($_GET['id']);
     $requser = $bdd->prepare('SELECT * FROM membres WHERE id = ?');
     $requser->execute(array($getid));
-    $userinfo = $requser->fetch();
+    $info = $requser->fetch();
 
     ?>
 
-    <?php
 
-      include('./header.php');
-    ?>
 
     <!DOCTYPE html>
     <html>
     <head>
 
-        <meta charset="utf-8">
-        <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
-        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+        <?php
+
+        include('./head.php');
+        ?>
         <title>GamingKeys - Profil</title>
 
     </head>
 
     <body>
 
+    <?php
+
+    include('./header.php');
+    ?>
+
     <div align="center">
 
-        <h2> Profil de <?= $userinfo['pseudo']; ?> </h2>
+        <h2 class="pseudo_profil"> Profil de <?= $info['pseudo']; ?> </h2>
 
-        <br /> <br />
 
         <?php
 
-          if(!empty($userinfo['avatar']))
+          if(!empty($info['avatar']))
           {
           ?>
 
-            <img src="membres/avatars/<?= $userinfo['avatar']; ?>" width="150" />
+            <img class="img_profil" src="membres/avatars/<?= $info['avatar']; ?>"/>
 
           <?php
           }
           ?>
 
-          <br /> <br />
+        <p class="text_profil">  Pseudo : <?= $info['pseudo']; ?> </p>
 
-        Pseudo = <?= $userinfo['pseudo']; ?>
-
-        <br />
-
-        Mail = <?= $userinfo['mail']; ?>
+        <p class="text_profil"> Mail : <?= $info['mail']; ?> </p>
 
         <br />
 
         <?php
 
-        if(isset($_SESSION['id']) AND $userinfo['id'] == $_SESSION['id']) {
+        if(isset($_SESSION['id']) AND $info['id'] == $_SESSION['id']) {
 
             ?>
 
-            <br />
-            <a href="editionprofil.php"> Editer mon profil </a>
-            <a href="deconnexion.php"> Se déconnecter </a>
+            <button class="btn_profil"> <a href="./editionprofil.php"> Editer mon profil </a> </button>
+            <button class="btn_profil"> <a href="./deconnexion.php"> Se déconnecter </a> </button>
 
             <?php
 

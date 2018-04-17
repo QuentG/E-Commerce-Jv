@@ -10,7 +10,7 @@
                     <a href="../html/"> ***** </a>
                 </li>
                 <li>
-                    <a href="../html/"> Nouveautés </a>
+                    <a href="../html/"> **** </a>
                 </li>
                 <li>
                     <a href="#"> Autres </a>
@@ -21,11 +21,11 @@
 
     <div class="container contact">
         <h4> Contact !</h4>
-        <a>GamingKeys@hotmail.fr</a>
+        <a>contact@hgamingkeys.fr</a>
         <address>
-            12 allée des bergers <br/>
-            Quelquepart, FR <br />
-            1.800.555.6666
+            89 quais des chartrons <br/>
+            Bordeaux, FR <br />
+            33300
         </address>
     </div>
 

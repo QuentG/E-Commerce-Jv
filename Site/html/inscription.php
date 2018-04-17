@@ -92,10 +92,11 @@ include('./header.php');
 <html>
 <head>
 
-    <meta charset="UTF-8">
-    <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
-    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+    <?php
+
+    include('./head.php');
+    ?>
+
     <title>GamingKeys - Inscription</title>
 
 </head>

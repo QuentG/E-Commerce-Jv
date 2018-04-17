@@ -35,41 +35,44 @@ if(isset($_POST['formconnexion'])) {
 }
 ?>
 
-<?php
-
-include('./header.php');
-?>
 
 <!DOCTYPE html>
 <html>
 <head>
 
-    <meta charset="utf-8">
-    <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
-    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+        <?php
+
+        include ('./head.php');
+
+        ?>
+
     <title> GamingKeys - Connexion </title>
 
 </head>
+
 <body>
+
+    <?php
+
+    include('./header.php');
+    ?>
 
 <div align="center" id="tous_connection">
 
     <h2 id="co">Connexion</h2>
 
 
-
     <form method="POST" action="">
         <div>
             <div>
-                <input type="email" name="mailconnect" placeholder="Mail" class="mail_pwd"/>
+                <input type="email" name="mailconnect" placeholder="Mail" class="pwd"/>
             </div>
             <div>
-                <input type="password" name="mdpconnect" placeholder="Mot de passe"  class="mail_pwd"/>
+                <input type="password" name="mdpconnect" placeholder="Mot de passe"  class="pwd"/>
             </div>
         </div>
         <div>
-            <input type="submit" name="formconnexion" value="Se connecter !" id="connect"/>
+            <input type="submit" name="formconnexion" value="Se connecter !" class="btns"/>
         </div>
     </form>
 

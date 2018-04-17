@@ -27,29 +27,27 @@ if(isset($_GET['jeu'])) {
 
 ?>
 
-<?php
-
-  include('./header.php');
-?>
 
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
-    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
-    <title>GamingKeys</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <?php
+
+    include('./head.php');
+    ?>
+
+    <title> GamingKeys</title>
 
 </head>
 
 <body>
 
+
+    <?php
+
+    include('./header.php');
+    ?>
 
     <!--Affichage des jeux-->
 
@@ -58,9 +56,9 @@ if(isset($_GET['jeu'])) {
             <img class="img-responsive image" src="../img/<?= $jeu['id']?>.jpg"/>
         </div>
         <div class="col-sm-6">
-            <h1><?= $jeu['nom']?></h1>
-            <p><?= $jeu['description']?></p>
-            <p><?= $jeu['prix']?></p>
+            <h1 class="nom_jeu"><?= $jeu['nom']?></h1>
+            <p class="desc_jeu"><?= $jeu['description']?></p>
+            <p class="prix_jeu"><?= $jeu['prix']?></p>
 
         </div>
     </div>
