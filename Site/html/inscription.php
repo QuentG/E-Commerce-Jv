@@ -129,9 +129,6 @@ include('./header.php');
                 <input type="submit" name="forminscription" value="S'inscrire" id="btn_inscription"/>
             </div>
         </div>
-
-        </table>
-obsolure
     </form>
 
 
