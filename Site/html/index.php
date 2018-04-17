@@ -39,11 +39,11 @@ session_start();
 
 </script>
 
-<?php
+    <?php
 
-include('./header.php');
+    include('./header.php');
 
-?>
+    ?>
 <!--debut du reponsive à parir 1120px-->
 <div id="responsive">
     <div class="titre_slider1">
