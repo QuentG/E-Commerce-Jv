@@ -59,7 +59,7 @@
         <a href="../html/index.php" title="Vers la page d'accueil"> <img id="logo" src="../img/Logo.png" alt="Logo du site"/></a>
 
         <form class="navbar-form pull-right">
-          <!-- <p> Bienvenue, <?= $user['pseudo']; ?> </p> -->
+           <p class="Welcome"> Bienvenue, <?= $_SESSION['pseudo']; ?> </p>
             <button id="btninsciption" type="button"> <a href="./profil.php?id=<?= $_SESSION['id']; ?>">Profil </a></button>
             <button id="btnconnexion" type="button"> <a href="./deconnexion.php"> Deconnexion </a> </button>
         </form>
