@@ -72,6 +72,22 @@
 </div>
 <!--Fin Nav bar-->
 
+        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            /*début de la nav bar*/
+            $(function() {
+                // Affichage du sous menu en douceur
+                jQuery('ul.nav li.dropdown').hover(function() {
+                    jQuery(this).find('.jqueryFadeIn').stop(true, true).delay(200).fadeIn();
+                }, function() {
+                    jQuery(this).find('.jqueryFadeIn').stop(true, true).delay(200).fadeOut();
+                });
+
+            });
+            /*fin de la nav bar*/
+        </script>
 
 
         <?php
@@ -148,6 +164,22 @@
 </div>
 <!--Fin Nav bar-->
 
+        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            /*début de la nav bar*/
+            $(function() {
+                // Affichage du sous menu en douceur
+                jQuery('ul.nav li.dropdown').hover(function() {
+                    jQuery(this).find('.jqueryFadeIn').stop(true, true).delay(200).fadeIn();
+                }, function() {
+                    jQuery(this).find('.jqueryFadeIn').stop(true, true).delay(200).fadeOut();
+                });
+
+            });
+            /*fin de la nav bar*/
+        </script>
 
 <?php } ?>
 
