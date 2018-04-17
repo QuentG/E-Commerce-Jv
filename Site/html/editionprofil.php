@@ -41,7 +41,7 @@ if(isset($_SESSION['id'])) {
 
       if ($newmdp1 == $newmdp2)
       {
-        $insertmdp = $bdd->prepare("UPDATE membres SET motdepasse = ? WHERE id = ?");
+        $insertmdp = $bdd->prepare("UPDATE membres SET password = ? WHERE id = ?");
         $insertmdp->execute(array($newmdp1, $_SESSION['id']));
 
         header('Location:profil.php?id='.$_SESSION['id']);

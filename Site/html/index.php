@@ -26,10 +26,10 @@ session_start();
 
 <script>
 
-    var varLoad;
+    var Load;
 
     function loadFunction() {
-    varLoad = setTimeout(showPage, 1700);
+    Load = setTimeout(showPage, 1700);
     }
 
     function showPage() {

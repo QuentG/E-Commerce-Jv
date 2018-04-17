@@ -584,8 +584,14 @@ label{
     padding-top: 1%;
 }
 
+<<<<<<< HEAD
+
+/*animation bouton*/
+#connect:hover {background-color: #EE7410}
+=======
 /*Animation bouton*/
 .btns:hover {background-color: #EE7410}
+>>>>>>> master
 
 #btn_inscription:hover{background-color: #EE7410}
 
